@@ -1,411 +1,93 @@
 #EXTM3U
-#EXTINF: group-title="Knowledge",-1 tvg-id="1365"  tvg-logo="",DISCOVERY SCIENCE 4K
-http://103.168.18.108/jazztv/linear-live.php?id=1359&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="1370"  tvg-logo="",ANIMAL PLANET 4K
-http://103.168.18.108/jazztv/linear-live.php?id=1364&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="1840"  tvg-logo="",ANIMAL PLANET
-http://103.168.18.108/jazztv/linear-live.php?id=1834&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="1844"  tvg-logo="",ANIMAL PLANET PACIFIC 4K
-http://103.168.18.108/jazztv/linear-live.php?id=1838&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="1761"  tvg-logo="",DISCOVERY SCIENCE USA 4K
-http://103.168.18.108/jazztv/linear-live.php?id=1755&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="1982"  tvg-logo="",5 STAR PLUS 1
-http://103.168.18.108/jazztv/linear-live.php?id=1976&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="1908"  tvg-logo="",ANIMAL PLANET UK HD
-http://103.168.18.108/jazztv/linear-live.php?id=1902&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="1999"  tvg-logo="",DISCOVERY SCIENCE UK 4K
-http://103.168.18.108/jazztv/linear-live.php?id=1993&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="1911"  tvg-logo="",DISCOVERY TURBO UK
-http://103.168.18.108/jazztv/linear-live.php?id=1905&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="634"  tvg-logo="",BABY TV HD
-http://103.168.18.108/jazztv/linear-live.php?id=634&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="862"  tvg-logo="",CARTOON NETWORK INDIA HD
-http://103.168.18.108/jazztv/linear-live.php?id=862&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="3443"  tvg-logo="",CARTOON NETWORK CANADA HD
-http://103.168.18.108/jazztv/linear-live.php?id=172&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="3444"  tvg-logo="",CARTOON NETWORK WEST US HD
-http://103.168.18.108/jazztv/linear-live.php?id=3250&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="3445"  tvg-logo="",CARTOON NETWORK EAST US HD
-http://103.168.18.108/jazztv/linear-live.php?id=3251&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="3446"  tvg-logo="",CARTOON NETWORK UK HD
-http://103.168.18.108/jazztv/linear-live.php?id=3252&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="844"  tvg-logo="",CARTOON NETWORK PLUS INDIA HD
-http://103.168.18.108/jazztv/linear-live.php?id=844&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="972"  tvg-logo="",DISCOVERY KIDS
-http://103.168.18.108/jazztv/linear-live.php?id=972&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="994"  tvg-logo="",DISCOVERY KIDS INDIA
-http://103.168.18.108/jazztv/linear-live.php?id=994&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6761"  tvg-logo="",DISNEY CHANNEL UK
-http://103.168.18.108/jazztv/linear-live.php?id=6164&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6759"  tvg-logo="",DISNEY JUNIOR USA
-http://103.168.18.108/jazztv/linear-live.php?id=6162&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="3210"  tvg-logo="",DISNEY JUNIOR INDIA
-http://103.168.18.108/jazztv/linear-live.php?id=2055&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6757"  tvg-logo="",DISNEY JUNIOR CANADA 4K
-http://103.168.18.108/jazztv/linear-live.php?id=6160&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6758"  tvg-logo="",DISNEY XD USA
-http://103.168.18.108/jazztv/linear-live.php?id=6161&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6760"  tvg-logo="",DISNEY XD UK
-http://103.168.18.108/jazztv/linear-live.php?id=6163&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="1512"  tvg-logo="",DISNEY XD CANADA
-http://103.168.18.108/jazztv/linear-live.php?id=1506&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6763"  tvg-logo="",DISNEY CHANNEL PLUS 1
-http://103.168.18.108/jazztv/linear-live.php?id=18507&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="863"  tvg-logo="",MARVEL HQ
-http://103.168.18.108/jazztv/linear-live.php?id=863&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6768"  tvg-logo="",NICK JR TOO UK
-http://103.168.18.108/jazztv/linear-live.php?id=6171&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6769"  tvg-logo="",NICKTOONS UK
-http://103.168.18.108/jazztv/linear-live.php?id=6172&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="5652"  tvg-logo="",NICKTOON HD USA
-http://103.168.18.108/jazztv/linear-live.php?id=5064&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="3248"  tvg-logo="",NICK JUNIOR HD
-http://103.168.18.108/jazztv/linear-live.php?id=2026&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="643"  tvg-logo="",NICK PLUS HD
-http://103.168.18.108/jazztv/linear-live.php?id=643&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="3249"  tvg-logo="",NICKELODEON HD
-http://103.168.18.108/jazztv/linear-live.php?id=2049&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="973"  tvg-logo="",POGO KIDS
-http://103.168.18.108/jazztv/linear-live.php?id=973&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="11311"  tvg-logo="",STAR PLUS - AD FREE
-http://103.168.18.108/jazztv/linear-live.php?id=10699&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="24198"  tvg-logo="",ZEE TV - AD FREE
-http://103.168.18.108/jazztv/linear-live.php?id=23583&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="5702"  tvg-logo="",STAR GOLD 2 4K
-http://103.168.18.108/jazztv/linear-live.php?id=5106&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="6719"  tvg-logo="",SONY MAX UK 4K
-http://103.168.18.108/jazztv/linear-live.php?id=6122&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="10825"  tvg-logo="",ZEE BOLLYWOOD CANADA 4K
-http://103.168.18.108/jazztv/linear-live.php?id=10213&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="2665"  tvg-logo="",ZEE CINEMA USA
-http://103.168.18.108/jazztv/linear-live.php?id=1621&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="5697"  tvg-logo="",COLORS CINEPLEX US 4K
-http://103.168.18.108/jazztv/linear-live.php?id=5101&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="5041"  tvg-logo="",STAR GOLD SELECT US 4K
-http://103.168.18.108/jazztv/linear-live.php?id=4677&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="5656"  tvg-logo="",STAR PLUS 4K
-http://103.168.18.108/jazztv/linear-live.php?id=2154&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="648"  tvg-logo="",STAR PLUS HD
-http://103.168.18.108/jazztv/linear-live.php?id=648&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="7439"  tvg-logo="",STAR PLUS +1 4K
-http://103.168.18.108/jazztv/linear-live.php?id=6839&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="4032"  tvg-logo="",STAR BHARAT HD USA
-http://103.168.18.108/jazztv/linear-live.php?id=3725&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="5686"  tvg-logo="",STAR BHARAT 4K
-http://103.168.18.108/jazztv/linear-live.php?id=5093&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="724"  tvg-logo="",STAR BHARAT HD
-http://103.168.18.108/jazztv/linear-live.php?id=724&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="3447"  tvg-logo="",SONY TV USA 4K
-http://103.168.18.108/jazztv/linear-live.php?id=251&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="10342"  tvg-logo="",SONY TV USA HD
-http://103.168.18.108/jazztv/linear-live.php?id=9730&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="2659"  tvg-logo="",SONY TV UK 4K
-http://103.168.18.108/jazztv/linear-live.php?id=1600&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="5655"  tvg-logo="",SONY TV 4K
-http://103.168.18.108/jazztv/linear-live.php?id=3669&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="624"  tvg-logo="",SONY TV HD
-http://103.168.18.108/jazztv/linear-live.php?id=624&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="5045"  tvg-logo="",SONY SAB TV USA
-http://103.168.18.108/jazztv/linear-live.php?id=4680&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="5689"  tvg-logo="",SONY SAB TV UK
-http://103.168.18.108/jazztv/linear-live.php?id=5095&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="4033"  tvg-logo="",SONY SAB TV 4K
-http://103.168.18.108/jazztv/linear-live.php?id=645&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="5688"  tvg-logo="",SONY SAB TV HD
-http://103.168.18.108/jazztv/linear-live.php?id=5094&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="3916"  tvg-logo="",ZEE TV USA
-http://103.168.18.108/jazztv/linear-live.php?id=1653&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="244"  tvg-logo="",ZEE TV CANADA
-http://103.168.18.108/jazztv/linear-live.php?id=244&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="1675"  tvg-logo="",ZEE TV UK
-http://103.168.18.108/jazztv/linear-live.php?id=1669&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="5693"  tvg-logo="",ZEE TV 4K
-http://103.168.18.108/jazztv/linear-live.php?id=649&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="5692"  tvg-logo="",ZEE TV HD
-http://103.168.18.108/jazztv/linear-live.php?id=5097&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="6306"  tvg-logo="",COLORS RISHTEY US
-http://103.168.18.108/jazztv/linear-live.php?id=5709&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="1545"  tvg-logo="",COLORS RISHTEY UK
-http://103.168.18.108/jazztv/linear-live.php?id=1539&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="7483"  tvg-logo="",COLORS CINEPLEX UK
-http://103.168.18.108/jazztv/linear-live.php?id=6883&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="635"  tvg-logo="",COLORS CINEPLEX 4K
-http://103.168.18.108/jazztv/linear-live.php?id=635&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="10852"  tvg-logo="",COLORS CINEPLEX BOLLWOOD
-http://103.168.18.108/jazztv/linear-live.php?id=10240&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="5042"  tvg-logo="",SONY MAX USA
-http://103.168.18.108/jazztv/linear-live.php?id=4678&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="644"  tvg-logo="",SONY MAX 4K
-http://103.168.18.108/jazztv/linear-live.php?id=644&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="5891"  tvg-logo="",SONY MAX 2
-http://103.168.18.108/jazztv/linear-live.php?id=5294&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="4030"  tvg-logo="",STAR GOLD SELECT 4K
-http://103.168.18.108/jazztv/linear-live.php?id=647&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="5701"  tvg-logo="",STAR GOLD USA
-http://103.168.18.108/jazztv/linear-live.php?id=5105&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="646"  tvg-logo="",STAR GOLD HD
-http://103.168.18.108/jazztv/linear-live.php?id=646&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="7443"  tvg-logo="",STAR GOLD UK
-http://103.168.18.108/jazztv/linear-live.php?id=6843&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="5700"  tvg-logo="",STAR GOLD 2
-http://103.168.18.108/jazztv/linear-live.php?id=5104&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="5273"  tvg-logo="",B4U MOVIES USA
-http://103.168.18.108/jazztv/linear-live.php?id=4849&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="5272"  tvg-logo="",B4U MOVIES
-http://103.168.18.108/jazztv/linear-live.php?id=758&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="7779"  tvg-logo="",B4U MOVIES UK
-http://103.168.18.108/jazztv/linear-live.php?id=7179&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="804"  tvg-logo="",STAR UTSAV MOVIES
-http://103.168.18.108/jazztv/linear-live.php?id=804&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="2677"  tvg-logo="",ZEE CINEMA UK
-http://103.168.18.108/jazztv/linear-live.php?id=1605&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="631"  tvg-logo="",ZEE CINEMA HD
-http://103.168.18.108/jazztv/linear-live.php?id=631&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="960"  tvg-logo="",ZEE ACTION
-http://103.168.18.108/jazztv/linear-live.php?id=960&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="6314"  tvg-logo="",ZEE CLASSIC
-http://103.168.18.108/jazztv/linear-live.php?id=5717&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="961"  tvg-logo="",ZEE BOLLYWOOD
-http://103.168.18.108/jazztv/linear-live.php?id=961&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="783"  tvg-logo="",BIG MAGIC HD
-http://103.168.18.108/jazztv/linear-live.php?id=783&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="1395"  tvg-logo="",FOX LIFE HD
-http://103.168.18.108/jazztv/linear-live.php?id=1389&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="931"  tvg-logo="",SONY PAL
-http://103.168.18.108/jazztv/linear-live.php?id=931&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="962"  tvg-logo="",SONY WAH
-http://103.168.18.108/jazztv/linear-live.php?id=962&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="754"  tvg-logo="",STAR UTSAV
-http://103.168.18.108/jazztv/linear-live.php?id=754&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="2661"  tvg-logo="",ZEE ANMOL
-http://103.168.18.108/jazztv/linear-live.php?id=1665&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="942"  tvg-logo="",DD INDIA
-http://103.168.18.108/jazztv/linear-live.php?id=942&vtoken=&e=.m3u8
-#EXTINF: group-title="Entertainment",-1 tvg-id="762"  tvg-logo="",DD NATIONAL
-http://103.168.18.108/jazztv/linear-live.php?id=762&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="6720"  tvg-logo="",ANIMAL PLANET ENGLISH
-http://103.168.18.108/jazztv/linear-live.php?id=6123&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="1404"  tvg-logo="",ANIMAL PLANET HINDI
-http://103.168.18.108/jazztv/linear-live.php?id=1398&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="995"  tvg-logo="",DISCOVERY SCIENCE INDIA
-http://103.168.18.108/jazztv/linear-live.php?id=995&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="1389"  tvg-logo="",DISCOVERY TURBO INDIA
-http://103.168.18.108/jazztv/linear-live.php?id=1383&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="639"  tvg-logo="",HISTORY TV18 HINDI
-http://103.168.18.108/jazztv/linear-live.php?id=639&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="5019"  tvg-logo="",HISTORY TV18 ENGLISH
-http://103.168.18.108/jazztv/linear-live.php?id=1470&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="642"  tvg-logo="",NATIONAL GEOGRAPHIC HD
-http://103.168.18.108/jazztv/linear-live.php?id=642&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="625"  tvg-logo="",EPIC HD
-http://103.168.18.108/jazztv/linear-live.php?id=625&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="23722"  tvg-logo="",TV FILMY
-http://103.168.18.108/jazztv/linear-live.php?id=23107&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="11486"  tvg-logo="",ANIMAL PLANET TAMIL
-http://103.168.18.108/jazztv/linear-live.php?id=10874&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="11489"  tvg-logo="",ANIMAL PLANET USA
-http://103.168.18.108/jazztv/linear-live.php?id=10877&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="4103"  tvg-logo="",NATIONAL GEOGRAPHIC TAMIL US
-http://103.168.18.108/jazztv/linear-live.php?id=3766&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="4093"  tvg-logo="",NATIONAL GEOGRAPHIC TAMIL HD
-http://103.168.18.108/jazztv/linear-live.php?id=678&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="4105"  tvg-logo="",SONY BBC EARTH US
-http://103.168.18.108/jazztv/linear-live.php?id=3768&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="4094"  tvg-logo="",SONY BBC EARTH TAMIL HD
-http://103.168.18.108/jazztv/linear-live.php?id=713&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="4106"  tvg-logo="",HISTORY TV18 US
-http://103.168.18.108/jazztv/linear-live.php?id=3769&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="4096"  tvg-logo="",HISTORY TV18 TAMIL HD
-http://103.168.18.108/jazztv/linear-live.php?id=677&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="4107"  tvg-logo="",FOX LIFE US
-http://103.168.18.108/jazztv/linear-live.php?id=3770&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="4097"  tvg-logo="",FOX LIFE TAMIL
-http://103.168.18.108/jazztv/linear-live.php?id=3764&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="976"  tvg-logo="",DISCOVERY KIDS HD
-http://103.168.18.108/jazztv/linear-live.php?id=976&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="4050"  tvg-logo="",ZEE CINEMALU HD
-http://103.168.18.108/jazztv/linear-live.php?id=775&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="6288"  tvg-logo="",ZEE CINEMALU US 4K
-http://103.168.18.108/jazztv/linear-live.php?id=5691&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="682"  tvg-logo="",NATIONAL GEOGRAPHIC TELUGU HD
-http://103.168.18.108/jazztv/linear-live.php?id=682&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="26994"  tvg-logo="",NATIONAL GEOGRAPHIC TELUGU USA
-http://103.168.18.108/jazztv/linear-live.php?id=26376&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="683"  tvg-logo="",SONY BBC EARTH TELUGU HD
-http://103.168.18.108/jazztv/linear-live.php?id=683&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="2813"  tvg-logo="",US NBA New York Knicks
-http://103.168.18.108/jazztv/linear-live.php?id=2782&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="8460"  tvg-logo="",FOX LIFE
-http://103.168.18.108/jazztv/linear-live.php?id=7856&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="4151"  tvg-logo="",ANIMAL PLANET PH
-http://103.168.18.108/jazztv/linear-live.php?id=3808&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="26736"  tvg-logo="",CARTOON NETWORK PH
-http://103.168.18.108/jazztv/linear-live.php?id=26118&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="26772"  tvg-logo="",DISNEY CHANNEL
-http://103.168.18.108/jazztv/linear-live.php?id=18452&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="26838"  tvg-logo="",NICK JUNIOR PH
-http://103.168.18.108/jazztv/linear-live.php?id=26220&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="4232"  tvg-logo="",CARTOON NETWORK
-http://103.168.18.108/jazztv/linear-live.php?id=18632&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="4837"  tvg-logo="",ANIMAL PLANET HD
-http://103.168.18.108/jazztv/linear-live.php?id=4494&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="4343"  tvg-logo="",BEIN DISCOVERY KIDS HD
-http://103.168.18.108/jazztv/linear-live.php?id=4000&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="4590"  tvg-logo="",BEIN DISCOVERY TURBO XTRA
-http://103.168.18.108/jazztv/linear-live.php?id=4247&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="4359"  tvg-logo="",MYHD ANIMAL PLANET HD
-http://103.168.18.108/jazztv/linear-live.php?id=4016&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="4463"  tvg-logo="",MYHD FOX LIFE HD
-http://103.168.18.108/jazztv/linear-live.php?id=4120&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="4441"  tvg-logo="",OSN NICKELODEON HD
-http://103.168.18.108/jazztv/linear-live.php?id=4098&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="4751"  tvg-logo="",OSN DISCOVERY HD
-http://103.168.18.108/jazztv/linear-live.php?id=4408&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="34424"  tvg-logo="", AF DOCU DISCOVERY CHANNEL
-http://103.168.18.108/jazztv/linear-live.php?id=33812&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="34502"  tvg-logo="", AF DSTV AFRICA MAGIC EPIC
-http://103.168.18.108/jazztv/linear-live.php?id=33890&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="34538"  tvg-logo="", AF DOCU NATIONAL GEOGRAPHIC
-http://103.168.18.108/jazztv/linear-live.php?id=33926&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="34550"  tvg-logo="", AF DOCU NATIONAL GEOGRAPHIC WILD
-http://103.168.18.108/jazztv/linear-live.php?id=33938&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="34562"  tvg-logo="", AF KIDS CARTOON NETWORK
-http://103.168.18.108/jazztv/linear-live.php?id=33950&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="34580"  tvg-logo="", AF KIDS NICK JR
-http://103.168.18.108/jazztv/linear-live.php?id=33968&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="34586"  tvg-logo="", AF KIDS NICKELODEON
-http://103.168.18.108/jazztv/linear-live.php?id=33974&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="34592"  tvg-logo="", AF KIDS NICKTOONS
-http://103.168.18.108/jazztv/linear-live.php?id=33980&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="34598"  tvg-logo="", AF KIDS DISNEY JUNIOR
-http://103.168.18.108/jazztv/linear-live.php?id=33986&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="34898"  tvg-logo="", AF KIDS DISNEY CHANNEL
-http://103.168.18.108/jazztv/linear-live.php?id=34286&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="35252"  tvg-logo="", AF AZAM BABY TV
-http://103.168.18.108/jazztv/linear-live.php?id=34640&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="35270"  tvg-logo="", AF AZAM SONY MAX
-http://103.168.18.108/jazztv/linear-live.php?id=34658&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="35276"  tvg-logo="", AF AZAM NATIONAL GEOGRAPHIC
-http://103.168.18.108/jazztv/linear-live.php?id=34664&vtoken=&e=.m3u8
-#EXTINF: group-title="Movies",-1 tvg-id="35312"  tvg-logo="", AF AZAM STAR GOLD
-http://103.168.18.108/jazztv/linear-live.php?id=34700&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="35348"  tvg-logo="", AF AZAM DISCOVERY SCIENCE
-http://103.168.18.108/jazztv/linear-live.php?id=34736&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="5129"  tvg-logo="",ES Baby TV
-http://103.168.18.83/ninjaweb/linear-live.php?id=5129
-#EXTINF: group-title="Kids",-1 tvg-id="5108"  tvg-logo="",ES Disney Channel FHD
-http://103.168.18.83/ninjaweb/linear-live.php?id=5108
-#EXTINF: group-title="Kids",-1 tvg-id="5126"  tvg-logo="", ES Disney Channel HD
-http://103.168.18.83/ninjaweb/linear-live.php?id=5126
-#EXTINF: group-title="Kids",-1 tvg-id="5145"  tvg-logo="",ES Disney Junior
-http://103.168.18.83/ninjaweb/linear-live.php?id=5145
-#EXTINF: group-title="Knowledge",-1 tvg-id="5147"  tvg-logo="",ES Discovery Channel FHD
-http://103.168.18.83/ninjaweb/linear-live.php?id=5147
-#EXTINF: group-title="Kids",-1 tvg-id="5158"  tvg-logo="",ES Disney XD
-http://103.168.18.83/ninjaweb/linear-live.php?id=5158
-#EXTINF: group-title="Knowledge",-1 tvg-id="5178"  tvg-logo="",ES Discovery HD
-http://103.168.18.83/ninjaweb/linear-live.php?id=5178
-#EXTINF: group-title="Kids",-1 tvg-id="5175"  tvg-logo="", ES Nick Junior
-http://103.168.18.83/ninjaweb/linear-live.php?id=5175
-#EXTINF: group-title="Kids",-1 tvg-id="5180"  tvg-logo="",ES Nickelodeon FHD
-http://103.168.18.83/ninjaweb/linear-live.php?id=5180
-#EXTINF: group-title="Kids",-1 tvg-id="5101"  tvg-logo="",ES Nickelodeon HD
-http://103.168.18.83/ninjaweb/linear-live.php?id=5101
-#EXTINF: group-title="Knowledge",-1 tvg-id="5142"  tvg-logo="",ES | FOX LIFE
-http://103.168.18.108/jazztv/linear-live.php?id=4775&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="6454"  tvg-logo="",PL DISCOVERY HD
-http://103.168.18.108/jazztv/linear-live.php?id=5857&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="6482"  tvg-logo="",PL DISCOVERY CHANNEL
-http://103.168.18.108/jazztv/linear-live.php?id=5885&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="6339"  tvg-logo="",PL DISCOVERY SCIENCE
-http://103.168.18.108/jazztv/linear-live.php?id=5742&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6434"  tvg-logo="",PL BABY TV
-http://103.168.18.108/jazztv/linear-live.php?id=5837&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6484"  tvg-logo="",PL DISNEY XD
-http://103.168.18.108/jazztv/linear-live.php?id=5887&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6451"  tvg-logo="",PL DISNEY JUNIOR
-http://103.168.18.108/jazztv/linear-live.php?id=5854&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6336"  tvg-logo="",PL NICKELODEON
-http://103.168.18.108/jazztv/linear-live.php?id=5739&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6428"  tvg-logo="",PL NICK JR POLSKA
-http://103.168.18.108/jazztv/linear-live.php?id=5831&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6624"  tvg-logo="",BABY TV USA HD
-http://103.168.18.108/jazztv/linear-live.php?id=6027&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6638"  tvg-logo="",PT Disney Junior
-http://103.168.18.108/jazztv/linear-live.php?id=6041&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="6641"  tvg-logo="",PT DISCOVERY HD SHOWCASE
-http://103.168.18.108/jazztv/linear-live.php?id=6044&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="6647"  tvg-logo="",PT Discovery Channel
-http://103.168.18.108/jazztv/linear-live.php?id=6050&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6656"  tvg-logo="",PT Cartoon Network
-http://103.168.18.108/jazztv/linear-live.php?id=6059&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="6623"  tvg-logo="",PT FOX Life
-http://103.168.18.108/jazztv/linear-live.php?id=6026&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6621"  tvg-logo="",PT Disney Channel HD
-http://103.168.18.108/jazztv/linear-live.php?id=6024&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6645"  tvg-logo="",PT Nickelodeon
-http://103.168.18.108/jazztv/linear-live.php?id=6048&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="6689"  tvg-logo="",PT NATIONAL GEOGRAPHIC HD
-http://103.168.18.108/jazztv/linear-live.php?id=6092&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="7025"  tvg-logo="", Discovery Kids Sd
-http://103.168.18.108/jazztv/linear-live.php?id=6428&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="7072"  tvg-logo="", Nick Hd
-http://103.168.18.108/jazztv/linear-live.php?id=6475&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="7063"  tvg-logo="", Teennick Sd
-http://103.168.18.108/jazztv/linear-live.php?id=6466&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="7010"  tvg-logo="", Disney Junior Sd
-http://103.168.18.108/jazztv/linear-live.php?id=6413&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6907"  tvg-logo="", NickJR Sd
-http://103.168.18.108/jazztv/linear-live.php?id=6310&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="6879"  tvg-logo="", Discovery Channel Sd
-http://103.168.18.108/jazztv/linear-live.php?id=6282&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="7047"  tvg-logo="", Discovery Turbo Sd
-http://103.168.18.108/jazztv/linear-live.php?id=6450&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="6894"  tvg-logo="", Discovery Science Sd
-http://103.168.18.108/jazztv/linear-live.php?id=6297&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="7081"  tvg-logo="", Animal Planet Sd
-http://103.168.18.108/jazztv/linear-live.php?id=6484&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6884"  tvg-logo="", Baby Tv Caribbean
-http://103.168.18.108/jazztv/linear-live.php?id=6287&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="7085"  tvg-logo="", Cartoon Network CB
-http://103.168.18.108/jazztv/linear-live.php?id=6488&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="7112"  tvg-logo="", Discovery Kids Caribbean
-http://103.168.18.108/jazztv/linear-live.php?id=6515&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="7128"  tvg-logo="", Disney Junior
-http://103.168.18.108/jazztv/linear-live.php?id=6531&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6888"  tvg-logo="", Nick Caribbean
-http://103.168.18.108/jazztv/linear-live.php?id=6291&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="6870"  tvg-logo="", Disney Channel Sd
-http://103.168.18.108/jazztv/linear-live.php?id=6273&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="14664"  tvg-logo="",SONIC BOOM
-http://103.168.18.108/jazztv/linear-live.php?id=14049&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="14809"  tvg-logo="",SONIC X
-http://103.168.18.108/jazztv/linear-live.php?id=14194&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="13359"  tvg-logo="",NICKY RICKY DICK AND DAWN
-http://103.168.18.108/jazztv/linear-live.php?id=12744&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="28916"  tvg-logo="",KIDS ONE PLAY BABY TV
-http://103.168.18.108/jazztv/linear-live.php?id=28298&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="28934"  tvg-logo="",KIDS ONE PLAY SONIC
-http://103.168.18.108/jazztv/linear-live.php?id=28316&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="18502"  tvg-logo="",DISCOVERY CHANNEL
-http://103.168.18.108/jazztv/linear-live.php?id=17887&vtoken=&e=.m3u8
-#EXTINF: group-title="Knowledge",-1 tvg-id="18527"  tvg-logo="",DISCOVERY SCIENCE
-http://103.168.18.108/jazztv/linear-live.php?id=17912&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="19067"  tvg-logo="", DISNEY CHANNEL
-http://103.168.18.108/jazztv/linear-live.php?id=18452&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="19492"  tvg-logo="",DISNEY JUNIOR FR
-http://103.168.18.108/jazztv/linear-live.php?id=18877&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="19122"  tvg-logo="", DISNEY CHANNEL PLUS 1
-http://103.168.18.108/jazztv/linear-live.php?id=18507&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="19152"  tvg-logo="", NICKELODEON JUNIOR
-http://103.168.18.108/jazztv/linear-live.php?id=18537&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="19182"  tvg-logo="",NICKELODEON
-http://103.168.18.108/jazztv/linear-live.php?id=18567&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="19212"  tvg-logo="",NICKELODEON PLUS 1
-http://103.168.18.108/jazztv/linear-live.php?id=18597&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="19222"  tvg-logo="", NICKELODEON 4TEEN
-http://103.168.18.108/jazztv/linear-live.php?id=18607&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="19247"  tvg-logo="", CARTOON NETWORK
-http://103.168.18.108/jazztv/linear-live.php?id=18632&vtoken=&e=.m3u8
-#EXTINF: group-title="Kids",-1 tvg-id="19307"  tvg-logo="",BABY TV
-http://103.168.18.108/jazztv/linear-live.php?id=18692&vtoken=&e=.m3u8
+#EXTINF: group-title="Kids",-1 tvg-id="nick.in" tvg-name="Nick Malayalam" tvg-logo="https://watchindia.net/images/channels/malayalam/Nick.png" ,Nick Malayalam
+http://watchindia.net:8880/live/79527/25638/2632.ts
+#EXTINF: group-title="Kids",-1 tvg-id="sonicnickelodeon.in" tvg-name="Nickelodeon Sonic" tvg-logo="https://watchindia.net/images/channels/malayalam/Nick_Sonic.png" ,Nickelodeon Sonic
+http://watchindia.net:8880/live/79527/25638/2631.ts
+#EXTINF: group-title="Entertainment",-1 tvg-id="colors.in" tvg-name="Colors TV HD (1)" tvg-logo="https://watchindia.net/images/channels/hindi/Colors_TV_HD.png" ,Colors TV HD (1)
+http://watchindia.net:8880/live/79527/25638/801.ts
+#EXTINF: group-title="Entertainment",-1 tvg-id="colors.in" tvg-name="Colors TV HD (2)" tvg-logo="https://watchindia.net/images/channels/hindi/Colors_TV_HD.png" ,Colors TV HD (2)
+http://watchindia.net:8880/live/79527/25638/2264.ts
+#EXTINF: group-title="Entertainment",-1 tvg-id="colorshd.uk" tvg-name="Colors TV HD UK" tvg-logo="https://watchindia.net/images/channels/hindi/Colors_TV_HD.png" ,Colors TV HD UK
+http://watchindia.net:8880/live/79527/25638/2187.ts
+#EXTINF: group-title="Entertainment",-1 tvg-id="colorsrishtey.in" tvg-name="Colors Rishtey HD" tvg-logo="https://watchindia.net/images/channels/hindi/Colors_Rishtey_Asia.png" ,Colors Rishtey HD
+http://watchindia.net:8880/live/79527/25638/830.ts
+#EXTINF: group-title="Entertainment",-1 tvg-id="sonyhd.in" tvg-name="Sony TV HD (1)" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_TV_HD.png" ,Sony TV HD (1)
+http://watchindia.net:8880/live/79527/25638/1969.ts
+#EXTINF: group-title="Entertainment",-1 tvg-id="sonyhd.in" tvg-name="Sony TV HD (2)" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_TV_HD.png" ,Sony TV HD (2)
+http://watchindia.net:8880/live/79527/25638/2141.ts
+#EXTINF: group-title="Entertainment",-1 tvg-id="sonytv.uk" tvg-name="Sony TV UK" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_TV_HD.png" ,Sony TV UK
+http://watchindia.net:8880/live/79527/25638/2117.ts
+#EXTINF: group-title="Movies",-1 tvg-id="sonymax.in" tvg-name="Sony Max 2" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_Max_2.png" ,Sony Max 2
+http://watchindia.net:8880/live/79527/25638/2024.ts
+#EXTINF: group-title="Movies",-1 tvg-id="sonymaxhd.in" tvg-name="Sony Max HD" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_Max_HD.png" ,Sony Max HD
+http://watchindia.net:8880/live/79527/25638/788.ts
+#EXTINF: group-title="Entertainment",-1 tvg-id="sonysabhd.in" tvg-name="Sony Sab HD" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_Sab_HD.png" ,Sony Sab HD
+http://watchindia.net:8880/live/79527/25638/2323.ts
+#EXTINF: group-title="Entertainment",-1 tvg-id="sonysab.uk" tvg-name="Sony Sab UK" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_Sab_HD.png" ,Sony Sab UK
+http://watchindia.net:8880/live/79527/25638/2189.ts
+#EXTINF: group-title="Entertainment",-1 tvg-id="sonypal.in" tvg-name="Sony Pal" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_Pal.png" ,Sony Pal
+http://watchindia.net:8880/live/79527/25638/812.ts
+#EXTINF: group-title="Movies",-1 tvg-id="sonywah.in" tvg-name="Sony Wah" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_Wah.png" ,Sony Wah
+http://watchindia.net:8880/live/79527/25638/814.ts
+#EXTINF: group-title="Knowledge",-1 tvg-id="sonybbcearthhd.in" tvg-name="Sony BBC Earth HD" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_BBC_Earth_HD.png" ,Sony BBC Earth HD
+http://watchindia.net:8880/live/79527/25638/789.ts
+#EXTINF: group-title="Entertainment",-1 tvg-id="starbharathd.in" tvg-name="Star Bharat HD" tvg-logo="https://watchindia.net/images/channels/hindi/Star_Bharat_HD.png" ,Star Bharat HD
+http://watchindia.net:8880/live/79527/25638/780.ts
+#EXTINF: group-title="Movies",-1 tvg-id="stargoldhd.in" tvg-name="Star Gold HD" tvg-logo="https://watchindia.net/images/channels/hindi/Star_Gold_HD.png" ,Star Gold HD
+http://watchindia.net:8880/live/79527/25638/785.ts
+#EXTINF: group-title="Movies",-1 tvg-id="stargoldselecthd.in" tvg-name="Star Gold Select HD" tvg-logo="https://watchindia.net/images/channels/hindi/Star_Gold_Select_HD.png" ,Star Gold Select HD
+http://watchindia.net:8880/live/79527/25638/784.ts
+#EXTINF: group-title="Entertainment",-1 tvg-id="starplushd.in" tvg-name="Star Plus HD" tvg-logo="https://watchindia.net/images/channels/hindi/Star_Plus_HD.png" ,Star Plus HD
+http://watchindia.net:8880/live/79527/25638/1924.ts
+#EXTINF: group-title="Entertainment",-1 tvg-id="starutsav.in" tvg-name="Star Utsav" tvg-logo="https://watchindia.net/images/channels/hindi/Star_Utsav.png" ,Star Utsav
+http://watchindia.net:8880/live/79527/25638/2493.ts
+#EXTINF: group-title="Movies",-1 tvg-id="colorscineplexhd.in" tvg-name="Colors Cineplex HD" tvg-logo="https://watchindia.net/images/channels/hindi/Cineplex_HD.png" ,Colors Cineplex HD
+http://watchindia.net:8880/live/79527/25638/803.ts
+#EXTINF: group-title="Knowledge",-1 tvg-id="discovery.in" tvg-name="Discovery Channel Hindi" tvg-logo="https://watchindia.net/images/channels/hindi/Discovery_HD.png" ,Discovery Channel Hindi
+http://watchindia.net:8880/live/79527/25638/841.ts
+#EXTINF: group-title="Knowledge",-1 tvg-id="epic.in" tvg-name="Epic TV" tvg-logo="https://watchindia.net/images/channels/hindi/Epic_HD.png" ,Epic TV
+http://watchindia.net:8880/live/79527/25638/794.ts
+#EXTINF: group-title="Knowledge",-1 tvg-id="historytv18hd.in" tvg-name="History TV18 HD" tvg-logo="https://watchindia.net/images/channels/hindi/History_TV_HD.png" ,History TV18 HD
+http://watchindia.net:8880/live/79527/25638/791.ts
+#EXTINF: group-title="Kids",-1 tvg-id="nickhdplus.in" tvg-name="Nick HD Plus" tvg-logo="https://watchindia.net/images/channels/hindi/Nick_HD_Plus.png" ,Nick HD Plus
+http://watchindia.net:8880/live/79527/25638/2237.ts
+#EXTINF: group-title="Kids",-1 tvg-id="nick.in" tvg-name="Nick Hindi" tvg-logo="https://watchindia.net/images/channels/hindi/Nick_Hindi.png" ,Nick Hindi
+http://watchindia.net:8880/live/79527/25638/2182.ts
+#EXTINF: group-title="Kids",-1 tvg-id="cartoonnetworkhd.in" tvg-name="Cartoon Network HD+" tvg-logo="http://watchindia.net/images/channels/hindi/CN_HD+.png" ,Cartoon Network HD+
+http://watchindia.net:8880/live/79527/25638/2718.ts
+#EXTINF: group-title="Movies",-1 tvg-id="zeeaction.in" tvg-name="Zee Action" tvg-logo="https://watchindia.net/images/channels/hindi/Zee_Action.png" ,Zee Action
+http://watchindia.net:8880/live/79527/25638/821.ts
+#EXTINF: group-title="Entertainment",-1 tvg-id="zanmol.in" tvg-name="Zee Anmol" tvg-logo="https://watchindia.net/images/channels/hindi/Zee_Anmol.png" ,Zee Anmol
+http://watchindia.net:8880/live/79527/25638/813.ts
+#EXTINF: group-title="Entertainment",-1 tvg-id="zeeanmolcinema.in" tvg-name="Zee Anmol Cinema" tvg-logo="https://watchindia.net/images/channels/hindi/Zee_Anmol_Cinema.png" ,Zee Anmol Cinema
+http://watchindia.net:8880/live/79527/25638/820.ts
+#EXTINF: group-title="Movies",-1 tvg-id="zeebollywood.in" tvg-name="Zee Bollywood" tvg-logo="https://watchindia.net/images/channels/hindi/Zee_Bollywood.png" ,Zee Bollywood
+http://watchindia.net:8880/live/79527/25638/822.ts
+#EXTINF: group-title="Movies",-1 tvg-id="zeecinemaindiahd.in" tvg-name="Zee Cinema HD" tvg-logo="https://watchindia.net/images/channels/hindi/Zee_Cinema_HD.png" ,Zee Cinema HD
+http://watchindia.net:8880/live/79527/25638/787.ts
+#EXTINF: group-title="Movies",-1 tvg-id="zeeclassic.in" tvg-name="Zee Classic" tvg-logo="https://watchindia.net/images/channels/hindi/Zee_Classic.png" ,Zee Classic
+http://watchindia.net:8880/live/79527/25638/802.ts
+#EXTINF: group-title="Entertainment",-1 tvg-id="zeetvhd.in" tvg-name="Zee TV HD" tvg-logo="https://watchindia.net/images/channels/hindi/Zee_TV.png" ,Zee TV HD
+http://watchindia.net:8880/live/79527/25638/1970.ts
+#EXTINF: group-title="Kids",-1 tvg-id="nick.in" tvg-name="Nick Tamil" tvg-logo="https://watchindia.net/images/channels/tamil/Nick_Tamil.png" ,Nick Tamil
+http://watchindia.net:8880/live/79527/25638/2181.ts
+#EXTINF: group-title="Movies",-1 tvg-id="zeecinemaluhd.in" tvg-name="Zee Cinemalu HD" tvg-logo="https://watchindia.net/images/channels/telugu/Zee_Cinemalu.png" ,Zee Cinemalu HD
+http://watchindia.net:8880/live/79527/25638/941.ts
+#EXTINF: group-title="Knowledge",-1 tvg-id="animalplanet.us" tvg-name="Animal Planet" tvg-logo="https://watchindia.net/images/channels/usa/Animal_Planet_HD.png" ,Animal Planet
+http://watchindia.net:8880/live/79527/25638/2039.ts
+#EXTINF: group-title="Kids",-1 tvg-id="cartoonnetwork.us" tvg-name="Cartoon Network" tvg-logo="http://watchindia.net/images/channels/usa/Cartoon_Network.png" ,Cartoon Network
+http://watchindia.net:8880/live/79527/25638/2052.ts
+#EXTINF: group-title="Knowledge",-1 tvg-id="discoverychannel.us" tvg-name="Discovery Channel" tvg-logo="https://watchindia.net/images/channels/usa/Discovery_Channel.png" ,Discovery Channel
+http://watchindia.net:8880/live/79527/25638/2036.ts
+#EXTINF: group-title="Kids",-1 tvg-id="disneychannel.us" tvg-name="Disney Channel" tvg-logo="http://watchindia.net/images/channels/usa/Disney_Channel.png" ,Disney Channel
+http://watchindia.net:8880/live/79527/25638/2046.ts
+#EXTINF: group-title="Kids",-1 tvg-id="disneyxd.us" tvg-name="Disney XD" tvg-logo="http://watchindia.net/images/channels/usa/Disney_XD.png" ,Disney XD
+http://watchindia.net:8880/live/79527/25638/2066.ts
+#EXTINF: group-title="Knowledge",-1 tvg-id="natgeo.us" tvg-name="National Geographic" tvg-logo="https://watchindia.net/images/channels/usa/NAT_GEO_HD.png" ,National Geographic
+http://watchindia.net:8880/live/79527/25638/2037.ts
+#EXTINF: group-title="Kids",-1 tvg-id="nickjr.us" tvg-name="Nick Jr." tvg-logo="http://watchindia.net/images/channels/usa/Nick_Jr.png" ,Nick Jr.
+http://watchindia.net:8880/live/79527/25638/2059.ts
+#EXTINF: group-title="Kids",-1 tvg-id="nickelodeon.us" tvg-name="Nickelodeon" tvg-logo="http://watchindia.net/images/channels/usa/Nickelodeon.png" ,Nickelodeon
+http://watchindia.net:8880/live/79527/25638/2049.ts
+#EXTINF: group-title="Kids",-1 tvg-id="nicktoons.us" tvg-name="Nicktoons" tvg-logo="https://watchindia.net/images/channels/usa/Nicktoons.png" ,Nicktoons
+http://watchindia.net:8880/live/79527/25638/2064.ts
