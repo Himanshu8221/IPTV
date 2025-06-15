@@ -105,9 +105,15 @@ def git_push(repo_path: Path, filename: str, message: str):
         subprocess.run(["git", "-C", str(repo_path), "config", "user.email", "Himanshusingh8527186817@gmail.com"], check=True)
         subprocess.run(["git", "-C", str(repo_path), "pull"], check=True)
         subprocess.run(["git", "-C", str(repo_path), "add", filename], check=True)
-        subprocess.run(["git", "-C", str(repo_path), "commit", "-m", message], check=True)
-        subprocess.run(["git", "-C", str(repo_path), "push"], check=True)
-        print("🚀 Pushed to GitHub successfully.")
+
+        # ✅ Only commit if changes are staged
+        result = subprocess.run(["git", "-C", str(repo_path), "diff", "--cached", "--quiet"])
+        if result.returncode != 0:
+            subprocess.run(["git", "-C", str(repo_path), "commit", "-m", message], check=True)
+            subprocess.run(["git", "-C", str(repo_path), "push"], check=True)
+            print("🚀 Pushed to GitHub successfully.")
+        else:
+            print("✅ No changes to commit.")
     except subprocess.CalledProcessError as e:
         print(f"❌ Git push failed: {e}")
         sys.exit(1)
