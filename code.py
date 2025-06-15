@@ -12,7 +12,7 @@ load_dotenv()
 
 # ✅ Configurations
 M3U_URL = os.getenv("M3U_URL", "https://ranapk.short.gy/TGx@RANAPKX73/OPPLEXTV.m3u")
-OUTPUT_FILE = "All_Output.m3u"
+OUTPUT_FILE = "list.m3u"
 COMMIT_MESSAGE = "Update filtered M3U playlist"
 
 # ✅ Channel Categories with Precompiled Patterns
