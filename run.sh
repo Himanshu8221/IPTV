@@ -11,7 +11,7 @@ if [ ! -d "venv" ]; then
 fi
 
 # Activate virtual environment
-source venv/bin/activate
+source . venv/bin/activate
 
 # Install required packages
 pip install -q -r requirements.txt || pip install -q python-dotenv requests
