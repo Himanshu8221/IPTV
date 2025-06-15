@@ -16,9 +16,6 @@ fi
 # Install dependencies
 pip install -q -r requirements.txt || pip install -q requests python-dotenv
 
-# Optional: export M3U_URL if not using .env
-export M3U_URL="http://starshare.org:80/get.php?username=gurmeet&password=gurmeet&type=m3u_plus&output=mpegts"
-
 # Run Python script
 echo "🚀 Running script..."
 python "code.py"
