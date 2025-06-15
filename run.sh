@@ -1,21 +1,11 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-echo "📦 Setting up Python environment..."
-
-# Optional: create virtual environment (you can remove if not needed)
-if [ ! -d "venv" ]; then
-  python -m venv venv
-fi
-source venv/bin/activate
+echo "📦 Installing Python requirements..."
 pip install -r requirements.txt
 
 echo "🚀 Running IPTV channel fetch + filter script..."
-echo "📡 Fetching M3U content..."
+python3 code.py
 
-# Run your Python script here
-python3 code.py  # ✅ FIXED this line
-
-echo "🔍 Filtering and categorizing channels..."
 OUTPUT="list.m3u"
 
 if [ -f "$OUTPUT" ]; then
@@ -25,16 +15,20 @@ else
   exit 1
 fi
 
-echo "📦 Committing and pushing to GitHub..."
+echo "📦 Preparing Git commit..."
+
+# Add .gitignore for safety
 echo "venv/" > .gitignore
 git add .gitignore
+
+# Stage output file
 git add "$OUTPUT"
 
+# Commit and push if there are changes
 if ! git diff --cached --quiet; then
   git commit -m "Update filtered M3U playlist"
+  echo "🚀 Pushing to GitHub..."
   git push
 else
   echo "✅ No changes to commit."
 fi
-
-deactivate
