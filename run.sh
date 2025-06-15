@@ -13,10 +13,9 @@ echo "🚀 Running IPTV channel fetch + filter script..."
 echo "📡 Fetching M3U content..."
 
 # Run your Python script here
-python3 list.py
+python3 code.py  # ✅ FIXED this line
 
 echo "🔍 Filtering and categorizing channels..."
-# Assuming your script saves the output to list.m3u
 OUTPUT="list.m3u"
 
 if [ -f "$OUTPUT" ]; then
@@ -26,17 +25,11 @@ else
   exit 1
 fi
 
-# Prepare Git for push
 echo "📦 Committing and pushing to GitHub..."
-
-# Add .gitignore for venv
 echo "venv/" > .gitignore
 git add .gitignore
-
-# Stage the output file
 git add "$OUTPUT"
 
-# Only commit if there are actual changes
 if ! git diff --cached --quiet; then
   git commit -m "Update filtered M3U playlist"
   git push
