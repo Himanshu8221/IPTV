@@ -21,7 +21,7 @@ export M3U_URL="http://starshare.org:80/get.php?username=gurmeet&password=gurmee
 
 # Run Python script
 echo "🚀 Running script..."
-python "code for all links.py"
+python "code.py"
 
 # Deactivate virtual environment
 deactivate
