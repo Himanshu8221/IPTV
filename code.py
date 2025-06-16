@@ -10,8 +10,10 @@ from typing import Dict, List
 # ✅ Load .env file
 load_dotenv()
 
-# ✅ Read M3U URL from .env
+# ✅ Read M3U and EPG URLs from .env
 M3U_URL = os.getenv("M3U_URL")
+EPG_URL = os.getenv("EPG_URL")
+
 if not M3U_URL:
     print("❌ Error: M3U_URL not set in .env file.")
     sys.exit(1)
@@ -66,16 +68,13 @@ def filter_m3u(content: str) -> str:
             matched = False
             for category, patterns in categories.items():
                 if any(pattern.search(line) for pattern in patterns):
-                    # Extract channel name
                     name_match = re.search(r',(.*)$', line)
                     channel_name = name_match.group(1).strip() if name_match else "Unknown"
 
-                    # Preserve or fallback tvg-* fields
                     tvg_id = re.search(r'tvg-id="([^"]+)"', line)
                     tvg_name = re.search(r'tvg-name="([^"]+)"', line)
                     tvg_logo = re.search(r'tvg-logo="([^"]+)"', line)
 
-                    # Rebuild EXTINF with all expected tags
                     new_line = f'#EXTINF:-1 group-title="{category}"'
                     new_line += f' tvg-id="{tvg_id.group(1)}"' if tvg_id else ''
                     new_line += f' tvg-name="{tvg_name.group(1) if tvg_name else channel_name}"'
@@ -88,8 +87,12 @@ def filter_m3u(content: str) -> str:
             i += 2 if matched else 1
         else:
             i += 1
+
     print(f"✅ Filtered and categorized {len(filtered)//2} channels.")
-    return "#EXTM3U\n" + "\n".join(filtered)
+    
+    # ✅ Include EPG URL at the top
+    header = f'#EXTM3U url-tvg="{EPG_URL}"' if EPG_URL else '#EXTM3U'
+    return header + "\n" + "\n".join(filtered)
 
 # ✅ Save filtered output to file
 def save_file(content: str, path: Path):
@@ -108,7 +111,6 @@ def git_push(repo_path: Path, filename: str, message: str):
         subprocess.run(["git", "-C", str(repo_path), "pull"], check=True)
         subprocess.run(["git", "-C", str(repo_path), "add", filename], check=True)
 
-        # ✅ Only commit if changes are staged
         result = subprocess.run(["git", "-C", str(repo_path), "diff", "--cached", "--quiet"])
         if result.returncode != 0:
             subprocess.run(["git", "-C", str(repo_path), "commit", "-m", message], check=True)
