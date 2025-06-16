@@ -1,131 +1,115 @@
 import requests
 import os
-import subprocess
 import sys
 import re
 from pathlib import Path
 from dotenv import load_dotenv
-from typing import Dict, List
 
-# ✅ Load .env file
+# ✅ Load M3U URL from .env
 load_dotenv()
-
-# ✅ Read M3U URL from .env
 M3U_URL = os.getenv("M3U_URL")
 if not M3U_URL:
     print("❌ Error: M3U_URL not set in .env file.")
     sys.exit(1)
 
-# ✅ Output file and commit message
+# ✅ Output file
 OUTPUT_FILE = "list.m3u"
-COMMIT_MESSAGE = "Update filtered M3U playlist"
 
-# ✅ Define categories with precompiled patterns
-def compile_channels(channels: List[str]) -> List[re.Pattern]:
-    return [re.compile(c, re.IGNORECASE) for c in channels]
-
-categories: Dict[str, List[re.Pattern]] = {
-    "Entertainment": compile_channels([
-        "Star Plus", "Star Plus HD", "Star Plus FHD", "Star Plus\\(FHD\\)", "Star Plus 4K",
-        "Star Bharat", "Star Bharat HD", "Star Bharat FHD", "Star Bharat\\(FHD\\)", "Star Bharat 4K",
-        "Sony TV", "Sony TV HD", "Sony TV FHD", "Sony TV\\(FHD\\)", "Sony TV 4K",
-        "Sony SAB", "Sony SAB HD", "Sony SAB FHD", "Sony SAB\\(FHD\\)", "Sony SAB 4K",
-        "Colors TV", "Colors TV HD", "Colors TV FHD", "Colors TV\\(FHD\\)", "Colors TV 4K",
-        "Zee TV", "Zee TV HD", "Zee TV FHD", "Zee TV\\(FHD\\)", "Zee TV 4K",
-        "Zee Anmol", "Zee Anmol Cinema", "Colors Rishtey", "Sony Pal", "Star Utsav", "Big Magic", "DD National", "Zee Hindustan"
-    ]),
-    "Movies": compile_channels([
-        "Star Gold", "Star Gold HD", "Star Gold FHD", "Star Gold 4K", "Star Gold Select", "Star Gold 2",
-        "Zee Cinema", "Zee Cinema HD", "Zee Action", "Zee Bollywood", "Zee Classic",
-        "Sony Max", "Sony Max HD", "Sony Max FHD", "Sony Max 2", "Sony Wah",
-        "Colors Cineplex", "Colors Cineplex HD", "Colors Cineplex FHD", "Colors Cineplex 4K",
-        "&pictures", "&pictures HD", "&xplor HD",
-        "UTV Movies", "UTV Action", "B4U Movies", "Filmy"
-    ]),
-    "Kids": compile_channels([
-        "Cartoon Network", "Pogo", "Hungama TV", "Disney Channel", "Disney Junior", "Disney XD",
-        "Nick", "Nick HD\\+", "Sonic", "Marvel HQ", "Baby TV", "Discovery Kids"
-    ]),
-    "Knowledge": compile_channels([
-        "Sony BBC Earth", "Sony BBC Earth HD", "Discovery Channel", "Discovery HD", "Discovery Science", "Discovery Turbo",
-        "National Geographic", "National Geographic HD", "History TV18", "Animal Planet", "Animal Planet HD",
-        "Fox Life", "Epic", "DD Kisan", "DD India"
-    ])
+# ✅ Tata Play tvg-id map
+tvg_id_map = {
+    "Star Plus HD": "ts115", "Star Plus": "ts117",
+    "Star Bharat HD": "ts121", "Star Bharat": "ts122",
+    "Sony SAB HD": "ts132", "Sony SAB": "ts134",
+    "&TV HD": "ts137", "&TV": "ts139",
+    "Zee TV HD": "ts141", "Zee TV": "ts143",
+    "Colors HD": "ts147", "Colors": "ts149",
+    "Star Gold HD": "ts308", "Star Gold": "ts310",
+    "Sony Max HD": "ts312", "Sony Max": "ts314",
+    "Zee Cinema HD": "ts319", "Zee Cinema": "ts321",
+    "Cartoon Network": "ts657", "Nickelodeon": "ts659", "Nick Jr": "ts661",
+    "Disney Channel": "ts663", "Disney Junior": "ts665", "Pogo": "ts667",
+    "Hungama": "ts669", "Discovery Channel": "ts401", "Discovery Science": "ts405",
+    "Discovery Turbo": "ts407", "National Geographic": "ts411", "Nat Geo Wild": "ts413",
+    "Animal Planet": "ts415", "History TV18": "ts417", "Sony BBC Earth": "ts419",
+    "Epic": "ts421"
 }
 
-# ✅ Fetch the M3U content from URL
-def fetch_m3u(url: str) -> str:
+# ✅ Categories with match patterns
+categories = {
+    "Entertainment": ["Star Plus", "Star Bharat", "Sony TV", "Sony SAB", "Colors", "Zee TV", "&TV", "Big Magic", "Sony Pal", "Rishtey", "Star Utsav"],
+    "Movies": ["Star Gold", "Sony Max", "Zee Cinema", "&pictures", "UTV", "B4U", "Wah", "Filmy"],
+    "Kids": ["Cartoon Network", "Nick", "Nick Jr", "Sonic", "Pogo", "Baby TV", "Disney", "Hungama", "Marvel HQ"],
+    "Knowledge": ["Discovery", "National Geographic", "Animal Planet", "BBC Earth", "History TV18", "Epic", "Fox Life"]
+}
+
+# ✅ Helper to match tvg-id
+def find_tvg_id(name):
+    for key, val in tvg_id_map.items():
+        if key.lower() in name.lower():
+            return val
+    return ""
+
+# ✅ Fetch M3U from URL
+def fetch_m3u(url):
     try:
-        print("📡 Fetching M3U content...")
-        response = requests.get(url, timeout=15)
-        response.raise_for_status()
-        return response.text
-    except requests.RequestException as e:
-        print(f"❌ M3U fetch failed: {e}")
+        print("📡 Fetching M3U...")
+        res = requests.get(url, timeout=10)
+        res.raise_for_status()
+        return res.text
+    except Exception as e:
+        print(f"❌ Failed to fetch M3U: {e}")
         sys.exit(1)
 
-# ✅ Filter and categorize M3U channels
-def filter_m3u(content: str) -> str:
-    print("🔍 Filtering and categorizing channels...")
+# ✅ Filter and categorize
+def filter_and_patch_m3u(content):
     lines = content.splitlines()
-    filtered = []
-    total = len(lines)
+    result = ["#EXTM3U"]
     i = 0
-    while i < total:
-        line = lines[i]
-        if line.startswith("#EXTINF"):
-            url = lines[i + 1] if i + 1 < total else ""
-            matched = False
-            for category, patterns in categories.items():
-                if any(pattern.search(line) for pattern in patterns):
-                    line = re.sub(r'group-title="[^"]+"', '', line)
-                    line = re.sub(r'#EXTINF:', f'#EXTINF: group-title="{category}",', line, 1)
-                    filtered.extend([line.strip(), url.strip()])
-                    matched = True
+    while i < len(lines):
+        if lines[i].startswith("#EXTINF"):
+            line = lines[i]
+            url = lines[i+1] if i+1 < len(lines) else ""
+            name_match = re.search(r",(.*)", line)
+            name = name_match.group(1).strip() if name_match else ""
+
+            # Category
+            group = None
+            for cat, keywords in categories.items():
+                if any(k.lower() in name.lower() for k in keywords):
+                    group = cat
                     break
-            i += 2 if matched else 1
+
+            if group:
+                # Insert group-title and tvg-id
+                line = re.sub(r'group-title="[^"]*"', '', line)
+                line = re.sub(r'#EXTINF:', f'#EXTINF: group-title="{group}"', line, 1)
+
+                tvg_match = re.search(r'tvg-id="(.*?)"', line)
+                if tvg_match and tvg_match.group(1) == "":
+                    tvg_id = find_tvg_id(name)
+                    if tvg_id:
+                        line = line.replace('tvg-id=""', f'tvg-id="{tvg_id}"')
+                elif 'tvg-id' not in line:
+                    tvg_id = find_tvg_id(name)
+                    if tvg_id:
+                        line = line.replace('#EXTINF:', f'#EXTINF: tvg-id="{tvg_id}"', 1)
+
+                result.extend([line.strip(), url.strip()])
+            i += 2
         else:
             i += 1
-    print(f"✅ Filtered and categorized {len(filtered)//2} channels.")
-    return "#EXTM3U\n" + "\n".join(filtered)
+    return "\n".join(result)
 
-# ✅ Save filtered output to file
-def save_file(content: str, path: Path):
-    path.write_text(content, encoding='utf-8')
-    print(f"💾 Saved to {path}")
+# ✅ Save result
+def save_file(text, path):
+    Path(path).write_text(text, encoding='utf-8')
+    print(f"✅ Saved to {path}")
 
-# ✅ Git automation: add, commit, push
-def git_push(repo_path: Path, filename: str, message: str):
-    if not (repo_path / ".git").is_dir():
-        print("❌ Not a Git repo. Run `git init` first.")
-        sys.exit(1)
-    try:
-        print("📦 Committing and pushing to GitHub...")
-        subprocess.run(["git", "-C", str(repo_path), "config", "user.name", "Himanshu8221"], check=True)
-        subprocess.run(["git", "-C", str(repo_path), "config", "user.email", "Himanshusingh8527186817@gmail.com"], check=True)
-        subprocess.run(["git", "-C", str(repo_path), "pull"], check=True)
-        subprocess.run(["git", "-C", str(repo_path), "add", filename], check=True)
-
-        # ✅ Only commit if changes are staged
-        result = subprocess.run(["git", "-C", str(repo_path), "diff", "--cached", "--quiet"])
-        if result.returncode != 0:
-            subprocess.run(["git", "-C", str(repo_path), "commit", "-m", message], check=True)
-            subprocess.run(["git", "-C", str(repo_path), "push"], check=True)
-            print("🚀 Pushed to GitHub successfully.")
-        else:
-            print("✅ No changes to commit.")
-    except subprocess.CalledProcessError as e:
-        print(f"❌ Git push failed: {e}")
-        sys.exit(1)
-
-# ✅ Main function
+# ✅ Main flow
 def main():
-    m3u_data = fetch_m3u(M3U_URL)
-    filtered_content = filter_m3u(m3u_data)
-    repo_dir = Path.cwd()
-    output_path = repo_dir / OUTPUT_FILE
-    save_file(filtered_content, output_path)
-    git_push(repo_dir, OUTPUT_FILE, COMMIT_MESSAGE)
+    raw = fetch_m3u(M3U_URL)
+    patched = filter_and_patch_m3u(raw)
+    save_file(patched, OUTPUT_FILE)
 
 if __name__ == "__main__":
     main()
