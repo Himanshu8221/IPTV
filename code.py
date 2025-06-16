@@ -29,11 +29,11 @@ def compile_channels(channels: List[str]) -> List[re.Pattern]:
 categories: Dict[str, List[re.Pattern]] = {
     "Entertainment": compile_channels([
         "Star Plus", "Star Bharat", "Sony TV", "Sony SAB", "Colors TV", "Zee TV",
-        "Zee Anmol", "Zee Anmol Cinema", "Colors Rishtey", "Sony Pal", "Star Utsav", "Big Magic", "DD National"
+        "Zee Anmol", "Zee Anmol Cinema", "Colors Rishtey", "Sony Pal", "Star Utsav", "& TV", "Big Magic", "DD National"
     ]),
     "Movies": compile_channels([
         "Star Gold", "Zee Cinema", "Zee Action", "Zee Bollywood", "Sony Max", "Sony Max 2",
-        "Sony Wah", "Colors Cineplex", "&pictures", "&xplor", "UTV Movies", "UTV Action", "B4U Movies", "Filmy"
+        "Sony Wah", "Colors Cineplex", "& Pictures", "& xplor", "UTV Movies", "UTV Action", "B4U Movies", "Filmy"
     ]),
     "Kids": compile_channels([
         "Cartoon Network", "Pogo", "Hungama", "Disney", "Nick", "Sonic", "Marvel HQ", "Baby TV", "Discovery Kids"
