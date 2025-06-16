@@ -81,9 +81,10 @@ def filter_m3u(content: str) -> str:
                     # Remove existing group-title attribute
                     line = re.sub(r'group-title="[^"]+"', '', line)
                     # Ensure -1 is added only once after #EXTINF:
-                    line = re.sub(r'(#EXTINF:)(.*)', rf'\1-1 \2', line)
+                    if not re.match(r'#EXTINF:\s*-1', line):
+                        line = re.sub(r'(#EXTINF:)', r'\1 -1', line)
                     # Add group-title at the end of the line
-                    line = re.sub(r'(,.*)$', rf' group-title="{category}"\1', line)
+                    line = re.sub(r'(,)(.*)$', rf'\1 group-title="{category}"\2', line)
                     filtered.extend([line.strip(), url.strip()])
                     matched = True
                     break
