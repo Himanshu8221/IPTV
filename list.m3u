@@ -1,5 +1,4 @@
 #EXTM3U url-tvg="http://watchindia.net:8880/xmltv.php?username=79527&password=25638"
-#EXTM3U
 #EXTINF:-1 tvg-id="nick.in" tvg-name="Nick Malayalam" tvg-logo="https://watchindia.net/images/channels/malayalam/Nick.png" , group-title="Kids"Nick Malayalam
 http://watchindia.net:8880/live/79527/25638/2632.ts
 #EXTINF:-1 tvg-id="sonicnickelodeon.in" tvg-name="Nickelodeon Sonic" tvg-logo="https://watchindia.net/images/channels/malayalam/Nick_Sonic.png" , group-title="Kids"Nickelodeon Sonic
