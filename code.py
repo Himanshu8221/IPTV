@@ -81,8 +81,7 @@ def filter_m3u(content: str) -> str:
                     # Remove existing group-title attribute
                     line = re.sub(r'group-title="[^"]+"', '', line)
                     # Ensure -1 is added only once after #EXTINF:
-                    if not re.match(r'#EXTINF:\s*-1', line):
-                        line = re.sub(r'(#EXTINF:)', r'\1 -1', line)
+                    line = re.sub(r'(#EXTINF:)', r'\1 -1', line)
                     # Add group-title at the end of the line
                     line = re.sub(r'(,)(.*)$', rf'\1 group-title="{category}"\2', line)
                     filtered.extend([line.strip(), url.strip()])
@@ -93,6 +92,18 @@ def filter_m3u(content: str) -> str:
             i += 1
     print(f"✅ Filtered and categorized {len(filtered)//2} channels.")
     return "#EXTM3U\n" + "\n".join(filtered)
+
+# Remove duplicate -1 entries
+def clean_m3u(content: str) -> str:
+    print("🧹 Cleaning duplicate -1 entries...")
+    lines = content.splitlines()
+    cleaned_lines = []
+    for line in lines:
+        if line.startswith("#EXTINF:"):
+            # Remove duplicate -1
+            line = re.sub(r'(#EXTINF:\s*-1)\s*-1', r'\1', line)
+        cleaned_lines.append(line)
+    return "\n".join(cleaned_lines)
 
 # Save filtered output to file
 def save_file(content: str, path: Path):
@@ -127,9 +138,10 @@ def git_push(repo_path: Path, filename: str, message: str):
 def main():
     m3u_data = fetch_m3u(M3U_URL)
     filtered_content = filter_m3u(m3u_data)
+    cleaned_content = clean_m3u(filtered_content)
     repo_dir = Path.cwd()
     output_path = repo_dir / OUTPUT_FILE
-    save_file(filtered_content, output_path)
+    save_file(cleaned_content, output_path)
     git_push(repo_dir, OUTPUT_FILE, COMMIT_MESSAGE)
 
 if __name__ == "__main__":
