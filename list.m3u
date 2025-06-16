@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://cdn.jsdelivr.net/gh/Himanshu8221/epg@main/my-epg-file.xml"
 #EXTINF: group-title="Knowledge",-1 tvg-id="1365"  tvg-logo="",DISCOVERY SCIENCE 4K
 http://103.168.18.108/jazztv/linear-live.php?id=1359&vtoken=&e=.m3u8
 #EXTINF: group-title="Knowledge",-1 tvg-id="1370"  tvg-logo="",ANIMAL PLANET 4K
