@@ -26,30 +26,18 @@ def compile_channels(channels: List[str]) -> List[re.Pattern]:
 
 categories: Dict[str, List[re.Pattern]] = {
     "Entertainment": compile_channels([
-        "Star Plus", "Star Plus HD", "Star Plus FHD", "Star Plus\\(FHD\\)", "Star Plus 4K",
-        "Star Bharat", "Star Bharat HD", "Star Bharat FHD", "Star Bharat\\(FHD\\)", "Star Bharat 4K",
-        "Sony TV", "Sony TV HD", "Sony TV FHD", "Sony TV\\(FHD\\)", "Sony TV 4K",
-        "Sony SAB", "Sony SAB HD", "Sony SAB FHD", "Sony SAB\\(FHD\\)", "Sony SAB 4K",
-        "Colors TV", "Colors TV HD", "Colors TV FHD", "Colors TV\\(FHD\\)", "Colors TV 4K",
-        "Zee TV", "Zee TV HD", "Zee TV FHD", "Zee TV\\(FHD\\)", "Zee TV 4K",
-        "Zee Anmol", "Zee Anmol Cinema", "Colors Rishtey", "Sony Pal", "Star Utsav", "Big Magic", "DD National", "Zee Hindustan"
+        "Star Plus", "Star Bharat", "Sony TV", "Sony SAB", "Colors TV", "Zee TV",
+        "Zee Anmol", "Zee Anmol Cinema", "Colors Rishtey", "Sony Pal", "Star Utsav", "Big Magic", "DD National"
     ]),
     "Movies": compile_channels([
-        "Star Gold", "Star Gold HD", "Star Gold FHD", "Star Gold 4K", "Star Gold Select", "Star Gold 2",
-        "Zee Cinema", "Zee Cinema HD", "Zee Action", "Zee Bollywood", "Zee Classic",
-        "Sony Max", "Sony Max HD", "Sony Max FHD", "Sony Max 2", "Sony Wah",
-        "Colors Cineplex", "Colors Cineplex HD", "Colors Cineplex FHD", "Colors Cineplex 4K",
-        "&pictures", "&pictures HD", "&xplor HD",
-        "UTV Movies", "UTV Action", "B4U Movies", "Filmy"
+        "Star Gold", "Zee Cinema", "Zee Action", "Zee Bollywood", "Sony Max", "Sony Max 2",
+        "Sony Wah", "Colors Cineplex", "&pictures", "&xplor", "UTV Movies", "UTV Action", "B4U Movies", "Filmy"
     ]),
     "Kids": compile_channels([
-        "Cartoon Network", "Pogo", "Hungama TV", "Disney Channel", "Disney Junior", "Disney XD",
-        "Nick", "Nick HD\\+", "Sonic", "Marvel HQ", "Baby TV", "Discovery Kids"
+        "Cartoon Network", "Pogo", "Hungama", "Disney", "Nick", "Sonic", "Marvel HQ", "Baby TV", "Discovery Kids"
     ]),
     "Knowledge": compile_channels([
-        "Sony BBC Earth", "Sony BBC Earth HD", "Discovery Channel", "Discovery HD", "Discovery Science", "Discovery Turbo",
-        "National Geographic", "National Geographic HD", "History TV18", "Animal Planet", "Animal Planet HD",
-        "Fox Life", "Epic", "DD Kisan", "DD India"
+        "Sony BBC Earth", "Discovery", "Nat Geo", "History TV18", "Animal Planet", "Fox Life", "Epic", "DD Kisan", "DD India"
     ])
 }
 
@@ -78,9 +66,23 @@ def filter_m3u(content: str) -> str:
             matched = False
             for category, patterns in categories.items():
                 if any(pattern.search(line) for pattern in patterns):
-                    line = re.sub(r'group-title="[^"]+"', '', line)
-                    line = re.sub(r'#EXTINF:', f'#EXTINF: group-title="{category}",', line, 1)
-                    filtered.extend([line.strip(), url.strip()])
+                    # Extract channel name
+                    name_match = re.search(r',(.*)$', line)
+                    channel_name = name_match.group(1).strip() if name_match else "Unknown"
+
+                    # Preserve or fallback tvg-* fields
+                    tvg_id = re.search(r'tvg-id="([^"]+)"', line)
+                    tvg_name = re.search(r'tvg-name="([^"]+)"', line)
+                    tvg_logo = re.search(r'tvg-logo="([^"]+)"', line)
+
+                    # Rebuild EXTINF with all expected tags
+                    new_line = f'#EXTINF:-1 group-title="{category}"'
+                    new_line += f' tvg-id="{tvg_id.group(1)}"' if tvg_id else ''
+                    new_line += f' tvg-name="{tvg_name.group(1) if tvg_name else channel_name}"'
+                    new_line += f' tvg-logo="{tvg_logo.group(1)}"' if tvg_logo else ''
+                    new_line += f',{channel_name}'
+
+                    filtered.extend([new_line.strip(), url.strip()])
                     matched = True
                     break
             i += 2 if matched else 1
