@@ -5,131 +5,144 @@ import sys
 import re
 from pathlib import Path
 from dotenv import load_dotenv
-from typing import Dict, List
 
-# ✅ Load .env file
+# ✅ Load environment variables
 load_dotenv()
 
-# ✅ Read M3U and EPG URLs from .env
-M3U_URL = os.getenv("M3U_URL")
-EPG_URL = os.getenv("EPG_URL")
+# ✅ M3U URL (edit if needed or provide via .env file)
+M3U_URL = os.getenv("M3U_URL", "http://starshare.org:80/get.php?username=gurmeet&password=gurmeet&type=m3u_plus&output=mpegts")
 
-if not M3U_URL:
-    print("❌ Error: M3U_URL not set in .env file.")
-    sys.exit(1)
+# ✅ Output filename
+OUTPUT_FILE = "filtered_channels.m3u"
 
-# ✅ Output file and commit message
-OUTPUT_FILE = "list.m3u"
+# ✅ Git commit message
 COMMIT_MESSAGE = "Update filtered M3U playlist"
 
-# ✅ Define categories with precompiled patterns
-def compile_channels(channels: List[str]) -> List[re.Pattern]:
-    return [re.compile(c, re.IGNORECASE) for c in channels]
+# ✅ Channel categories
+entertainment_channels = [
+    "Star Plus", "Star Plus HD", "Star Plus FHD", "Star Plus\\(FHD\\)", "Star Plus 4K",
+    "Star Bharat", "Star Bharat HD", "Star Bharat FHD", "Star Bharat\\(FHD\\)", "Star Bharat 4K",
+    "Sony TV", "Sony TV HD", "Sony TV FHD", "Sony TV\\(FHD\\)", "Sony TV 4K",
+    "Sony SAB", "Sony SAB HD", "Sony SAB FHD", "Sony SAB\\(FHD\\)", "Sony SAB 4K",
+    "Colors TV", "Colors TV HD", "Colors TV FHD", "Colors TV\\(FHD\\)", "Colors TV 4K",
+    "Zee TV", "Zee TV HD", "Zee TV FHD", "Zee TV\\(FHD\\)", "Zee TV 4K",
+    "Zee Anmol", "Zee Anmol Cinema", "Colors Rishtey", "Sony Pal", "Star Utsav", "Big Magic", "DD National", "Zee Hindustan"
+]
 
-categories: Dict[str, List[re.Pattern]] = {
-    "Entertainment": compile_channels([
-        "Star Plus", "Star Bharat", "Sony TV", "Sony SAB", "Colors TV", "Zee TV",
-        "Zee Anmol", "Zee Anmol Cinema", "Colors Rishtey", "Sony Pal", "Star Utsav", "& TV", "Big Magic", "DD National"
-    ]),
-    "Movies": compile_channels([
-        "Star Gold", "Zee Cinema", "Zee Action", "Zee Bollywood", "Sony Max", "Sony Max 2",
-        "Sony Wah", "Colors Cineplex", "& Pictures", "& xplor", "UTV Movies", "UTV Action", "B4U Movies", "Filmy"
-    ]),
-    "Kids": compile_channels([
-        "Cartoon Network", "Pogo", "Hungama", "Disney", "Nick", "Sonic", "Marvel HQ", "Baby TV", "Discovery Kids"
-    ]),
-    "Knowledge": compile_channels([
-        "Sony BBC Earth", "Discovery", "Nat Geo", "History TV18", "Animal Planet", "Fox Life", "Epic", "DD Kisan", "DD India"
-    ])
+movie_channels = [
+    "Star Gold", "Star Gold HD", "Star Gold FHD", "Star Gold 4K", "Star Gold Select", "Star Gold 2",
+    "Zee Cinema", "Zee Cinema HD", "Zee Action", "Zee Bollywood", "Zee Classic",
+    "Sony Max", "Sony Max HD", "Sony Max FHD", "Sony Max 2", "Sony Wah",
+    "Colors Cineplex", "Colors Cineplex HD", "Colors Cineplex FHD", "Colors Cineplex 4K",
+    "&pictures", "&pictures HD", "&xplor HD",
+    "UTV Movies", "UTV Action", "B4U Movies", "Filmy"
+]
+
+kids_channels = [
+    "Cartoon Network", "Pogo", "Hungama TV", "Disney Channel", "Disney Junior", "Disney XD",
+    "Nick", "Nick HD\\+", "Sonic", "Marvel HQ", "Baby TV", "Discovery Kids"
+]
+
+knowledge_channels = [
+    "Sony BBC Earth", "Sony BBC Earth HD", "Discovery Channel", "Discovery HD", "Discovery Science", "Discovery Turbo",
+    "National Geographic", "National Geographic HD", "History TV18", "Animal Planet", "Animal Planet HD",
+    "Fox Life", "Epic", "DD Kisan", "DD India"
+]
+
+sports_channels = [
+    "Star Sports", "Star Sports HD", "Star Sports 1", "Star Sports 1 Hindi", "Star Sports 2", "Star Sports 3", "Star Sports Select",
+    "Sony Ten", "Sony Six", "Sony Six HD", "Sony Ten 1", "Sony Ten 2", "Sony Ten 3", "Sony Ten 4",
+    "Sports18", "Sports18 HD", "DD Sports", "Eurosport", "Star Sports First", "JioCinema Sports"
+]
+
+# ✅ Categorize channels
+categories = {
+    "Entertainment": entertainment_channels,
+    "Movies": movie_channels,
+    "Kids": kids_channels,
+    "Knowledge": knowledge_channels,
+    "Sports": sports_channels
 }
 
-# ✅ Fetch the M3U content from URL
-def fetch_m3u(url: str) -> str:
+
+def fetch_m3u(url):
     try:
         print("📡 Fetching M3U content...")
         response = requests.get(url, timeout=15)
         response.raise_for_status()
         return response.text
-    except requests.RequestException as e:
-        print(f"❌ M3U fetch failed: {e}")
+    except Exception as e:
+        print(f"❌ Failed to fetch M3U: {e}")
         sys.exit(1)
 
-# ✅ Filter and categorize M3U channels
-def filter_m3u(content: str) -> str:
+
+def filter_m3u(content):
     print("🔍 Filtering and categorizing channels...")
     lines = content.splitlines()
     filtered = []
-    total = len(lines)
-    i = 0
-    while i < total:
-        line = lines[i]
-        if line.startswith("#EXTINF"):
-            url = lines[i + 1] if i + 1 < total else ""
-            matched = False
-            for category, patterns in categories.items():
-                if any(pattern.search(line) for pattern in patterns):
-                    name_match = re.search(r',(.*)$', line)
-                    channel_name = name_match.group(1).strip() if name_match else "Unknown"
+    for i in range(len(lines)):
+        if lines[i].startswith("#EXTINF"):
+            line = lines[i]
+            url = lines[i + 1] if i + 1 < len(lines) else ""
 
-                    tvg_id = re.search(r'tvg-id="([^"]+)"', line)
-                    tvg_name = re.search(r'tvg-name="([^"]+)"', line)
-                    tvg_logo = re.search(r'tvg-logo="([^"]+)"', line)
+            for category, channel_list in categories.items():
+                for channel in channel_list:
+                    if re.search(channel, line, re.IGNORECASE):
+                        # Set or replace group-title
+                        if 'group-title="' in line:
+                            line = re.sub(r'group-title="[^"]+"', f'group-title="{category}"', line)
+                        else:
+                            line = line.replace("#EXTINF:", f'#EXTINF: group-title="{category}",')
 
-                    new_line = f'#EXTINF:-1 group-title="{category}"'
-                    new_line += f' tvg-id="{tvg_id.group(1)}"' if tvg_id else ''
-                    new_line += f' tvg-name="{tvg_name.group(1) if tvg_name else channel_name}"'
-                    new_line += f' tvg-logo="{tvg_logo.group(1)}"' if tvg_logo else ''
-                    new_line += f',{channel_name}'
-
-                    filtered.extend([new_line.strip(), url.strip()])
-                    matched = True
-                    break
-            i += 2 if matched else 1
-        else:
-            i += 1
+                        filtered.append(line)
+                        filtered.append(url)
+                        break
+                else:
+                    continue
+                break
 
     print(f"✅ Filtered and categorized {len(filtered)//2} channels.")
-    
-    # ✅ Include EPG URL at the top
-    header = f'#EXTM3U url-tvg="{EPG_URL}"' if EPG_URL else '#EXTM3U'
-    return header + "\n" + "\n".join(filtered)
+    return "#EXTM3U\n" + "\n".join(filtered)
 
-# ✅ Save filtered output to file
-def save_file(content: str, path: Path):
-    path.write_text(content, encoding='utf-8')
-    print(f"💾 Saved to {path}")
 
-# ✅ Git automation: add, commit, push
-def git_push(repo_path: Path, filename: str, message: str):
-    if not (repo_path / ".git").is_dir():
-        print("❌ Not a Git repo. Run `git init` first.")
+def save_file(content, path):
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(content)
+    print(f"💾 Saved filtered list to {path}")
+
+
+def git_push(repo_path, filename, message):
+    if not os.path.isdir(os.path.join(repo_path, ".git")):
+        print("❌ Not a Git repository. Please initialize with `git init`.")
         sys.exit(1)
+
     try:
-        print("📦 Committing and pushing to GitHub...")
-        subprocess.run(["git", "-C", str(repo_path), "config", "user.name", "Himanshu8221"], check=True)
-        subprocess.run(["git", "-C", str(repo_path), "config", "user.email", "Himanshusingh8527186817@gmail.com"], check=True)
-        subprocess.run(["git", "-C", str(repo_path), "pull"], check=True)
-        subprocess.run(["git", "-C", str(repo_path), "add", filename], check=True)
+        os.chdir(repo_path)
+        subprocess.run(["git", "config", "user.name", "Himanshu8221"], check=True)
+        subprocess.run(["git", "config", "user.email", "Himanshusingh8527186817@gmail.com"], check=True)
 
-        result = subprocess.run(["git", "-C", str(repo_path), "diff", "--cached", "--quiet"])
-        if result.returncode != 0:
-            subprocess.run(["git", "-C", str(repo_path), "commit", "-m", message], check=True)
-            subprocess.run(["git", "-C", str(repo_path), "push"], check=True)
-            print("🚀 Pushed to GitHub successfully.")
-        else:
-            print("✅ No changes to commit.")
+        subprocess.run(["git", "pull"], check=True)
+        subprocess.run(["git", "add", filename], check=True)
+        subprocess.run(["git", "commit", "-m", message], check=True)
+        subprocess.run(["git", "push"], check=True)
+
+        print("🚀 Pushed to GitHub successfully.")
     except subprocess.CalledProcessError as e:
-        print(f"❌ Git push failed: {e}")
+        print(f"❌ Git error: {e}")
         sys.exit(1)
 
-# ✅ Main function
+
 def main():
-    m3u_data = fetch_m3u(M3U_URL)
-    filtered_content = filter_m3u(m3u_data)
-    repo_dir = Path.cwd()
-    output_path = repo_dir / OUTPUT_FILE
-    save_file(filtered_content, output_path)
-    git_push(repo_dir, OUTPUT_FILE, COMMIT_MESSAGE)
+    m3u_content = fetch_m3u(M3U_URL)
+    filtered = filter_m3u(m3u_content)
+
+    repo_path = Path.cwd()
+    output_path = repo_path / OUTPUT_FILE
+
+    save_file(filtered, output_path)
+    git_push(str(repo_path), OUTPUT_FILE, COMMIT_MESSAGE)
+
 
 if __name__ == "__main__":
     main()
+    
