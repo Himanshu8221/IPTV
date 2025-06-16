@@ -1,4 +1,3 @@
-#EXTM3U url-tvg="http://watchindia.net:8880/xmltv.php?username=79527&password=25638"
 #EXTM3U
 #EXTINF:-1 tvg-id="1365"  tvg-logo="", group-title="Knowledge"DISCOVERY SCIENCE 4K
 http://103.168.18.108/jazztv/linear-live.php?id=1359&vtoken=&e=.m3u8
