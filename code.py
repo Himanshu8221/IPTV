@@ -7,22 +7,20 @@ from pathlib import Path
 from dotenv import load_dotenv
 from typing import Dict, List
 
-# Load .env file
+# ✅ Load .env file
 load_dotenv()
 
-# Read M3U URL and XML EPG URL from .env
+# ✅ Read M3U URL from .env
 M3U_URL = os.getenv("M3U_URL")
-XML_EPG_URL = os.getenv("XML_EPG_URL")  # New environment variable for XML EPG URL
-
 if not M3U_URL:
     print("❌ Error: M3U_URL not set in .env file.")
     sys.exit(1)
 
-# Output file and commit message
+# ✅ Output file and commit message
 OUTPUT_FILE = "list.m3u"
 COMMIT_MESSAGE = "Update filtered M3U playlist"
 
-# Define categories with precompiled patterns
+# ✅ Define categories with precompiled patterns
 def compile_channels(channels: List[str]) -> List[re.Pattern]:
     return [re.compile(c, re.IGNORECASE) for c in channels]
 
@@ -55,7 +53,7 @@ categories: Dict[str, List[re.Pattern]] = {
     ])
 }
 
-# Fetch the M3U content from URL
+# ✅ Fetch the M3U content from URL
 def fetch_m3u(url: str) -> str:
     try:
         print("📡 Fetching M3U content...")
@@ -66,7 +64,7 @@ def fetch_m3u(url: str) -> str:
         print(f"❌ M3U fetch failed: {e}")
         sys.exit(1)
 
-# Filter and categorize M3U channels
+# ✅ Filter and categorize M3U channels
 def filter_m3u(content: str) -> str:
     print("🔍 Filtering and categorizing channels...")
     lines = content.splitlines()
@@ -75,17 +73,13 @@ def filter_m3u(content: str) -> str:
     i = 0
     while i < total:
         line = lines[i]
-        if line.startswith("#EXTINF:"):
+        if line.startswith("#EXTINF"):
             url = lines[i + 1] if i + 1 < total else ""
             matched = False
             for category, patterns in categories.items():
                 if any(pattern.search(line) for pattern in patterns):
-                    # Remove existing group-title attribute
                     line = re.sub(r'group-title="[^"]+"', '', line)
-                    # Ensure -1 is added only once after #EXTINF: without any space
-                    line = re.sub(r'(#EXTINF:)-?\s*', r'\1-', line)
-                    # Add group-title at the end of the line
-                    line = re.sub(r'(,)(.*)$', rf'\1 group-title="{category}"\2', line)
+                    line = re.sub(r'#EXTINF:', f'#EXTINF: group-title="{category}",', line, 1)
                     filtered.extend([line.strip(), url.strip()])
                     matched = True
                     break
@@ -95,24 +89,12 @@ def filter_m3u(content: str) -> str:
     print(f"✅ Filtered and categorized {len(filtered)//2} channels.")
     return "#EXTM3U\n" + "\n".join(filtered)
 
-# Remove duplicate -1 entries
-def clean_m3u(content: str) -> str:
-    print("🧹 Cleaning duplicate -1 entries...")
-    lines = content.splitlines()
-    cleaned_lines = []
-    for line in lines:
-        if line.startswith("#EXTINF:"):
-            # Remove any space between #EXTINF: and -1
-            line = re.sub(r'(#EXTINF:)\s*-1', r'\1-1', line)
-        cleaned_lines.append(line)
-    return "\n".join(cleaned_lines)
-
-# Save filtered output to file
+# ✅ Save filtered output to file
 def save_file(content: str, path: Path):
     path.write_text(content, encoding='utf-8')
     print(f"💾 Saved to {path}")
 
-# Git automation: add, commit, push
+# ✅ Git automation: add, commit, push
 def git_push(repo_path: Path, filename: str, message: str):
     if not (repo_path / ".git").is_dir():
         print("❌ Not a Git repo. Run `git init` first.")
@@ -124,7 +106,7 @@ def git_push(repo_path: Path, filename: str, message: str):
         subprocess.run(["git", "-C", str(repo_path), "pull"], check=True)
         subprocess.run(["git", "-C", str(repo_path), "add", filename], check=True)
 
-        # Only commit if changes are staged
+        # ✅ Only commit if changes are staged
         result = subprocess.run(["git", "-C", str(repo_path), "diff", "--cached", "--quiet"])
         if result.returncode != 0:
             subprocess.run(["git", "-C", str(repo_path), "commit", "-m", message], check=True)
@@ -136,21 +118,13 @@ def git_push(repo_path: Path, filename: str, message: str):
         print(f"❌ Git push failed: {e}")
         sys.exit(1)
 
-# Main function
+# ✅ Main function
 def main():
     m3u_data = fetch_m3u(M3U_URL)
     filtered_content = filter_m3u(m3u_data)
-    cleaned_content = clean_m3u(filtered_content)
-
-    # Prepend XML EPG URL if it exists
-    if XML_EPG_URL:
-        print("🔗 Adding XML EPG URL to the M3U file...")
-        xml_epg_line = f"#EXTM3U url-tvg=\"{XML_EPG_URL}\""
-        cleaned_content = f"{xml_epg_line}\n{cleaned_content}"
-
     repo_dir = Path.cwd()
     output_path = repo_dir / OUTPUT_FILE
-    save_file(cleaned_content, output_path)
+    save_file(filtered_content, output_path)
     git_push(repo_dir, OUTPUT_FILE, COMMIT_MESSAGE)
 
 if __name__ == "__main__":
