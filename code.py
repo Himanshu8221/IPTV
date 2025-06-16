@@ -10,8 +10,10 @@ from typing import Dict, List
 # Load .env file
 load_dotenv()
 
-# Read M3U URL from .env
+# Read M3U URL and XML EPG URL from .env
 M3U_URL = os.getenv("M3U_URL")
+XML_EPG_URL = os.getenv("XML_EPG_URL")  # New environment variable for XML EPG URL
+
 if not M3U_URL:
     print("❌ Error: M3U_URL not set in .env file.")
     sys.exit(1)
@@ -80,8 +82,8 @@ def filter_m3u(content: str) -> str:
                 if any(pattern.search(line) for pattern in patterns):
                     # Remove existing group-title attribute
                     line = re.sub(r'group-title="[^"]+"', '', line)
-                    # Ensure -1 is added only once after #EXTINF:
-                    line = re.sub(r'(#EXTINF:)', r'\1-1', line)
+                    # Ensure -1 is added only once after #EXTINF: without any space
+                    line = re.sub(r'(#EXTINF:)-?\s*', r'\1-', line)
                     # Add group-title at the end of the line
                     line = re.sub(r'(,)(.*)$', rf'\1 group-title="{category}"\2', line)
                     filtered.extend([line.strip(), url.strip()])
@@ -100,8 +102,8 @@ def clean_m3u(content: str) -> str:
     cleaned_lines = []
     for line in lines:
         if line.startswith("#EXTINF:"):
-            # Remove duplicate -1
-            line = re.sub(r'(#EXTINF:-1)\s*-1', r'\1', line)
+            # Remove any space between #EXTINF: and -1
+            line = re.sub(r'(#EXTINF:)\s*-1', r'\1-1', line)
         cleaned_lines.append(line)
     return "\n".join(cleaned_lines)
 
@@ -139,6 +141,13 @@ def main():
     m3u_data = fetch_m3u(M3U_URL)
     filtered_content = filter_m3u(m3u_data)
     cleaned_content = clean_m3u(filtered_content)
+
+    # Prepend XML EPG URL if it exists
+    if XML_EPG_URL:
+        print("🔗 Adding XML EPG URL to the M3U file...")
+        xml_epg_line = f"#EXTM3U url-tvg=\"{XML_EPG_URL}\""
+        cleaned_content = f"{xml_epg_line}\n{cleaned_content}"
+
     repo_dir = Path.cwd()
     output_path = repo_dir / OUTPUT_FILE
     save_file(cleaned_content, output_path)
