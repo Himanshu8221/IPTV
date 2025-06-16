@@ -81,7 +81,7 @@ def filter_m3u(content: str) -> str:
                     # Remove existing group-title attribute
                     line = re.sub(r'group-title="[^"]+"', '', line)
                     # Ensure -1 is added only once after #EXTINF:
-                    line = re.sub(r'(#EXTINF:)', r'\1 -1', line)
+                    line = re.sub(r'(#EXTINF:)', r'\1-1', line)
                     # Add group-title at the end of the line
                     line = re.sub(r'(,)(.*)$', rf'\1 group-title="{category}"\2', line)
                     filtered.extend([line.strip(), url.strip()])
@@ -101,7 +101,7 @@ def clean_m3u(content: str) -> str:
     for line in lines:
         if line.startswith("#EXTINF:"):
             # Remove duplicate -1
-            line = re.sub(r'(#EXTINF:\s*-1)\s*-1', r'\1', line)
+            line = re.sub(r'(#EXTINF:-1)\s*-1', r'\1', line)
         cleaned_lines.append(line)
     return "\n".join(cleaned_lines)
 
