@@ -13,7 +13,7 @@ load_dotenv()
 M3U_URL = os.getenv("M3U_URL", "http://starshare.org:80/get.php?username=gurmeet&password=gurmeet&type=m3u_plus&output=mpegts")
 
 # ✅ Output filename
-OUTPUT_FILE = "filtered_channels.m3u"
+OUTPUT_FILE = "list.m3u"
 
 # ✅ Git commit message
 COMMIT_MESSAGE = "Update filtered M3U playlist"
