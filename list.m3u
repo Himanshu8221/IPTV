@@ -41,6 +41,10 @@ http://watchindia.net:8880/live/79527/25638/784.ts
 http://watchindia.net:8880/live/79527/25638/1924.ts
 #EXTINF:-1 group-title="Entertainment" tvg-id="starutsav.in" tvg-name="Star Utsav" tvg-logo="https://watchindia.net/images/channels/hindi/Star_Utsav.png",Star Utsav
 http://watchindia.net:8880/live/79527/25638/2493.ts
+#EXTINF:-1 group-title="Movies" tvg-id="andpictureshd.in" tvg-name="& Pictures HD" tvg-logo="https://watchindia.net/images/channels/hindi/AndPictures_HD.png",& Pictures HD
+http://watchindia.net:8880/live/79527/25638/783.ts
+#EXTINF:-1 group-title="Entertainment" tvg-id="andtvhd.in" tvg-name="& TV HD" tvg-logo="https://watchindia.net/images/channels/hindi/And_TV_HD.png",& TV HD
+http://watchindia.net:8880/live/79527/25638/782.ts
 #EXTINF:-1 group-title="Movies" tvg-id="colorscineplexhd.in" tvg-name="Colors Cineplex HD" tvg-logo="https://watchindia.net/images/channels/hindi/Cineplex_HD.png",Colors Cineplex HD
 http://watchindia.net:8880/live/79527/25638/803.ts
 #EXTINF:-1 group-title="Knowledge" tvg-id="discovery.in" tvg-name="Discovery Channel Hindi" tvg-logo="https://watchindia.net/images/channels/hindi/Discovery_HD.png",Discovery Channel Hindi
