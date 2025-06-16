@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/Himanshu8221/epg/refs/heads/main/my-epg-file.xml"
+#EXTM3U
 #EXTINF: group-title="Kids",-1 tvg-id="nick.in" tvg-name="Nick Malayalam" tvg-logo="https://watchindia.net/images/channels/malayalam/Nick.png" ,Nick Malayalam
 http://watchindia.net:8880/live/79527/25638/2632.ts
 #EXTINF: group-title="Kids",-1 tvg-id="sonicnickelodeon.in" tvg-name="Nickelodeon Sonic" tvg-logo="https://watchindia.net/images/channels/malayalam/Nick_Sonic.png" ,Nickelodeon Sonic
