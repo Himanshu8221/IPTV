@@ -22,9 +22,9 @@ COMMIT_MESSAGE = "Update filtered M3U playlist"
 entertainment_channels = [
     "Star Plus", "Star Plus HD", "Star Plus FHD", "Star Plus\\(FHD\\)", "Star Plus 4K",
     "Star Bharat", "Star Bharat HD", "Star Bharat FHD", "Star Bharat\\(FHD\\)", "Star Bharat 4K",
-    "Sony TV", "SONY TV HD", "Sony TV HD", "Sony TV FHD", "Sony TV\\(FHD\\)", "Sony TV 4K",
+    "Sony TV", "SONY TV HD", "Sony TV FHD", "Sony TV\\(FHD\\)", "Sony TV 4K",
     "Sony SAB", "Sony SAB HD", "Sony SAB FHD", "Sony SAB\\(FHD\\)", "Sony SAB 4K",
-    "Colors", "Colors HD", "Colors TV", "Colors TV HD", "Colors TV FHD", "Colors TV\\(FHD\\)", "Colors TV 4K",
+    "Colors", "COLORS HD", "Colors TV", "Colors TV HD", "Colors TV FHD", "Colors TV\\(FHD\\)", "Colors TV 4K",
     "Zee TV", "Zee TV HD", "Zee TV FHD", "Zee TV\\(FHD\\)", "Zee TV 4K",
     "Zee Anmol", "Sony Pal"
 ]
