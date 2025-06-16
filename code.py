@@ -26,7 +26,7 @@ entertainment_channels = [
     "Sony SAB", "Sony SAB HD", "Sony SAB FHD", "Sony SAB\\(FHD\\)", "Sony SAB 4K",
     "Colors TV", "Colors TV HD", "Colors TV FHD", "Colors TV\\(FHD\\)", "Colors TV 4K",
     "Zee TV", "Zee TV HD", "Zee TV FHD", "Zee TV\\(FHD\\)", "Zee TV 4K",
-    "Zee Anmol", "Zee Anmol Cinema", "Colors Rishtey", "Sony Pal", "Star Utsav", "Big Magic", "DD National", "Zee Hindustan"
+    "Zee Anmol", "Colors Rishtey", "Sony Pal"
 ]
 
 movie_channels = [
@@ -34,25 +34,21 @@ movie_channels = [
     "Zee Cinema", "Zee Cinema HD", "Zee Action", "Zee Bollywood", "Zee Classic",
     "Sony Max", "Sony Max HD", "Sony Max FHD", "Sony Max 2", "Sony Wah",
     "Colors Cineplex", "Colors Cineplex HD", "Colors Cineplex FHD", "Colors Cineplex 4K",
-    "&pictures", "&pictures HD", "&xplor HD",
-    "UTV Movies", "UTV Action", "B4U Movies", "Filmy"
+    "& pictures", "& pictures HD", "UTV Movies", "UTV Action", "B4U Movies", "Zee Anmol Cinema"
 ]
 
 kids_channels = [
-    "Cartoon Network", "Pogo", "Hungama TV", "Disney Channel", "Disney Junior", "Disney XD",
-    "Nick", "Nick HD\\+", "Sonic", "Marvel HQ", "Baby TV", "Discovery Kids"
+    "Cartoon Network", "Pogo", "Hungama TV", "Disney Channel", "Disney Junior", "Nick", "Nick HD\\+", "Sonic", "Discovery Kids"
 ]
 
 knowledge_channels = [
-    "Sony BBC Earth", "Sony BBC Earth HD", "Discovery Channel", "Discovery HD", "Discovery Science", "Discovery Turbo",
-    "National Geographic", "National Geographic HD", "History TV18", "Animal Planet", "Animal Planet HD",
-    "Fox Life", "Epic", "DD Kisan", "DD India"
+    "Sony BBC Earth HD", "Discovery Channel", "Discovery HD", "Discovery Science", "National Geographic", "National Geographic HD", "History TV18", "Animal Planet", "Animal Planet HD"
 ]
 
 sports_channels = [
     "Star Sports", "Star Sports HD", "Star Sports 1", "Star Sports 1 Hindi", "Star Sports 2", "Star Sports 3", "Star Sports Select",
     "Sony Ten", "Sony Six", "Sony Six HD", "Sony Ten 1", "Sony Ten 2", "Sony Ten 3", "Sony Ten 4",
-    "Sports18", "Sports18 HD", "DD Sports", "Eurosport", "Star Sports First", "JioCinema Sports"
+    "Sports18", "Sports18 HD", "Star Sports First"
 ]
 
 # ✅ Categorize channels
