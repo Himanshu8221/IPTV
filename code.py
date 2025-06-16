@@ -26,7 +26,7 @@ entertainment_channels = [
     "Sony SAB", "Sony SAB HD", "Sony SAB FHD", "Sony SAB\\(FHD\\)", "Sony SAB 4K",
     "Colors TV", "Colors TV HD", "Colors TV FHD", "Colors TV\\(FHD\\)", "Colors TV 4K",
     "Zee TV", "Zee TV HD", "Zee TV FHD", "Zee TV\\(FHD\\)", "Zee TV 4K",
-    "Zee Anmol", "Colors Rishtey", "Sony Pal"
+    "Zee Anmol", "Sony Pal"
 ]
 
 movie_channels = [
