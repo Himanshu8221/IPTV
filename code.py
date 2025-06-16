@@ -80,8 +80,8 @@ def filter_m3u(content: str) -> str:
                 if any(pattern.search(line) for pattern in patterns):
                     # Remove existing group-title attribute
                     line = re.sub(r'group-title="[^"]+"', '', line)
-                    # Add -1 after #EXTINF: and before other attributes
-                    line = re.sub(r'(#EXTINF:)(.*)', rf'\1-1 group-title="{category}"\2', line)
+                    # Insert -1 after #EXTINF: and add group-title at the end
+                    line = re.sub(r'(#EXTINF:)(.*)', rf'\1-1 \2 group-title="{category}"', line)
                     filtered.extend([line.strip(), url.strip()])
                     matched = True
                     break
