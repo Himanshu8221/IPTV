@@ -96,7 +96,7 @@ def filter_m3u(content):
                 filtered.append(url)
 
     print(f"✅ Categorized {len(filtered)//2} channels.")
-    return "#EXTM3U
+    return "#EXTM3U\n" + "\n".join(filtered)
 " + "\n".join(filtered)
 
 def save_file(content, path):
