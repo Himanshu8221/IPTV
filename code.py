@@ -9,22 +9,17 @@ from dotenv import load_dotenv
 # ✅ Load environment variables
 load_dotenv()
 
-# ✅ M3U URL (edit if needed or provide via .env file)
 M3U_URL = os.getenv("M3U_URL")
-
-# ✅ Output filename
+EPG_URL = os.getenv("EPG_URL")
 OUTPUT_FILE = "list.m3u"
-
-# ✅ Git commit message
 COMMIT_MESSAGE = "Update filtered M3U playlist"
 
-# ✅ Channel categories
 entertainment_channels = [
     "Star Plus", "Star Plus HD", "Star Plus FHD", "Star Plus\\(FHD\\)", "Star Plus 4K",
     "Star Bharat", "Star Bharat HD", "Star Bharat FHD",
     "Sony TV", "SONY TV HD", "Sony TV FHD",
     "Sony SAB", "Sony SAB HD", "Sony SAB FHD", "Sony SAB 4K",
-    "Colors", "COLORS HD", "Colors TV", "Colors TV HD", "Colors TV FHD", 
+    "Colors", "COLORS HD", "Colors TV", "Colors TV HD", "Colors TV FHD",
     "Zee TV", "Zee TV HD", "Zee TV FHD",
     "Zee Anmol", "Sony Pal", "& tv", "& TV", "& TV HD"
 ]
@@ -43,8 +38,8 @@ kids_channels = [
 ]
 
 knowledge_channels = [
-     "Discovery Channel", "Discovery HD", "Discovery Science",
-    "National Geographic", "National Geographic HD", 
+    "Discovery Channel", "Discovery HD", "Discovery Science",
+    "National Geographic", "National Geographic HD",
     "History TV18", "Animal Planet", "Animal Planet HD"
 ]
 
@@ -54,7 +49,6 @@ sports_channels = [
     "Sports18", "Sports18 HD"
 ]
 
-# ✅ Categorize channels
 categories = {
     "Entertainment": entertainment_channels,
     "Movies": movie_channels,
@@ -62,7 +56,6 @@ categories = {
     "Knowledge": knowledge_channels,
     "Sports": sports_channels
 }
-
 
 def fetch_m3u(url):
     try:
@@ -73,7 +66,6 @@ def fetch_m3u(url):
     except Exception as e:
         print(f"❌ Failed to fetch M3U: {e}")
         sys.exit(1)
-
 
 def filter_m3u(content):
     print("🔍 Filtering and categorizing channels...")
@@ -87,12 +79,10 @@ def filter_m3u(content):
             for category, channel_list in categories.items():
                 for channel in channel_list:
                     if re.search(channel, line, re.IGNORECASE):
-                        # Set or replace group-title
                         if 'group-title="' in line:
                             line = re.sub(r'group-title="[^"]+"', f'group-title="{category}"', line)
                         else:
                             line = line.replace("#EXTINF:", f'#EXTINF: group-title="{category}",')
-
                         filtered.append(line)
                         filtered.append(url)
                         break
@@ -101,14 +91,13 @@ def filter_m3u(content):
                 break
 
     print(f"✅ Filtered and categorized {len(filtered)//2} channels.")
-    return "#EXTM3U\n" + "\n".join(filtered)
-
+    header = f'#EXTM3U url-tvg="{EPG_URL}"' if EPG_URL else "#EXTM3U"
+    return header + "\n" + "\n".join(filtered)
 
 def save_file(content, path):
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
     print(f"💾 Saved filtered list to {path}")
-
 
 def git_push(repo_path, filename, message):
     if not os.path.isdir(os.path.join(repo_path, ".git")):
@@ -130,7 +119,6 @@ def git_push(repo_path, filename, message):
         print(f"❌ Git error: {e}")
         sys.exit(1)
 
-
 def main():
     m3u_content = fetch_m3u(M3U_URL)
     filtered = filter_m3u(m3u_content)
@@ -141,7 +129,5 @@ def main():
     save_file(filtered, output_path)
     git_push(str(repo_path), OUTPUT_FILE, COMMIT_MESSAGE)
 
-
 if __name__ == "__main__":
     main()
-    
