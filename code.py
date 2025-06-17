@@ -14,7 +14,7 @@ M3U_URL = os.getenv("M3U_URL")
 CATEGORIES = {
     "Entertainment": [
         "Star Plus", "Star Plus HD", "Star Bharat", "Star Bharat HD", "Sony TV", "Sony TV HD", "Sony SAB", "Sony SAB HD", "Colors TV", "Colors TV HD",
-        "Zee TV", "Zee TV HD',  "Zee Anmol", "Sony Pal", "& TV", "& TV HD"
+        "Zee TV", "Zee TV HD", "Zee Anmol", "Sony Pal", "& TV", "& TV HD"
     ],
     "Movies": [
         "Star Gold", "Star Gold HD", "Star Gold Select", "Star Gold Select HD", "Zee Cinema", "Zee Cinema HD", "Zee Action", "Zee Bollywood", "Zee Classic",
@@ -32,7 +32,7 @@ CATEGORIES = {
         "Star Sports 2", "Star Sports 2 HD", "Star Sports 3", "Star Sports First",
         "Sony Ten", "Sony Ten 1", "Sony Ten 1 HD", "Sony Ten 1 Hindi", "Sony Ten 2", "Sony Ten 2 HD",
         "Sony Ten 3", "Sony Ten 3 HD", "Sony Ten 3 Hindi", "Sony Ten 4", "Sony Six", "Sony Six HD",
-        "Sports18", "Sports18 1", "Sports18 1 HD", "Sports18 2", "Sports18 2 HD", "Sports18 Hindi",
+        "Sports18", "Sports18 1", "Sports18 1 HD", "Sports18 2", "Sports18 2 HD", "Sports18 Hindi"
     ]
 }
 
