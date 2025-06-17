@@ -13,9 +13,9 @@ M3U_URL = os.getenv("M3U_URL")
 # Define categories and channel names
 CATEGORIES = {
     "Entertainment": [
-        "Star Plus", "Star Plus HD", "Star Bharat", "Star Bharat HD", "Sony TV", "Sony TV HD", "Sony SAB", 
+        "Star Plus", "Star Plus HD", "Star Bharat", "Star Bharat HD", "Sony TV", "Sony TV HD", "Sony SAB", "Sony TV HD (1)", "Sony TV HD (2)",
         "Sony SAB HD", "Sony sab HD", "Colors TV", "Colors TV HD","Zee TV", "Zee TV HD", "Zee Anmol", "Sony Pal", "& TV", 
-        "& TV HD", "STAR PLUS", "STAR PLUS HD", "STAR BHARAT", "STAR BHARAT HD", "SONY TV", "SONY TV HD", "COLORS (FHD)",
+        "& TV HD", "STAR PLUS", "STAR PLUS HD", "STAR BHARAT", "STAR BHARAT HD", "SONY TV", "SONY TV HD", "COLORS (FHD)", "Star Utsav",
         "SONY SAB", "SONY SAB HD", "COLORS TV", "COLORS TV HD","ZEE TV", "ZEE TV HD", "ZEE ANMOL", "SONY PAL", "SONY HD", "COLOR HD", "COLORS FHD"
  ],
     "Movies": [
@@ -26,7 +26,7 @@ CATEGORIES = {
         "COLORS CINEPLEX HD", "COLORS CINEPLEX SUPERHITS", "& PICTURES", "& PICTURES HD","UTV MOVIES", "UTV ACTION", "B4U MOVIES", "ZEE ANMOL CINEMA"
 ],
     "Kids": [
-        "Cartoon Network", "Pogo", "Hungama TV", "Disney Channel", "Nick", "Nick HD+", "Discovery Kids"
+        "Cartoon Network", "Pogo", "Hungama TV", "Disney Channel", "Nick", "Nick HD+", "Discovery Kids", "Nick Hindi", "Sony Yay"
     ],
     "Knowledge": [
         "Discovery Channel", "Discovery Science", "National Geographic", "History TV18", "Animal Planet"
