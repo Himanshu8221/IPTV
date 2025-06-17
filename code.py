@@ -13,13 +13,13 @@ M3U_URL = os.getenv("M3U_URL")
 # Define categories and channel names
 CATEGORIES = {
     "Entertainment": [
-        "Star Plus", "Star Plus HD", "Star Bharat", "Sony TV", "Sony SAB", "Colors TV",
-        "Zee TV", "Zee Anmol", "Sony Pal", "& TV"
+        "Star Plus", "Star Plus HD", "Star Bharat", "Star Bharat HD", "Sony TV", "Sony TV HD", "Sony SAB", "Sony SAB HD", "Colors TV", "Colors TV HD",
+        "Zee TV", "Zee TV HD',  "Zee Anmol", "Sony Pal", "& TV", "& TV HD"
     ],
     "Movies": [
-        "Star Gold", "Star Gold Select", "Zee Cinema", "Zee Action", "Zee Bollywood", "Zee Classic",
-        "Sony Max", "Sony Max 2", "Sony Wah", "Colors Cineplex", "& pictures", "UTV Movies",
-        "UTV Action", "B4U Movies", "Zee Anmol Cinema"
+        "Star Gold", "Star Gold HD", "Star Gold Select", "Star Gold Select HD", "Zee Cinema", "Zee Cinema HD", "Zee Action", "Zee Bollywood", "Zee Classic",
+        "Sony Max", "Sony Max HD", "Sony Max 2", "Sony Wah", "Colors Cineplex", "Colors Cineplex HD", "Colors Cineplex Superhits", "& pictures", "& pictures HD",
+        "UTV Movies", "UTV Action", "B4U Movies", "Zee Anmol Cinema"
     ],
     "Kids": [
         "Cartoon Network", "Pogo", "Hungama TV", "Disney Channel", "Nick", "Nick HD+", "Discovery Kids"
@@ -28,7 +28,11 @@ CATEGORIES = {
         "Discovery Channel", "Discovery Science", "National Geographic", "History TV18", "Animal Planet"
     ],
     "Sports": [
-        "Star Sports", "Sony Ten", "Sony Six", "Sony Ten 1", "Sony Ten 2", "Sony Ten 3", "Sony Ten 4", "Sports18"
+        "Star Sports", "Star Sports 1", "Star Sports 1 HD", "Star Sports 1 Hindi", "Star Sports 1 Hindi HD",
+        "Star Sports 2", "Star Sports 2 HD", "Star Sports 3", "Star Sports First",
+        "Sony Ten", "Sony Ten 1", "Sony Ten 1 HD", "Sony Ten 1 Hindi", "Sony Ten 2", "Sony Ten 2 HD",
+        "Sony Ten 3", "Sony Ten 3 HD", "Sony Ten 3 Hindi", "Sony Ten 4", "Sony Six", "Sony Six HD",
+        "Sports18", "Sports18 1", "Sports18 1 HD", "Sports18 2", "Sports18 2 HD", "Sports18 Hindi",
     ]
 }
 
