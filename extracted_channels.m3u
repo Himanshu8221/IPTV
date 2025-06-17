@@ -9,6 +9,7 @@ http://watchindia.net:8880/live/79527/25638/780.ts
 http://watchindia.net:8880/live/79527/25638/1924.ts
 #EXTINF:-1 tvg-id="zanmol.in" tvg-name="Zee Anmol" tvg-logo="https://watchindia.net/images/channels/hindi/Zee_Anmol.png" group-title="Hindi",Zee Anmol
 http://watchindia.net:8880/live/79527/25638/813.ts
+
 # --- Movies ---
 #EXTINF:-1 tvg-id="sonymax.in" tvg-name="Sony Max 2" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_Max_2.png" group-title="Hindi",Sony Max 2
 http://watchindia.net:8880/live/79527/25638/2024.ts
@@ -32,6 +33,7 @@ http://watchindia.net:8880/live/79527/25638/822.ts
 http://watchindia.net:8880/live/79527/25638/787.ts
 #EXTINF:-1 tvg-id="zeeclassic.in" tvg-name="Zee Classic" tvg-logo="https://watchindia.net/images/channels/hindi/Zee_Classic.png" group-title="Hindi",Zee Classic
 http://watchindia.net:8880/live/79527/25638/802.ts
+
 # --- Kids ---
 #EXTINF:-1 tvg-id="cartoonnetworkhd.in" tvg-name="Cartoon Network HD+" tvg-logo="http://watchindia.net/images/channels/hindi/CN_HD+.png" group-title="Hindi",Cartoon Network HD+
 http://watchindia.net:8880/live/79527/25638/2718.ts
@@ -39,6 +41,7 @@ http://watchindia.net:8880/live/79527/25638/2718.ts
 http://watchindia.net:8880/live/79527/25638/2052.ts
 #EXTINF:-1 tvg-id="disneychannel.us" tvg-name="Disney Channel" tvg-logo="http://watchindia.net/images/channels/usa/Disney_Channel.png" group-title="USA Network",Disney Channel
 http://watchindia.net:8880/live/79527/25638/2046.ts
+
 # --- Knowledge ---
 #EXTINF:-1 tvg-id="discovery.in" tvg-name="Discovery Channel Hindi" tvg-logo="https://watchindia.net/images/channels/hindi/Discovery_HD.png" group-title="Hindi",Discovery Channel Hindi
 http://watchindia.net:8880/live/79527/25638/841.ts
@@ -50,6 +53,7 @@ http://watchindia.net:8880/live/79527/25638/2039.ts
 http://watchindia.net:8880/live/79527/25638/2036.ts
 #EXTINF:-1 tvg-id="natgeo.us" tvg-name="National Geographic" tvg-logo="https://watchindia.net/images/channels/usa/NAT_GEO_HD.png" group-title="USA Network",National Geographic
 http://watchindia.net:8880/live/79527/25638/2037.ts
+
 # --- Sports ---
 #EXTINF:-1 tvg-id="sonyten2hd.in" tvg-name="Sony Ten 2 HD" tvg-logo="https://watchindia.net/images/channels/sports/Sony_Ten_2_HD.png" group-title="Sports",Sony Ten 2 HD
 http://watchindia.net:8880/live/79527/25638/1757.ts
@@ -57,3 +61,4 @@ http://watchindia.net:8880/live/79527/25638/1757.ts
 http://watchindia.net:8880/live/79527/25638/1758.ts
 #EXTINF:-1 tvg-id="" tvg-name="Sony Ten 4 HD" tvg-logo="https://watchindia.net/images/channels/sports/Sony_Ten_4_HD.png" group-title="Sports",Sony Ten 4 HD
 http://watchindia.net:8880/live/79527/25638/2662.ts
+
