@@ -12,7 +12,7 @@ load_dotenv()
 # ✅ M3U playlist URL
 M3U_URL = os.getenv("M3U_URL", "http://starshare.org:80/get.php?username=gurmeet&password=gurmeet&type=m3u_plus&output=mpegts")
 OUTPUT_FILE = "list.m3u"
-HTML_FILE = "preview.html"
+HTML_FILE = "index.html"
 COMMIT_MESSAGE = "Update Hindi-only filtered M3U and preview"
 
 # ✅ Hindi channels only
