@@ -13,14 +13,18 @@ M3U_URL = os.getenv("M3U_URL")
 # Define categories and channel names
 CATEGORIES = {
     "Entertainment": [
-        "Star Plus", "Star Plus HD", "Star Bharat", "Star Bharat HD", "Sony TV", "Sony TV HD", "Sony SAB", "Sony SAB HD", "Colors TV", "Colors TV HD",
-        "Zee TV", "Zee TV HD", "Zee Anmol", "Sony Pal", "& TV", "& TV HD"
-    ],
+        "Star Plus", "Star Plus HD", "Star Bharat", "Star Bharat HD", "Sony TV", "Sony TV HD", "Sony SAB", 
+        "Sony SAB HD", "Colors TV", "Colors TV HD","Zee TV", "Zee TV HD", "Zee Anmol", "Sony Pal", "& TV", 
+        "& TV HD", "STAR PLUS", "STAR PLUS HD", "STAR BHARAT", "STAR BHARAT HD", "SONY TV", "SONY TV HD", 
+        "SONY SAB", "SONY SAB HD", "COLORS TV", "COLORS TV HD","ZEE TV", "ZEE TV HD", "ZEE ANMOL", "SONY PAL"
+ ],
     "Movies": [
         "Star Gold", "Star Gold HD", "Star Gold Select", "Star Gold Select HD", "Zee Cinema", "Zee Cinema HD", "Zee Action", "Zee Bollywood", "Zee Classic",
         "Sony Max", "Sony Max HD", "Sony Max 2", "Sony Wah", "Colors Cineplex", "Colors Cineplex HD", "Colors Cineplex Superhits", "& pictures", "& pictures HD",
-        "UTV Movies", "UTV Action", "B4U Movies", "Zee Anmol Cinema"
-    ],
+        "UTV Movies", "UTV Action", "B4U Movies", "Zee Anmol Cinema", "STAR GOLD", "STAR GOLD HD", "STAR GOLD SELECT", "STAR GOLD SELECT HD", "ZEE CINEMA", 
+        "ZEE CINEMA HD", "ZEE ACTION", "ZEE BOLLYWOOD", "ZEE CLASSIC", "SONY MAX", "SONY MAX HD", "SONY MAX 2", "SONY WAH", "COLORS CINEPLEX", 
+        "COLORS CINEPLEX HD", "COLORS CINEPLEX SUPERHITS", "& PICTURES", "& PICTURES HD","UTV MOVIES", "UTV ACTION", "B4U MOVIES", "ZEE ANMOL CINEMA"
+],
     "Kids": [
         "Cartoon Network", "Pogo", "Hungama TV", "Disney Channel", "Nick", "Nick HD+", "Discovery Kids"
     ],
@@ -32,7 +36,12 @@ CATEGORIES = {
         "Star Sports 2", "Star Sports 2 HD", "Star Sports 3", "Star Sports First",
         "Sony Ten", "Sony Ten 1", "Sony Ten 1 HD", "Sony Ten 1 Hindi", "Sony Ten 2", "Sony Ten 2 HD",
         "Sony Ten 3", "Sony Ten 3 HD", "Sony Ten 3 Hindi", "Sony Ten 4", "Sony Six", "Sony Six HD",
-        "Sports18", "Sports18 1", "Sports18 1 HD", "Sports18 2", "Sports18 2 HD", "Sports18 Hindi"
+        "Sports18", "Sports18 1", "Sports18 1 HD", "Sports18 2", "Sports18 2 HD", "Sports18 Hindi", "STAR SPORTS", 
+        "STAR SPORTS 1", "STAR SPORTS 1 HD", "STAR SPORTS 1 HINDI", "STAR SPORTS 1 HINDI HD",
+        "STAR SPORTS 2", "STAR SPORTS 2 HD", "STAR SPORTS 3", "STAR SPORTS FIRST",
+        "SONY TEN", "SONY TEN 1", "SONY TEN 1 HD", "SONY TEN 1 HINDI", "SONY TEN 2", "SONY TEN 2 HD",
+        "SONY TEN 3", "SONY TEN 3 HD", "SONY TEN 3 HINDI", "SONY TEN 4", "SONY SIX", "SONY SIX HD",
+        "SPORTS18", "SPORTS18 1", "SPORTS18 1 HD", "SPORTS18 2", "SPORTS18 2 HD", "SPORTS18 HINDI"
     ]
 }
 
