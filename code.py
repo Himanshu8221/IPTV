@@ -79,25 +79,30 @@ def filter_m3u(content):
 
             matched = False
             for category, channel_list in categories.items():
-                if any(channel_name.lower() == ch.lower() for ch in channel_list):
+                if any(ch.lower() in channel_name.lower() for ch in channel_list):
+                    # Set or replace group-title
                     if 'group-title="' in line:
                         line = re.sub(r'group-title="[^"]+"', f'group-title="{category}"', line)
                     else:
                         line = line.replace("#EXTINF:", f'#EXTINF: group-title="{category}",')
-
+                    
                     filtered.append(line)
                     filtered.append(url)
                     matched = True
                     break
 
             if not matched:
-                line = re.sub(r'group-title="[^"]+"', 'group-title="Uncategorized"', line)
+                # Preserve or replace existing group-title with Uncategorized
+                if 'group-title="' in line:
+                    line = re.sub(r'group-title="[^"]+"', 'group-title="Uncategorized"', line)
+                else:
+                    line = line.replace("#EXTINF:", '#EXTINF: group-title="Uncategorized",')
                 filtered.append(line)
                 filtered.append(url)
 
     print(f"✅ Categorized {len(filtered)//2} channels.")
     return "#EXTM3U\n" + "\n".join(filtered)
-
+    
 def save_file(content, path):
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
