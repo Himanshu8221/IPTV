@@ -1,2 +1,32 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-id="" tvg-name="|NG| Discovery Channel" tvg-logo="" group-title="Knowledge",|NG| Discovery Channel
+https://starshare.org:443/live/gurmeet/gurmeet/170662.ts
+#EXTINF:-1 tvg-id="" tvg-name="|FI| Discovery Science" tvg-logo="" group-title="Knowledge",|FI| Discovery Science
+https://starshare.org:443/live/gurmeet/gurmeet/388865.ts
+#EXTINF:-1 tvg-id="" tvg-name="|FI| Cartoon Network" tvg-logo="" group-title="Kids",|FI| Cartoon Network
+https://starshare.org:443/live/gurmeet/gurmeet/388875.ts
+#EXTINF:-1 tvg-id="" tvg-name="MY Animal Planet" tvg-logo="" group-title="Knowledge",MY Animal Planet
+https://starshare.org:443/live/gurmeet/gurmeet/143010.ts
+#EXTINF:-1 tvg-id="" tvg-name="MY Cartoon Network" tvg-logo="" group-title="Kids",MY Cartoon Network
+https://starshare.org:443/live/gurmeet/gurmeet/143070.ts
+#EXTINF:-1 tvg-id="" tvg-name="MY Discovery Channel" tvg-logo="" group-title="Knowledge",MY Discovery Channel
+https://starshare.org:443/live/gurmeet/gurmeet/143083.ts
+#EXTINF:-1 tvg-id="" tvg-name="MY Discovery Science" tvg-logo="" group-title="Knowledge",MY Discovery Science
+https://starshare.org:443/live/gurmeet/gurmeet/143085.ts
+#EXTINF:-1 tvg-id="" tvg-name="MY National Geographic" tvg-logo="" group-title="Knowledge",MY National Geographic
+https://starshare.org:443/live/gurmeet/gurmeet/143122.ts
+#EXTINF:-1 tvg-id="" tvg-name="Cartoon Network FHD" tvg-logo="" group-title="Kids",Cartoon Network FHD
+https://starshare.org:443/live/gurmeet/gurmeet/148211.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK: Disney Channel" tvg-logo="" group-title="Kids",UK: Disney Channel
+https://starshare.org:443/live/gurmeet/gurmeet/271.ts
+#EXTINF:-1 tvg-id="" tvg-name="US: Cartoon Network" tvg-logo="" group-title="Kids",US: Cartoon Network
+https://starshare.org:443/live/gurmeet/gurmeet/951.ts
+#EXTINF:-1 tvg-id="" tvg-name="US: National Geographic" tvg-logo="" group-title="Knowledge",US: National Geographic
+https://starshare.org:443/live/gurmeet/gurmeet/17.ts
+#EXTINF:-1 tvg-id="" tvg-name="US: Animal Planet" tvg-logo="" group-title="Knowledge",US: Animal Planet
+https://starshare.org:443/live/gurmeet/gurmeet/950.ts
+#EXTINF:-1 tvg-id="starsportsfirst.in" tvg-name="CRI: Star Sports First" tvg-logo="https://i.ibb.co/FV8KN54/images-1.png" group-title="Sports",CRI: Star Sports First
+https://starshare.org:443/live/gurmeet/gurmeet/394272.ts
+#EXTINF:-1 tvg-id="zeeanmolcinema.in" tvg-name="IN: Zee Anmol Cinema" tvg-logo="" group-title="Movies",IN: Zee Anmol Cinema
+https://starshare.org:443/live/gurmeet/gurmeet/7065.ts
