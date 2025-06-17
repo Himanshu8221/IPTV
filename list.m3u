@@ -22,11 +22,29 @@ https://starshare.org:443/live/gurmeet/gurmeet/148211.ts
 https://starshare.org:443/live/gurmeet/gurmeet/271.ts
 #EXTINF:-1 tvg-id="" tvg-name="US: Cartoon Network" tvg-logo="" group-title="Kids",US: Cartoon Network
 https://starshare.org:443/live/gurmeet/gurmeet/951.ts
+#EXTINF:-1 tvg-id="ts1025" tvg-name="IN: COLORS CINEPLEX SUPERHITS" tvg-logo="https://www.lyngsat.com/logo/tv/cc/colors-cineplex-superhits-in.png" group-title="Movies",IN: COLORS CINEPLEX SUPERHITS
+https://starshare.org:443/live/gurmeet/gurmeet/172368.ts
 #EXTINF:-1 tvg-id="" tvg-name="US: National Geographic" tvg-logo="" group-title="Knowledge",US: National Geographic
 https://starshare.org:443/live/gurmeet/gurmeet/17.ts
 #EXTINF:-1 tvg-id="" tvg-name="US: Animal Planet" tvg-logo="" group-title="Knowledge",US: Animal Planet
 https://starshare.org:443/live/gurmeet/gurmeet/950.ts
 #EXTINF:-1 tvg-id="starsportsfirst.in" tvg-name="CRI: Star Sports First" tvg-logo="https://i.ibb.co/FV8KN54/images-1.png" group-title="Sports",CRI: Star Sports First
 https://starshare.org:443/live/gurmeet/gurmeet/394272.ts
+#EXTINF:-1 tvg-id="starsports1hdhindi.in" tvg-name="CRI: STAR SPORTS HINDI HD" tvg-logo="https://static.epg.best/in/StarSports1Hindi.in.png" group-title="Sports",CRI: STAR SPORTS HINDI HD
+https://starshare.org:443/live/gurmeet/gurmeet/211.ts
+#EXTINF:-1 tvg-id="starsports2hd.in" tvg-name="CRI: STAR SPORTS 2 HD" tvg-logo="https://i.ibb.co/LnKFDym/download-4.png" group-title="Sports",CRI: STAR SPORTS 2 HD
+https://starshare.org:443/live/gurmeet/gurmeet/239.ts
+#EXTINF:-1 tvg-id="ts244" tvg-name="IN: STAR BHARAT HD" tvg-logo="https://multireach.in/wp-content/uploads/2023/04/STAR-BHARAT-HD.png" group-title="Entertainment",IN: STAR BHARAT HD
+https://starshare.org:443/live/gurmeet/gurmeet/199.ts
+#EXTINF:-1 tvg-id="ts8" tvg-name="IN: STAR PLUS HD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d7/StarPlus_Logo.png" group-title="Entertainment",IN: STAR PLUS HD
+https://starshare.org:443/live/gurmeet/gurmeet/221.ts
+#EXTINF:-1 tvg-id="stargoldhd.in" tvg-name="IN: STAR GOLD HD" tvg-logo="https://q7h8x4g8.stackpathcdn.com/wp-content/uploads/2016/01/Star_Gold.png" group-title="Movies",IN: STAR GOLD HD
+https://starshare.org:443/live/gurmeet/gurmeet/194.ts
+#EXTINF:-1 tvg-id="stargoldselecthd.in" tvg-name="IN: STAR GOLD SELECT HD" tvg-logo="https://i.ibb.co/qkgW1nd/c0a0c8607691347e22942f2b86473199.png" group-title="Movies",IN: STAR GOLD SELECT HD
+https://starshare.org:443/live/gurmeet/gurmeet/210.ts
+#EXTINF:-1 tvg-id="zeecinemaindiahd.in" tvg-name="IN: ZEE CINEMA HD" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/zee-cinema-white.png" group-title="Movies",IN: ZEE CINEMA HD
+https://starshare.org:443/live/gurmeet/gurmeet/230.ts
+#EXTINF:-1 tvg-id="andpictureshd.in" tvg-name="IN: & PICTURES HD" tvg-logo="https://www.zeeentertainment.com/wp-content/uploads/2020/04/pictures-HD.png" group-title="Movies",IN: & PICTURES HD
+https://starshare.org:443/live/gurmeet/gurmeet/231.ts
 #EXTINF:-1 tvg-id="zeeanmolcinema.in" tvg-name="IN: Zee Anmol Cinema" tvg-logo="" group-title="Movies",IN: Zee Anmol Cinema
 https://starshare.org:443/live/gurmeet/gurmeet/7065.ts
