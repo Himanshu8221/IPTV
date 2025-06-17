@@ -32,6 +32,10 @@ http://watchindia.net:8880/live/79527/25638/801.ts
 http://watchindia.net:8880/live/79527/25638/2264.ts
 #EXTINF:-1 tvg-id="colorshd.uk" tvg-name="Colors TV HD UK" tvg-logo="https://watchindia.net/images/channels/hindi/Colors_TV_HD.png" group-title="Entertainment",Colors TV HD UK
 http://watchindia.net:8880/live/79527/25638/2187.ts
+#EXTINF:-1 tvg-id="sonyhd.in" tvg-name="Sony TV HD (1)" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_TV_HD.png" group-title="Entertainment",Sony TV HD (1)
+http://watchindia.net:8880/live/79527/25638/1969.ts
+#EXTINF:-1 tvg-id="sonyhd.in" tvg-name="Sony TV HD (2)" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_TV_HD.png" group-title="Entertainment",Sony TV HD (2)
+http://watchindia.net:8880/live/79527/25638/2141.ts
 #EXTINF:-1 tvg-id="sonymax.in" tvg-name="Sony Max 2" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_Max_2.png" group-title="Movies",Sony Max 2
 http://watchindia.net:8880/live/79527/25638/2024.ts
 #EXTINF:-1 tvg-id="sonymaxhd.in" tvg-name="Sony Max HD" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_Max_HD.png" group-title="Movies",Sony Max HD
@@ -42,6 +46,8 @@ http://watchindia.net:8880/live/79527/25638/2323.ts
 http://watchindia.net:8880/live/79527/25638/812.ts
 #EXTINF:-1 tvg-id="sonywah.in" tvg-name="Sony Wah" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_Wah.png" group-title="Movies",Sony Wah
 http://watchindia.net:8880/live/79527/25638/814.ts
+#EXTINF:-1 tvg-id="sonyyay.in" tvg-name="Sony Yay" tvg-logo="https://watchindia.net/images/channels/kids/Sony_Yay.png" group-title="Kids",Sony Yay
+http://watchindia.net:8880/live/79527/25638/2104.ts
 #EXTINF:-1 tvg-id="starbharathd.in" tvg-name="Star Bharat HD" tvg-logo="https://watchindia.net/images/channels/hindi/Star_Bharat_HD.png" group-title="Entertainment",Star Bharat HD
 http://watchindia.net:8880/live/79527/25638/780.ts
 #EXTINF:-1 tvg-id="stargoldhd.in" tvg-name="Star Gold HD" tvg-logo="https://watchindia.net/images/channels/hindi/Star_Gold_HD.png" group-title="Movies",Star Gold HD
@@ -50,6 +56,8 @@ http://watchindia.net:8880/live/79527/25638/785.ts
 http://watchindia.net:8880/live/79527/25638/784.ts
 #EXTINF:-1 tvg-id="starplushd.in" tvg-name="Star Plus HD" tvg-logo="https://watchindia.net/images/channels/hindi/Star_Plus_HD.png" group-title="Entertainment",Star Plus HD
 http://watchindia.net:8880/live/79527/25638/1924.ts
+#EXTINF:-1 tvg-id="starutsav.in" tvg-name="Star Utsav" tvg-logo="https://watchindia.net/images/channels/hindi/Star_Utsav.png" group-title="Entertainment",Star Utsav
+http://watchindia.net:8880/live/79527/25638/2493.ts
 #EXTINF:-1 tvg-id="andpictureshd.in" tvg-name="& Pictures HD" tvg-logo="https://watchindia.net/images/channels/hindi/AndPictures_HD.png" group-title="Movies",& Pictures HD
 http://watchindia.net:8880/live/79527/25638/783.ts
 #EXTINF:-1 tvg-id="andtvhd.in" tvg-name="& TV HD" tvg-logo="https://watchindia.net/images/channels/hindi/And_TV_HD.png" group-title="Entertainment",& TV HD
@@ -60,6 +68,8 @@ http://watchindia.net:8880/live/79527/25638/803.ts
 http://watchindia.net:8880/live/79527/25638/841.ts
 #EXTINF:-1 tvg-id="historytv18hd.in" tvg-name="History TV18 HD" tvg-logo="https://watchindia.net/images/channels/hindi/History_TV_HD.png" group-title="Knowledge",History TV18 HD
 http://watchindia.net:8880/live/79527/25638/791.ts
+#EXTINF:-1 tvg-id="nick.in" tvg-name="Nick Hindi" tvg-logo="https://watchindia.net/images/channels/hindi/Nick_Hindi.png" group-title="Kids",Nick Hindi
+http://watchindia.net:8880/live/79527/25638/2182.ts
 #EXTINF:-1 tvg-id="cartoonnetworkhd.in" tvg-name="Cartoon Network HD+" tvg-logo="http://watchindia.net/images/channels/hindi/CN_HD+.png" group-title="Kids",Cartoon Network HD+
 http://watchindia.net:8880/live/79527/25638/2718.ts
 #EXTINF:-1 tvg-id="zeeaction.in" tvg-name="Zee Action" tvg-logo="https://watchindia.net/images/channels/hindi/Zee_Action.png" group-title="Movies",Zee Action
