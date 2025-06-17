@@ -66,7 +66,7 @@ def save_m3u(categorized, output_path="list.m3u"):
 def auto_git_push(filepath):
     try:
         subprocess.run(["git", "add", filepath], check=True)
-        subprocess.run(["git", "commit", "-m", "Auto-update extracted_channels.m3u"], check=True)
+        subprocess.run(["git", "commit", "-m", "Auto-update list.m3u"], check=True)
         subprocess.run(["git", "push"], check=True)
         print("🚀 Changes pushed to GitHub.")
     except subprocess.CalledProcessError as e:
@@ -79,7 +79,7 @@ def main():
     try:
         m3u_data = fetch_m3u(M3U_URL)
         categorized = categorize_channels(m3u_data)
-        output_file = "extracted_channels.m3u"
+        output_file = "list.m3u"
         save_m3u(categorized, output_file)
         auto_git_push(output_file)
     except Exception as e:
