@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ✅ M3U URL (edit if needed or provide via .env file)
-M3U_URL = os.getenv("M3U_URL", "http://starshare.org:80/get.php?username=gurmeet&password=gurmeet&type=m3u_plus&output=mpegts")
+M3U_URL = os.getenv("M3U_URL")
 
 # ✅ Output filename
 OUTPUT_FILE = "list.m3u"
