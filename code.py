@@ -15,8 +15,8 @@ CATEGORIES = {
     "Entertainment": [
         "Star Plus", "Star Plus HD", "Star Bharat", "Star Bharat HD", "Sony TV", "Sony TV HD", "Sony SAB", 
         "Sony SAB HD", "Colors TV", "Colors TV HD","Zee TV", "Zee TV HD", "Zee Anmol", "Sony Pal", "& TV", 
-        "& TV HD", "STAR PLUS", "STAR PLUS HD", "STAR BHARAT", "STAR BHARAT HD", "SONY TV", "SONY TV HD", 
-        "SONY SAB", "SONY SAB HD", "COLORS TV", "COLORS TV HD","ZEE TV", "ZEE TV HD", "ZEE ANMOL", "SONY PAL"
+        "& TV HD", "STAR PLUS", "STAR PLUS HD", "STAR BHARAT", "STAR BHARAT HD", "SONY TV", "SONY TV HD", "COLORS (FHD)",
+        "SONY SAB", "SONY SAB HD", "COLORS TV", "COLORS TV HD","ZEE TV", "ZEE TV HD", "ZEE ANMOL", "SONY PAL", "SONY HD", "COLOR HD", "COLORS FHD", 
  ],
     "Movies": [
         "Star Gold", "Star Gold HD", "Star Gold Select", "Star Gold Select HD", "Zee Cinema", "Zee Cinema HD", "Zee Action", "Zee Bollywood", "Zee Classic",
