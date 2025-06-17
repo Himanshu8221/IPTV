@@ -14,16 +14,16 @@ M3U_URL = os.getenv("M3U_URL")
 CATEGORIES = {
     "Entertainment": [
         "Star Plus", "Star Plus HD", "Star Bharat", "Star Bharat HD", "Sony TV", "Sony TV HD", "Sony SAB", "Sony TV HD (1)", "Sony TV HD (2)",
-        "IN | Sony SAB HD", "Sony sab HD", "Colors TV", "Colors TV HD","Zee TV", "Zee TV HD", "Zee Anmol", "Sony Pal", "& TV", 
-        "& TV HD", "STAR PLUS", "STAR PLUS HD", "STAR BHARAT", "STAR BHARAT HD", "SONY TV", "SONY TV HD", "COLORS (FHD)", "Star Utsav",
-        "IN | SONY SAB", "SONY SAB HD", "COLORS TV", "COLORS TV HD","ZEE TV", "ZEE TV HD", "ZEE ANMOL", "SONY PAL", "SONY HD", "COLOR HD", "COLORS FHD"
+        "Sony SAB HD", "Sony sab HD", "Colors TV", "Colors TV HD","IN | Zee TV", "Zee TV HD", "Zee Anmol", "Sony Pal", "IN | & TV", 
+        "& TV HD", "IN | STAR PLUS", "STAR PLUS HD", "STAR BHARAT", "STAR BHARAT HD", "SONY TV", "SONY TV HD", "COLORS (FHD)", "Star Utsav",
+        "IN | SONY SAB", "SONY SAB HD", "COLORS TV", "COLORS TV HD","ZEE TV", "ZEE TV HD", "ZEE ANMOL", "SONY PAL", "SONY HD", "COLOR HD", "COLORS FHD", "IN | SONY SET HD"
  ],
     "Movies": [
         "Star Gold", "Star Gold HD", "Star Gold Select", "Star Gold Select HD", "Zee Cinema", "Zee Cinema HD", "Zee Action", "Zee Bollywood", "Zee Classic",
         "Sony Max", "Sony Max HD", "Sony Max 2", "Sony Wah", "Colors Cineplex", "Colors Cineplex HD", "Colors Cineplex Superhits", "& pictures", "& pictures HD",
-        "UTV Movies", "UTV Action", "B4U Movies", "Zee Anmol Cinema", "STAR GOLD", "STAR GOLD HD", "STAR GOLD SELECT", "STAR GOLD SELECT HD", "ZEE CINEMA", 
+        "UTV Movies", "UTV Action", "B4U Movies", "Zee Anmol Cinema", "IN | STAR GOLD", "STAR GOLD HD", "STAR GOLD SELECT", "STAR GOLD SELECT HD", "ZEE CINEMA", 
         "ZEE CINEMA HD", "ZEE ACTION", "ZEE BOLLYWOOD", "ZEE CLASSIC", "SONY MAX", "SONY MAX HD", "SONY MAX 2", "SONY WAH", "COLORS CINEPLEX", 
-        "COLORS CINEPLEX HD", "COLORS CINEPLEX SUPERHITS", "& PICTURES", "& PICTURES HD","UTV MOVIES", "UTV ACTION", "B4U MOVIES", "ZEE ANMOL CINEMA"
+        "COLORS CINEPLEX HD", "COLORS CINEPLEX SUPERHITS", "IN | & PICTURES", "& PICTURES HD","UTV MOVIES", "UTV ACTION", "B4U MOVIES", "ZEE ANMOL CINEMA"
 ],
     "Kids": [
         "Cartoon Network", "Pogo", "Hungama TV", "Disney Channel", "Nick", "Nick HD+", "Discovery Kids", "Nick Hindi", "Sony Yay"
