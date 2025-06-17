@@ -9,16 +9,12 @@ from dotenv import load_dotenv
 # ✅ Load environment variables
 load_dotenv()
 
-# ✅ M3U URL (edit if needed or provide via .env file)
+# ✅ M3U URL from .env or fallback default
 M3U_URL = os.getenv("M3U_URL", "http://starshare.org:80/get.php?username=gurmeet&password=gurmeet&type=m3u_plus&output=mpegts")
-
-# ✅ Output filename
 OUTPUT_FILE = "list.m3u"
-
-# ✅ Git commit message
 COMMIT_MESSAGE = "Update filtered M3U playlist"
 
-# ✅ Channel categories
+# ✅ Selected channels by category
 entertainment_channels = [
     "Star Plus", "Star Plus HD", "Star Plus FHD", "Star Plus\\(FHD\\)", "Star Plus 4K",
     "Star Bharat", "Star Bharat HD", "Star Bharat FHD", "Star Bharat\\(FHD\\)", "Star Bharat 4K",
@@ -42,7 +38,8 @@ kids_channels = [
 ]
 
 knowledge_channels = [
-    "Sony BBC Earth HD", "Discovery Channel", "Discovery HD", "Discovery Science", "National Geographic", "National Geographic HD", "History TV18", "Animal Planet", "Animal Planet HD"
+    "Sony BBC Earth HD", "Discovery Channel", "Discovery HD", "Discovery Science",
+    "National Geographic", "National Geographic HD", "History TV18", "Animal Planet", "Animal Planet HD"
 ]
 
 sports_channels = [
@@ -60,7 +57,6 @@ categories = {
     "Sports": sports_channels
 }
 
-
 def fetch_m3u(url):
     try:
         print("📡 Fetching M3U content...")
@@ -71,41 +67,39 @@ def fetch_m3u(url):
         print(f"❌ Failed to fetch M3U: {e}")
         sys.exit(1)
 
-
 def filter_m3u(content):
-    print("🔍 Filtering and categorizing channels...")
+    print("🔍 Filtering and categorizing channels (only selected ones)...")
     lines = content.splitlines()
     filtered = []
-    for i in range(len(lines)):
+
+    i = 0
+    while i < len(lines):
         if lines[i].startswith("#EXTINF"):
-            line = lines[i]
+            extinf = lines[i]
             url = lines[i + 1] if i + 1 < len(lines) else ""
+            matched = False
 
             for category, channel_list in categories.items():
                 for channel in channel_list:
-                    if re.search(channel, line, re.IGNORECASE):
-                        # Set or replace group-title
-                        if 'group-title="' in line:
-                            line = re.sub(r'group-title="[^"]+"', f'group-title="{category}"', line)
-                        else:
-                            line = line.replace("#EXTINF:", f'#EXTINF: group-title="{category}",')
-
-                        filtered.append(line)
+                    if re.search(rf'\b{channel}\b', extinf, re.IGNORECASE):
+                        # Remove old group-title and set new one
+                        extinf = re.sub(r'group-title="[^"]+"', '', extinf)
+                        extinf = re.sub(r'#EXTINF:[^,]*,', f'#EXTINF:-1 group-title="{category}",', extinf)
+                        filtered.append(extinf)
                         filtered.append(url)
+                        matched = True
                         break
-                else:
-                    continue
-                break
+                if matched:
+                    break
+        i += 1
 
-    print(f"✅ Filtered and categorized {len(filtered)//2} channels.")
+    print(f"✅ Filtered and categorized {len(filtered) // 2} channels.")
     return "#EXTM3U\n" + "\n".join(filtered)
-
 
 def save_file(content, path):
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
     print(f"💾 Saved filtered list to {path}")
-
 
 def git_push(repo_path, filename, message):
     if not os.path.isdir(os.path.join(repo_path, ".git")):
@@ -127,18 +121,12 @@ def git_push(repo_path, filename, message):
         print(f"❌ Git error: {e}")
         sys.exit(1)
 
-
 def main():
     m3u_content = fetch_m3u(M3U_URL)
     filtered = filter_m3u(m3u_content)
-
-    repo_path = Path.cwd()
-    output_path = repo_path / OUTPUT_FILE
-
+    output_path = Path.cwd() / OUTPUT_FILE
     save_file(filtered, output_path)
-    git_push(str(repo_path), OUTPUT_FILE, COMMIT_MESSAGE)
-
+    git_push(str(Path.cwd()), OUTPUT_FILE, COMMIT_MESSAGE)
 
 if __name__ == "__main__":
     main()
-    
