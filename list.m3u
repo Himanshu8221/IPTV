@@ -1,18 +1,38 @@
 #EXTM3U
-#EXTINF:-1 group-title="Entertainment",IND: COLORS UK HD
-https://fifabd.site/OPLLX9/play.php?id=382230&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Entertainment",IND: COLORS RISHTEY UK
-https://fifabd.site/OPLLX9/play.php?id=382229&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Entertainment",IND: COLORS CINEPLEX UK
+#EXTINF:-1 group-title="Kids",IND: TG: SONIC TELUGU
+https://fifabd.site/OPLLX9/play.php?id=382279&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Movies",IND: COLORS CINEPLEX UK
 https://fifabd.site/OPLLX9/play.php?id=382228&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Movies",IND: STAR GOLD UK
 https://fifabd.site/OPLLX9/play.php?id=382224&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Movies",UK: ZEE CINEMA
+https://fifabd.site/OPLLX9/play.php?id=382223&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Movies",UK: SONY MAX UK
+https://fifabd.site/OPLLX9/play.php?id=382219&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Movies",UK: SONY MAX 2 UK
+https://fifabd.site/OPLLX9/play.php?id=382218&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Entertainment",IND: STAR PLUS UK 
 https://fifabd.site/OPLLX9/play.php?id=382216&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Entertainment",IND: STAR BHARAT UK
 https://fifabd.site/OPLLX9/play.php?id=382215&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Entertainment",COLORS (4K)
-https://fifabd.site/OPLLX9/play.php?id=109947&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Entertainment",IN-KN | ZEE TV KANNADA
+https://fifabd.site/OPLLX9/play.php?id=381202&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",IND: TG: NATIONAL GEOGRAPHIC FHD
+https://fifabd.site/OPLLX9/play.php?id=381139&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",IND: TG: DISCOVERY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=381095&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",IN-TM | DISCOVERY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=381020&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",IN-TM | SONIC
+https://fifabd.site/OPLLX9/play.php?id=380965&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",IN-TM | HISTORY TV18 FHD
+https://fifabd.site/OPLLX9/play.php?id=380960&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",IN-MY | ONE TV
+https://fifabd.site/OPLLX9/play.php?id=380875&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",IN-MAR | SONIC
+https://fifabd.site/OPLLX9/play.php?id=380860&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",IN-MAR | SONIC NICKELODEON
+https://fifabd.site/OPLLX9/play.php?id=380828&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Entertainment",STAR PLUS (4K)
 https://fifabd.site/OPLLX9/play.php?id=109949&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Entertainment",ZEE TV (4K)
@@ -29,32 +49,16 @@ https://fifabd.site/OPLLX9/play.php?id=109958&|User-Agent=RANAPK
 https://fifabd.site/OPLLX9/play.php?id=109959&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Movies",STAR GOLD SELECT (4K)
 https://fifabd.site/OPLLX9/play.php?id=109960&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Knowledge",ANIMAL PLANET (4K)
-https://fifabd.site/OPLLX9/play.php?id=109975&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Entertainment",IN: COLORS CINEPLEX (4K)
+#EXTINF:-1 group-title="Movies",IN: COLORS CINEPLEX (4K)
 https://fifabd.site/OPLLX9/play.php?id=206315&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Knowledge",IND: ANIMAL PLANET HINDI
-https://fifabd.site/OPLLX9/play.php?id=206282&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Knowledge",IN: ANIMAL PLANET FHD ENG
-https://fifabd.site/OPLLX9/play.php?id=206283&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Knowledge",IND: DISCOVERY SCIENCE
 https://fifabd.site/OPLLX9/play.php?id=206289&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Sports",SONY TEN 1 (4K)
-https://fifabd.site/OPLLX9/play.php?id=109983&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Sports",SONY TEN 2 (4K)
-https://fifabd.site/OPLLX9/play.php?id=109984&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Sports",SONY TEN 3 (4K)
 https://fifabd.site/OPLLX9/play.php?id=109985&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Sports",STAR SPORTS 1 (4K)
-https://fifabd.site/OPLLX9/play.php?id=109987&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Sports",STAR SPORTS 2 (4K)
-https://fifabd.site/OPLLX9/play.php?id=109988&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Sports",SONY SIX (4K)
-https://fifabd.site/OPLLX9/play.php?id=109992&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Sports",STAR SPORTS SELECT 1 (4K)
-https://fifabd.site/OPLLX9/play.php?id=109993&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Sports",STAR SPORTS SELECT 2 (4K)
-https://fifabd.site/OPLLX9/play.php?id=109994&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Entertainment",|UK| ZEE TV UK
+https://fifabd.site/OPLLX9/play.php?id=222826&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Entertainment",|UK| SONY TV UK
+https://fifabd.site/OPLLX9/play.php?id=222827&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Entertainment",|UK| SONY SAB
 https://fifabd.site/OPLLX9/play.php?id=222828&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Entertainment",IN | ZEE TV
@@ -69,12 +73,6 @@ https://fifabd.site/OPLLX9/play.php?id=221252&|User-Agent=RANAPK
 https://fifabd.site/OPLLX9/play.php?id=66166&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Entertainment",IN | STAR PLUS FHD
 https://fifabd.site/OPLLX9/play.php?id=66208&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Entertainment",IN | COLORS
-https://fifabd.site/OPLLX9/play.php?id=221254&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Entertainment",IN | COLORS HD
-https://fifabd.site/OPLLX9/play.php?id=66167&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Entertainment",IN | COLORS [FHD]
-https://fifabd.site/OPLLX9/play.php?id=66168&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Entertainment",IN | STAR BHARAT
 https://fifabd.site/OPLLX9/play.php?id=221255&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Entertainment",IN | STAR BHARAT HD
@@ -113,9 +111,9 @@ https://fifabd.site/OPLLX9/play.php?id=206308&|User-Agent=RANAPK
 https://fifabd.site/OPLLX9/play.php?id=206268&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Movies",IN: STAR GOLD ROMANCE
 https://fifabd.site/OPLLX9/play.php?id=66186&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Entertainment",IN: COLORS CINEPLEX
+#EXTINF:-1 group-title="Movies",IN: COLORS CINEPLEX
 https://fifabd.site/OPLLX9/play.php?id=104191&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Entertainment",IN: COLORS CINEPLEX FHD
+#EXTINF:-1 group-title="Movies",IN: COLORS CINEPLEX FHD
 https://fifabd.site/OPLLX9/play.php?id=206310&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Movies",IN | SONY MAX (TATAPLAY)
 https://fifabd.site/OPLLX9/play.php?id=221259&|User-Agent=RANAPK
@@ -127,16 +125,10 @@ https://fifabd.site/OPLLX9/play.php?id=66180&|User-Agent=RANAPK
 https://fifabd.site/OPLLX9/play.php?id=66189&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Entertainment",IN | ZEE ANMOL CINEMA
 https://fifabd.site/OPLLX9/play.php?id=66187&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Entertainment",IN | COLORS RISHTEY
-https://fifabd.site/OPLLX9/play.php?id=66188&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Movies",IN | ZEE ACTION
 https://fifabd.site/OPLLX9/play.php?id=66191&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Movies",IN | ZEE CLASSIC
-https://fifabd.site/OPLLX9/play.php?id=66201&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Entertainment",IN | SONY PAL
 https://fifabd.site/OPLLX9/play.php?id=104192&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Movies",IND: B4U MOVIES
-https://fifabd.site/OPLLX9/play.php?id=104201&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Entertainment",IN | ZEE ANMOL
 https://fifabd.site/OPLLX9/play.php?id=66357&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Movies",IN: |UK| ZEE CINEMA UK
@@ -145,55 +137,241 @@ https://fifabd.site/OPLLX9/play.php?id=112970&|User-Agent=RANAPK
 https://fifabd.site/OPLLX9/play.php?id=112976&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Movies",IN | SONY WAH
 https://fifabd.site/OPLLX9/play.php?id=112979&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Entertainment",IND: COLORS CINEPLEX BOLLYWOOD
+#EXTINF:-1 group-title="Movies",IND: COLORS CINEPLEX BOLLYWOOD
 https://fifabd.site/OPLLX9/play.php?id=112983&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Movies",IND: ZEE CINEMA SD
 https://fifabd.site/OPLLX9/play.php?id=206271&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Movies",IN: ZEE BOLLYWOOD
-https://fifabd.site/OPLLX9/play.php?id=207200&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Kids",IN: CARTOON NETWORK
-https://fifabd.site/OPLLX9/play.php?id=150478&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Kids",IN: NICK
 https://fifabd.site/OPLLX9/play.php?id=150482&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Kids",IN: POGO
-https://fifabd.site/OPLLX9/play.php?id=150483&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Kids",IN: NICK SONIC
 https://fifabd.site/OPLLX9/play.php?id=34011&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Kids",NICK HD+ [FHD]
 https://fifabd.site/OPLLX9/play.php?id=76722&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Kids",DISCOVERY KIDS
-https://fifabd.site/OPLLX9/play.php?id=76723&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Kids",IN: DISNEY JUNIOR
-https://fifabd.site/OPLLX9/play.php?id=153175&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Kids",IN: CARTOON NETWORK HD+
-https://fifabd.site/OPLLX9/play.php?id=153154&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Kids",IND: NICK JUNIOR
 https://fifabd.site/OPLLX9/play.php?id=153156&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Sports",IN | SONY TEN 1 HD
-https://fifabd.site/OPLLX9/play.php?id=167570&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Sports",IN | SONY TEN 2 HD
-https://fifabd.site/OPLLX9/play.php?id=167571&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",AF | DSTV: DISNEY CHANNEL HD
+https://fifabd.site/OPLLX9/play.php?id=238527&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",AF | DSTV: NICK JR. HD
+https://fifabd.site/OPLLX9/play.php?id=238531&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",AF | DSTV: NATIONAL GEOGRAPHIC HD
+https://fifabd.site/OPLLX9/play.php?id=238539&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",AF | DSTV: NATIONAL GEOGRAPHIC WILD HD
+https://fifabd.site/OPLLX9/play.php?id=238540&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",AF | DSTV: DISCOVERY CHANNEL HD
+https://fifabd.site/OPLLX9/play.php?id=238542&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Sports",IN | SONY TEN 3 HD
 https://fifabd.site/OPLLX9/play.php?id=167572&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Sports",IN: SONY TEN 4
-https://fifabd.site/OPLLX9/play.php?id=167595&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Sports",IN: STAR SPORTS 1 HINDI
-https://fifabd.site/OPLLX9/play.php?id=167574&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Sports",IN | STAR SPORTS 1 HD
-https://fifabd.site/OPLLX9/play.php?id=167575&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Sports",IN | STAR SPORTS 2 HD
-https://fifabd.site/OPLLX9/play.php?id=167576&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Sports",IN | STAR SPORTS 3 HD
-https://fifabd.site/OPLLX9/play.php?id=167577&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Sports",IN | STAR SPORTS SELECT 1
-https://fifabd.site/OPLLX9/play.php?id=167578&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Sports",IN | STAR SPORTS SELECT 2
-https://fifabd.site/OPLLX9/play.php?id=167579&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Sports",IN | SONY TEN 5
-https://fifabd.site/OPLLX9/play.php?id=167580&|User-Agent=RANAPK
+https://fifabd.site/OPLLX9/play.php?id=167573&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Kids",24/7 SHIVA
 https://fifabd.site/OPLLX9/play.php?id=342074&|User-Agent=RANAPK
-#EXTINF:-1 group-title="Entertainment",IN: COLORS INFINITY FHD
-https://fifabd.site/OPLLX9/play.php?id=355571&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",UK: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=346215&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",UK: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=346254&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",UK: NICK JUNIOR
+https://fifabd.site/OPLLX9/play.php?id=346260&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",US: DISCOVERY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=346437&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",US: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=346438&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",US: NICK JUNIOR
+https://fifabd.site/OPLLX9/play.php?id=346455&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",US: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=346464&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",AL: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=347642&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Entertainment",AL: STAR PLUS
+https://fifabd.site/OPLLX9/play.php?id=347686&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",AL: SUPER SONIC TV
+https://fifabd.site/OPLLX9/play.php?id=347770&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",AR: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=348024&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",AR: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=348025&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",AR: NATIONAL GEOGRAPHIC
+https://fifabd.site/OPLLX9/play.php?id=348038&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",ARG: NICK JR
+https://fifabd.site/OPLLX9/play.php?id=348141&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",AT: NICK AUSTRIA
+https://fifabd.site/OPLLX9/play.php?id=348249&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",BIH: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=348418&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",BR: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=348478&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",BR: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=348491&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",BR: NICK CLASSICO
+https://fifabd.site/OPLLX9/play.php?id=348497&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",BR: NICK JUNIOR
+https://fifabd.site/OPLLX9/play.php?id=348498&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",BR: NICK JUNIOR CLUB
+https://fifabd.site/OPLLX9/play.php?id=348499&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",BG: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=348730&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",BG: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=348742&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",BG: NICK JR
+https://fifabd.site/OPLLX9/play.php?id=348746&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",CA: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=348857&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",CA: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=348866&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",CAR: NICK JUNIOR
+https://fifabd.site/OPLLX9/play.php?id=349065&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",HR: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=349330&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",HR: NICK JR
+https://fifabd.site/OPLLX9/play.php?id=349369&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",CZ: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=349455&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",CZ: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=349456&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",CZ: NICK JR
+https://fifabd.site/OPLLX9/play.php?id=349479&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",DK: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=349526&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",DK: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=349537&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",DK: NICK JR
+https://fifabd.site/OPLLX9/play.php?id=349541&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",EX-YU: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=349799&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",EX-YU: NICK JR
+https://fifabd.site/OPLLX9/play.php?id=349835&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",FI: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=349859&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",FI: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=349861&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",FI: NICK JUNIOR
+https://fifabd.site/OPLLX9/play.php?id=349873&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",FR: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=349887&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",FR: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=349915&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",FR: DISNEY CHANNEL +1
+https://fifabd.site/OPLLX9/play.php?id=349916&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",DE: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=350261&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",DE: NICK JUNIOR
+https://fifabd.site/OPLLX9/play.php?id=350266&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",DE: PLUTO TV NICK
+https://fifabd.site/OPLLX9/play.php?id=350270&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",DE: NICK EMMA EINFACH MAGISCH
+https://fifabd.site/OPLLX9/play.php?id=350319&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",GR: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=350597&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",HU: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=350778&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",HU: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=350856&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",ID: NICK JR
+https://fifabd.site/OPLLX9/play.php?id=351012&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",ID: NICK JR EN
+https://fifabd.site/OPLLX9/play.php?id=351013&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",IL: DISCOVERY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=351311&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",IL: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=351312&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",IL: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=351313&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",IT: DISCOVERY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=351416&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",IT: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=351417&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",IT: NICK JR
+https://fifabd.site/OPLLX9/play.php?id=351490&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",LA: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=351837&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",LA: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=351841&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",LA: NICK JR
+https://fifabd.site/OPLLX9/play.php?id=351893&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",MY: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=352101&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",MY: NICK JR
+https://fifabd.site/OPLLX9/play.php?id=352108&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",MX: DISCOVERY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=352125&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",MX: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=352127&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",MX: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=352137&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",NL: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=352305&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",NL: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=352315&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",NL: NICK JUNIOR
+https://fifabd.site/OPLLX9/play.php?id=352320&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",NO: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=352465&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",NO: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=352474&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",NO: NICK JR
+https://fifabd.site/OPLLX9/play.php?id=352476&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",PH: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=352613&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",PH: NICK JUNIOR
+https://fifabd.site/OPLLX9/play.php?id=352623&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",PL: DISCOVERY SCIENCE POLSKA
+https://fifabd.site/OPLLX9/play.php?id=352646&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",PL: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=352667&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",PL: NICK JUNIOR
+https://fifabd.site/OPLLX9/play.php?id=352672&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",PT: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=352853&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",PT: NICK JUNIOR
+https://fifabd.site/OPLLX9/play.php?id=352859&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",RO: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=353039&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",RO: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=353053&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",RO: NICK JUNIOR
+https://fifabd.site/OPLLX9/play.php?id=353056&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",RU: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=353211&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",RU: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=353222&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",RU: NICK JUNIOR
+https://fifabd.site/OPLLX9/play.php?id=353226&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Entertainment",RU: ZEE TV RUSSIA
+https://fifabd.site/OPLLX9/play.php?id=353457&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",RS: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=353576&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",RS: NICK JUNIOR
+https://fifabd.site/OPLLX9/play.php?id=353591&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",SI: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=353803&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",ZA: DISCOVERY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=353879&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",ZA: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=353881&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",ZA: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=353882&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",ZA: NICK JUNIOR
+https://fifabd.site/OPLLX9/play.php?id=353928&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",ES: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=354054&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",ES: NICK JUNIOR
+https://fifabd.site/OPLLX9/play.php?id=354058&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",SE: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=354368&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",SE: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=354370&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",SE: NICK JR
+https://fifabd.site/OPLLX9/play.php?id=354389&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",CH: NICK JR
+https://fifabd.site/OPLLX9/play.php?id=354439&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",CH: NICK SCHWEIZ
+https://fifabd.site/OPLLX9/play.php?id=354440&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",TR: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=354621&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",TR: DISNEY CHANNEL
+https://fifabd.site/OPLLX9/play.php?id=354643&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Kids",TR: NICK JUNIOR
+https://fifabd.site/OPLLX9/play.php?id=354648&|User-Agent=RANAPK
+#EXTINF:-1 group-title="Knowledge",AE: DISCOVERY SCIENCE
+https://fifabd.site/OPLLX9/play.php?id=354899&|User-Agent=RANAPK
 #EXTINF:-1 group-title="Kids",KIDS: SONIC 24/7
 https://fifabd.site/OPLLX9/play.php?id=301500&|User-Agent=RANAPK
