@@ -1,21 +1,16 @@
-
-import requests
 import os
-import subprocess
-import sys
-import re
-from pathlib import Path
+import requests
 from dotenv import load_dotenv
+from collections import defaultdict
 
+# Load .env file
 load_dotenv()
 M3U_URL = os.getenv("M3U_URL")
-OUTPUT_FILE = "list.m3u"
-COMMIT_MESSAGE = "Update filtered M3U playlist"
 
-# ✅ Define exact channel match per category
-categories = {
+# Predefined categories
+CATEGORIES = {
     "Entertainment": [
-        "Star Plus", "Star Bharat", "Sony TV", "Sony SAB", "Colors TV", "Zee TV", "Zee Anmol", "Sony Pal", "& TV"
+        "Star Plus", "Star Plus HD", "Star Bharat", "Sony TV", "Sony SAB", "Colors TV", "Zee TV", "Zee Anmol", "Sony Pal", "& TV"
     ],
     "Movies": [
         "Star Gold", "Star Gold Select", "Zee Cinema", "Zee Action", "Zee Bollywood", "Zee Classic",
@@ -32,77 +27,53 @@ categories = {
     ]
 }
 
+# Download M3U content
 def fetch_m3u(url):
-    try:
-        print("📡 Fetching M3U content...")
-        response = requests.get(url, timeout=15)
-        response.raise_for_status()
+    print(f"Fetching M3U from {url}...")
+    response = requests.get(url)
+    if response.ok:
         return response.text
-    except Exception as e:
-        print(f"❌ Failed to fetch M3U: {e}")
-        sys.exit(1)
+    else:
+        raise Exception(f"Failed to fetch M3U: {response.status_code}")
 
-def filter_m3u(content):
-    print("🔍 Filtering for only allowed channels...")
-    lines = content.splitlines()
-    filtered = []
+# Categorize channels
+def categorize_channels(m3u_content):
+    categorized = defaultdict(list)
+    lines = m3u_content.splitlines()
+    i = 0
+    while i < len(lines):
+        if lines[i].startswith("#EXTINF:"):
+            channel_line = lines[i]
+            url_line = lines[i + 1] if i + 1 < len(lines) else ""
+            for category, names in CATEGORIES.items():
+                for name in names:
+                    if name.lower() in channel_line.lower():
+                        categorized[category].append(f"{channel_line}\n{url_line}")
+                        break
+            i += 2
+        else:
+            i += 1
+    return categorized
 
-    for i in range(len(lines)):
-        if lines[i].startswith("#EXTINF"):
-            line = lines[i]
-            url = lines[i + 1] if i + 1 < len(lines) else ""
-
-            name_match = re.search(r'tvg-name="([^"]+)"', line)
-            channel_name = name_match.group(1).strip() if name_match else ""
-
-            for category, channel_list in categories.items():
-                if any(ch.lower() in channel_name.lower() for ch in channel_list):
-                    # Update group-title
-                    if 'group-title="' in line:
-                        line = re.sub(r'group-title="[^"]+"', f'group-title="{category}"', line)
-                    else:
-                        line = line.replace("#EXTINF:", f'#EXTINF: group-title="{category}",')
-                    filtered.append(line)
-                    filtered.append(url)
-                    break  # Only first matched category is used
-
-    print(f"✅ Kept {len(filtered)//2} matched channels.")
-    return "#EXTM3U\n" + "\n".join(filtered)
-
-def save_file(content, path):
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(content)
-    print(f"💾 Saved filtered list to {path}")
-
-def git_push(repo_path, filename, message):
-    if not os.path.isdir(os.path.join(repo_path, ".git")):
-        print("❌ Not a Git repository. Please initialize with `git init`.")
-        sys.exit(1)
-
-    try:
-        os.chdir(repo_path)
-        subprocess.run(["git", "config", "user.name", "Himanshu8221"], check=True)
-        subprocess.run(["git", "config", "user.email", "Himanshusingh8527186817@gmail.com"], check=True)
-
-        subprocess.run(["git", "pull"], check=True)
-        subprocess.run(["git", "add", filename], check=True)
-        subprocess.run(["git", "commit", "-m", message], check=True)
-        subprocess.run(["git", "push"], check=True)
-
-        print("🚀 Pushed to GitHub successfully.")
-    except subprocess.CalledProcessError as e:
-        print(f"❌ Git error: {e}")
-        sys.exit(1)
+# Save categorized channels
+def save_m3u(categorized, output_path="list.m3u"):
+    with open(output_path, "w", encoding="utf-8") as f:
+        for category, entries in categorized.items():
+            f.write(f"# --- {category} Channels ---\n")
+            for entry in entries:
+                f.write(entry + "\n")
+    print(f"✅ Extracted channels saved to {output_path}")
 
 def main():
-    m3u_content = fetch_m3u(M3U_URL)
-    filtered = filter_m3u(m3u_content)
-
-    repo_path = Path.cwd()
-    output_path = repo_path / OUTPUT_FILE
-
-    save_file(filtered, output_path)
-    git_push(str(repo_path), OUTPUT_FILE, COMMIT_MESSAGE)
+    if not M3U_URL:
+        print("❌ M3U_URL is not set in the .env file.")
+        return
+    try:
+        m3u_data = fetch_m3u(M3U_URL)
+        categorized = categorize_channels(m3u_data)
+        save_m3u(categorized)
+    except Exception as e:
+        print(f"Error: {e}")
 
 if __name__ == "__main__":
     main()
