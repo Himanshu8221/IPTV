@@ -74,8 +74,6 @@ http://watchindia.net:8880/live/79527/25638/787.ts
 http://watchindia.net:8880/live/79527/25638/802.ts
 #EXTINF:-1 tvg-id="zeetvhd.in" tvg-name="Zee TV HD" tvg-logo="https://watchindia.net/images/channels/hindi/Zee_TV.png" group-title="Entertainment",Zee TV HD
 http://watchindia.net:8880/live/79527/25638/1970.ts
-#EXTINF:-1 tvg-id="zeecinemaluhd.in" tvg-name="Zee Cinemalu HD" tvg-logo="https://watchindia.net/images/channels/telugu/Zee_Cinemalu.png" group-title="Movies",Zee Cinemalu HD
-http://watchindia.net:8880/live/79527/25638/941.ts
 #EXTINF:-1 tvg-id="sonypixhd.in" tvg-name="Sony Pix HD" tvg-logo="https://watchindia.net/images/channels/english/Sony_Pix.png" group-title="Sports",Sony Pix HD
 http://watchindia.net:8880/live/79527/25638/2101.ts
 #EXTINF:-1 tvg-id="animalplanet.us" tvg-name="Animal Planet" tvg-logo="https://watchindia.net/images/channels/usa/Animal_Planet_HD.png" group-title="Knowledge",Animal Planet
