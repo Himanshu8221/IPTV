@@ -79,7 +79,7 @@ def categorize_and_rewrite(m3u_text):
         i += 1
     return "\n".join(output)
 
-def save_output(content, path="extracted_channels.m3u"):
+def save_output(content, path="list.m3u"):
     with open(path, "w", encoding="utf-8") as f:
         f.write(content + "\n")
     print(f"✅ Saved categorized playlist to {path}")
@@ -101,7 +101,7 @@ def main():
         m3u_text = fetch_m3u(M3U_URL)
         categorized = categorize_and_rewrite(m3u_text)
         save_output(categorized)
-        auto_git_push("extracted_channels.m3u")
+        auto_git_push("list.m3u")
     except Exception as e:
         print(f"💥 Error: {e}")
 
