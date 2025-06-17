@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/Himanshu8221/EPG/refs/heads/main/filtered_epg.xml"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/Himanshu8221/EPG/refs/heads/main/EPG-79527-25638.xml"
 #EXTINF:-1 tvg-id="starsports1hd.in" tvg-name="Star Sports 1 HD (1)" tvg-logo="https://watchindia.net/images/channels/sports/Star_Sports_1_HD.png" group-title="Sports",Star Sports 1 HD (1)
 http://watchindia.net:8880/live/79527/25638/2232.ts
 #EXTINF:-1 tvg-id="starsports1hd.in" tvg-name="Star Sports 1 HD (2)" tvg-logo="https://watchindia.net/images/channels/sports/Star_Sports_1_HD.png" group-title="Sports",Star Sports 1 HD (2)
