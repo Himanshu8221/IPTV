@@ -4,12 +4,13 @@ from dotenv import load_dotenv
 from collections import defaultdict
 from difflib import get_close_matches
 import subprocess
+import re
 
-# Load environment variables
+# Load .env variables
 load_dotenv()
 M3U_URL = os.getenv("M3U_URL")
 
-# Define channel categories by name
+# Define categories and channel names
 CATEGORIES = {
     "Entertainment": [
         "Star Plus", "Star Plus HD", "Star Bharat", "Sony TV", "Sony SAB", "Colors TV",
@@ -31,8 +32,8 @@ CATEGORIES = {
     ]
 }
 
-# Flatten for fuzzy matching
-ALL_KNOWN_CHANNELS = {
+# Flatten all channel names for matching
+CHANNEL_TO_CATEGORY = {
     name: category
     for category, names in CATEGORIES.items()
     for name in names
@@ -41,62 +42,60 @@ ALL_KNOWN_CHANNELS = {
 def fetch_m3u(url):
     print(f"📡 Fetching playlist from {url}")
     response = requests.get(url)
-    if response.status_code == 200:
-        return response.text
-    raise Exception(f"Failed to fetch M3U file. Status code: {response.status_code}")
+    response.raise_for_status()
+    return response.text
 
-def fuzzy_match(name):
-    matches = get_close_matches(name, ALL_KNOWN_CHANNELS.keys(), n=1, cutoff=0.85)
+def fuzzy_match(channel_name):
+    matches = get_close_matches(channel_name, CHANNEL_TO_CATEGORY.keys(), n=1, cutoff=0.85)
     return matches[0] if matches else None
 
-def categorize_channels(m3u_text):
-    categorized = defaultdict(list)
+def update_group_title(extinf_line, new_group):
+    # Replace group-title="..." with new category
+    if 'group-title="' in extinf_line:
+        return re.sub(r'group-title=".*?"', f'group-title="{new_group}"', extinf_line)
+    else:
+        # If group-title is missing, add it
+        return extinf_line.replace('#EXTINF:', f'#EXTINF:-1 group-title="{new_group}"', 1)
+
+def categorize_and_rewrite(m3u_text):
+    output = ["#EXTM3U\n"]
     lines = m3u_text.splitlines()
     i = 0
     while i < len(lines) - 1:
         if lines[i].startswith("#EXTINF"):
-            extinf = lines[i]
-            url = lines[i + 1]
-            try:
-                channel_name = extinf.split(",")[-1].strip()
-                match = fuzzy_match(channel_name)
-                if match:
-                    category = ALL_KNOWN_CHANNELS[match]
-                    categorized[category].append(f"{extinf}\n{url}")
-            except Exception as e:
-                print(f"Error processing line {i}: {e}")
-            i += 2
-        else:
-            i += 1
-    return categorized
+            extinf = lines[i].strip()
+            url = lines[i + 1].strip()
+            channel_name = extinf.split(",")[-1].strip()
+            matched_name = fuzzy_match(channel_name)
+            if matched_name:
+                category = CHANNEL_TO_CATEGORY[matched_name]
+                extinf = update_group_title(extinf, category)
+                output.append(extinf)
+                output.append(url)
+        i += 1
+    return "\n".join(output)
 
-def save_output(categorized, path="extracted_channels.m3u"):
+def save_output(content, path="extracted_channels.m3u"):
     with open(path, "w", encoding="utf-8") as f:
-        f.write("#EXTM3U\n\n")
-        for category in CATEGORIES.keys():
-            if category in categorized:
-                f.write(f"# --- {category} ---\n")
-                for item in categorized[category]:
-                    f.write(item + "\n")
-                f.write("\n")
-    print(f"✅ Channels categorized and saved to {path}")
+        f.write(content + "\n")
+    print(f"✅ Saved categorized playlist to {path}")
 
 def auto_git_push(filepath):
     try:
         subprocess.run(["git", "add", filepath], check=True)
-        subprocess.run(["git", "commit", "-m", "Auto-update extracted channels by name"], check=True)
+        subprocess.run(["git", "commit", "-m", "Updated playlist with categorized group-titles"], check=True)
         subprocess.run(["git", "push"], check=True)
-        print("🚀 Auto-pushed to GitHub.")
+        print("🚀 Changes pushed to GitHub.")
     except subprocess.CalledProcessError:
-        print("❌ Git push failed. Check your Git config.")
+        print("❌ Git push failed. Please check your setup.")
 
 def main():
     if not M3U_URL:
-        print("❌ M3U_URL not set in .env")
+        print("❌ M3U_URL not found in .env")
         return
     try:
         m3u_text = fetch_m3u(M3U_URL)
-        categorized = categorize_channels(m3u_text)
+        categorized = categorize_and_rewrite(m3u_text)
         save_output(categorized)
         auto_git_push("extracted_channels.m3u")
     except Exception as e:
