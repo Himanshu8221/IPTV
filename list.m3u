@@ -27,7 +27,7 @@ https://starshare.org:443/live/gurmeet/gurmeet/161.ts
 http://watchindia.net:8880/live/79527/25638/1970.ts
 
 # --- Sont SET ---
-#EXTINF:-1 tvg-id="setindia.com" tvg-name="Sony TV (1)" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_TV_HD.png" group-title="Entertainment",Sony TV HD (1)
+#EXTINF:-1 tvg-id="sonyhd.in" tvg-name="Sony TV (1)" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_TV_HD.png" group-title="Entertainment",Sony TV HD (1)
 https://fifabd.site/OPLLX5/play.php?id=221251&|User-Agent=RANAPK
 #EXTINF:-1 tvg-id="sonyhd.in" tvg-name="Sony TV HD (2)" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_TV_HD.png" group-title="Entertainment",Sony TV HD (2)
 https://starshare.org:443/live/gurmeet/gurmeet/144.ts
@@ -37,7 +37,7 @@ http://watchindia.net:8880/live/79527/25638/2141.ts
 # --- Sony SAB ---
 #EXTINF:-1 tvg-id="sonysabhd.in" tvg-name="Sony Sab HD (1)" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_Sab_HD.png" group-title="Entertainment",Sony Sab HD (1)
 https://fifabd.site/OPLLX5/play.php?id=221256&|User-Agent=RANAPK
-#EXTINF:-1 tvg-id="sonysabhd.in" tvg-name="Sony Sab HD (2)" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_Sab_HD.png" group-title="Entertainment",Sony Sab HD (2)
+#EXTINF:-1 tvg-id="" tvg-name="Sony Sab SD" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_Sab_HD.png" group-title="Entertainment",Sony Sab SD
 https://starshare.org:443/live/gurmeet/gurmeet/145.ts
 #EXTINF:-1 tvg-id="sonysabhd.in" tvg-name="Sony Sab HD (3)" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_Sab_HD.png" group-title="Entertainment",Sony Sab HD (3)
 https://fifabd.site/OPLLX5/play.php?id=66174&|User-Agent=RANAPK
