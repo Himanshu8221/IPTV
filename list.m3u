@@ -1,64 +1,148 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="zeetvhd.in" tvg-name="IN | Zee TV" tvg-logo="https://static.epg.best/sg/ZeeTV.sg.png" group-title="Entertainment",IN | Zee TV
-http://xott.live:8080/11224433/11224433/221250
-#EXTINF:-1 tvg-logo="https://www.indiantvinfo.com/media/2022/10/Sony-Entertainment-Television-HD-New-Logo.png" tvg-chno="56334" group-title="Entertainment",Sony TV HD
-https://pubads.g.doubleclick.net/ssai/event/HgaB-u6rSpGx3mo4Xu3sLw/master.m3u8
-#EXTINF:-1 tvg-id="starplushd.in" tvg-name="Star Plus" tvg-logo="https://static.epg.best/nz/StarPlusHindi.nz.png" group-title="Entertainment",Star Plus
-http://xott.live:8080/11224433/11224433/221252
-#EXTINF:-1 tvg-id="starsports1hd.in" tvg-name="IN | Star Sports 1 HD" tvg-logo="https://static.epg.best/cn/StarSports1.cn.png" group-title="Sports",IN | Star Sports 1 HD
-http://xott.live:8080/11224433/11224433/167575
-#EXTINF:-1 tvg-id="starsports2hd.in" tvg-name="IN | Star Sports 2 HD" tvg-logo="https://static.epg.best/in/StarSports2.in.png" group-title="Sports",IN | Star Sports 2 HD
-http://xott.live:8080/11224433/11224433/167576
-#EXTINF:-1 tvg-id="" tvg-name="IND: Discovery Science" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f8/DiscoveryChannel%28India%29Logo.png" group-title="Knowledge",IND: Discovery Science
-http://xott.live:8080/11224433/11224433/206289
-#EXTINF:-1 tvg-id="" tvg-name="Star Gold Select (4K)" tvg-logo="http://openboxv8s.com/india/star_gold_hd.jpg" group-title="Movies",Star Gold Select (4K)
-http://xott.live:8080/11224433/11224433/109960
-#EXTINF:-1 tvg-logo="http://sjpurcdnems02.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png" tvg-chno="575433" group-title="Movies",Sony Max HD
-https://dai.google.com/ssai/event/UcjHNJmCQ1WRlGKlZm73QA/master.m3u8
-#EXTINF:-1 tvg-chno="6744333" group-title="Movies",Sony Max HD
-http://144.217.70.181:9587/hin2/SONYMAXHD/playlist.m3u8?token=test
-#EXTINF:-1 tvg-chno="6753332" group-title="Movies",Sony Max2 HD
-#EXTINF:-1 tvg-logo="http://sjpurcdnems02.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pal.png" tvg-chno="30000998" group-title="Sony LIV 2",Sony pal HD
-#EXTINF:-1 tvg-logo="https://www.indiantvinfo.com/media/2022/10/Sony-MAX-HD-New-Logo.png" tvg-chno="6" group-title="Movies",Sony Max HD
-#EXTINF:-1 tvg-id="ColorsRishteyAsia.in" tvg-logo="https://i.imgur.com/YKWfMZo.png" group-title="Undefined",Colors Rishtey Asia (1080p)
-#EXTINF:-1 tvg-chno="46444" group-title="Kids",Discovery kids
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01448-samsungin-discoverykids-samsungin/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://www.indiantvinfo.com/media/2022/10/Sony-Entertainment-Television-HD-New-Logo.png" tvg-chno="56334" group-title="Entertainment",Sony TV HD
-https://pubads.g.doubleclick.net/ssai/event/HgaB-u6rSpGx3mo4Xu3sLw/master.m3u8
-#EXTINF:-1 group-title="Entertainment"-1,&TV HD
-https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Andtvhd/default/andtvhd-audio_208482_und=208000-video=352400.m3u8
-#EXTINF:-1 group-title="Movies"-1,&PICTURES HD
-https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Andpictureshd/default/andpictureshd-audio_208482_und=208000-video=2137600.m3u8
+#EXTINF:-1 group-title="Knowledge"-1,ES: Discovery Channel
+http://tigerott.com:8080/75466423/74457211/299097
+#EXTINF:-1 group-title="Sports"-1,SONY TEN 1 HD
+http://tigerott.com:8080/75466423/74457211/527732
+#EXTINF:-1 group-title="Sports"-1,SONY TEN 3 HD
+http://tigerott.com:8080/75466423/74457211/527733
+#EXTINF:-1 group-title="Sports"-1,SONY TEN 5 HD
+http://tigerott.com:8080/75466423/74457211/527734
+#EXTINF:-1 group-title="Sports"-1,STAR SPORTS 1 HD
+http://tigerott.com:8080/75466423/74457211/75331
+#EXTINF:-1 group-title="Sports"-1,STAR SPORTS 1  (FHD)
+http://tigerott.com:8080/75466423/74457211/75291
+#EXTINF:-1 group-title="Sports"-1,STAR SPORTS 2 HD
+http://tigerott.com:8080/75466423/74457211/75293
+#EXTINF:-1 group-title="Sports"-1,STAR SPORTS 2  (FHD)
+http://tigerott.com:8080/75466423/74457211/75294
+#EXTINF:-1 group-title="Sports"-1,STAR SPORTS HINDI HD
+http://tigerott.com:8080/75466423/74457211/75296
+#EXTINF:-1 group-title="Sports"-1,STAR SPORTS HINDI (FHD)
+http://tigerott.com:8080/75466423/74457211/75297
+#EXTINF:-1 group-title="Sports"-1,STAR SPORTS 1 HINDI (4K)
+http://tigerott.com:8080/75466423/74457211/75298
+#EXTINF:-1 group-title="Sports"-1,SONY TEN 1 HD
+http://tigerott.com:8080/75466423/74457211/75305
+#EXTINF:-1 group-title="Sports"-1,SONY TEN 2 HD
+http://tigerott.com:8080/75466423/74457211/75306
+#EXTINF:-1 group-title="Sports"-1,SONY TEN 3 HD
+http://tigerott.com:8080/75466423/74457211/75307
+#EXTINF:-1 group-title="Sports"-1,SONY TEN 4 HD
+http://tigerott.com:8080/75466423/74457211/75345
+#EXTINF:-1 group-title="Sports"-1,SONY  TEN 5 HD
+http://tigerott.com:8080/75466423/74457211/75333
+#EXTINF:-1 group-title="Sports"-1,RTA SPORTS
+http://tigerott.com:8080/75466423/74457211/75335
+#EXTINF:-1 group-title="Sports"-1,STAR SPORTS 3
+http://tigerott.com:8080/75466423/74457211/75336
+#EXTINF:-1 group-title="Sports"-1,SPORTS 18 HD
+http://tigerott.com:8080/75466423/74457211/521334
+#EXTINF:-1 group-title="Sports"-1,STAR SPORTS 1 FHD (HINDI)
+http://tigerott.com:8080/75466423/74457211/521340
+#EXTINF:-1 group-title="Kids"-1,OSN Cartoon Network
+http://tigerott.com:8080/75466423/74457211/51614
+#EXTINF:-1 group-title="Entertainment"-1,COLORS HD
+http://tigerott.com:8080/75466423/74457211/84250
+#EXTINF:-1 group-title="Entertainment"-1,COLORS HD+
+http://tigerott.com:8080/75466423/74457211/84251
 #EXTINF:-1 group-title="Entertainment"-1,ZEE TV
-https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Zeetvhd/default/zeetvhd-audio_208482_und=208000-video=352400.m3u8
+http://tigerott.com:8080/75466423/74457211/84290
+#EXTINF:-1 group-title="Movies"-1,STAR MAA GOLD HD
+http://tigerott.com:8080/75466423/74457211/83892
+#EXTINF:-1 group-title="Entertainment"-1,ZEE TV SD
+http://tigerott.com:8080/75466423/74457211/83893
+#EXTINF:-1 group-title="Movies"-1,ZEE CINEMALU
+http://tigerott.com:8080/75466423/74457211/83923
+#EXTINF:-1 group-title="Movies"-1,ZEE CINEMALU HD
+http://tigerott.com:8080/75466423/74457211/83924
+#EXTINF:-1 group-title="Entertainment"-1,ZEE ANMOL
+http://tigerott.com:8080/75466423/74457211/86125
+#EXTINF:-1 group-title="Movies"-1,ZEE BOLLYWOOD
+http://tigerott.com:8080/75466423/74457211/86128
+#EXTINF:-1 group-title="Movies"-1,ZEE ACTION
+http://tigerott.com:8080/75466423/74457211/86129
+#EXTINF:-1 group-title="Movies"-1,SONY WAH
+http://tigerott.com:8080/75466423/74457211/86147
+#EXTINF:-1 group-title="Entertainment"-1,SONY PAL
+http://tigerott.com:8080/75466423/74457211/86153
+#EXTINF:-1 group-title="Movies"-1,ZEE CLASSIC
+http://tigerott.com:8080/75466423/74457211/86154
 #EXTINF:-1 group-title="Movies"-1,ZEE ANMOL CINEMA
-https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Zeeanmolcinema/default/zeeanmolcinema-audio_208482_und=208000-video=562400.m3u8
-#EXTINF:0 tvg-id="ZEETV.in" group-title="Entertainment",IN: Zee TV
-http://iptvs.life:8080/osec/c5176e377c82/1348
-#EXTINF:0 tvg-id="DiscoveryChannel.in" group-title="Knowledge",IN: Discovery Channel
-http://iptvs.life:8080/osec/c5176e377c82/295292
-#EXTINF:0 tvg-id="DiscoveryScience.in" group-title="Knowledge",IN: Discovery Science
-http://iptvs.life:8080/osec/c5176e377c82/1363
-#EXTINF:0 tvg-id="ext" group-title="Movies",IN: Star Gold Select
-http://iptvs.life:8080/osec/c5176e377c82/297547
-#EXTINF:0 tvg-id="StarSports1.in" group-title="Sports",IN: Star Sports 1
-http://iptvs.life:8080/osec/c5176e377c82/3630
-#EXTINF:0 tvg-id="StarSports2.in" group-title="Sports",IN: Star Sports 2
-http://103.123.169.206:8081/hls/potato-2.m3u8
-#EXTINF:-1 tvg-id="zeetvhd.in" tvg-name="IN | Zee TV" tvg-logo="https://static.epg.best/sg/ZeeTV.sg.png" group-title="Entertainment",IN | Zee TV
-http://xott.live:8080/11224433/11224433/221250
-#EXTINF:-1 tvg-id="zeetvhd.in" tvg-name="IN | Zee TV HD" tvg-logo="https://static.epg.best/sg/ZeeTV.sg.png" group-title="Entertainment",IN | Zee TV HD
-http://xott.live:8080/11224433/11224433/66162
-#EXTINF:-1 tvg-id="stargoldselecthd.in" tvg-name="IN | Star Gold Select" tvg-logo="https://static.epg.best/in/StarGoldSelect.in.png" group-title="Movies",IN | Star Gold Select
-http://xott.live:8080/11224433/11224433/221257
-#EXTINF:-1 tvg-id="stargoldselecthd.in" tvg-name="IN | Star Gold Select HD" tvg-logo="https://static.epg.best/in/StarGoldSelect.in.png" group-title="Movies",IN | Star Gold Select HD
-http://xott.live:8080/11224433/11224433/66176
-#EXTINF:-1 tvg-id="colorscineplexhd.in" tvg-name="IN: COLORS CINEPLEX" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8kp7b_-laBpBjH0VGRzxU5IgXS7qhzIkJIg&usqp=CAU" group-title="Movies",IN: COLORS CINEPLEX
-http://xott.live:8080/11224433/11224433/104191
-#EXTINF:-1 tvg-id="" tvg-name="IN: COLORS CINEPLEX FHD" tvg-logo="https://cdn.viacom18.com/stg/wp-content/uploads/2020/07/07184329/5ca20f401caacchannel-cineplex.png" group-title="Movies",IN: COLORS CINEPLEX FHD
-http://xott.live:8080/11224433/11224433/206310
-#EXTINF:-1 tvg-id="zeeanmolcinema.in" tvg-name="IN | Zee Anmol Cinema" tvg-logo="https://static.epg.best/in/ZeeAnmolCinema.in.png" group-title="Movies",IN | Zee Anmol Cinema
-http://xott.live:8080/11224433/11224433/66187
-#EXTINF:-1 tvg-id="colorsrishtey.in" tvg-name="IN: Color Cineplex SuperHits" tvg-logo="https://static.epg.best/in/RishteyCineplex.in.png" group-title="Movies",IN: Color Cineplex SuperHits
-http://xott.live:8080/11224433/11224433/66199
+http://tigerott.com:8080/75466423/74457211/86155
+#EXTINF:-1 group-title="Entertainment"-1,STAR PLUS
+http://tigerott.com:8080/75466423/74457211/86019
+#EXTINF:-1 group-title="Entertainment"-1,STAR PLUS HD
+http://tigerott.com:8080/75466423/74457211/86020
+#EXTINF:-1 group-title="Entertainment"-1,COLORS HD
+http://tigerott.com:8080/75466423/74457211/86023
+#EXTINF:-1 group-title="Entertainment"-1,SONY HD
+http://tigerott.com:8080/75466423/74457211/86026
+#EXTINF:-1 group-title="Entertainment"-1,ZEE TV
+http://tigerott.com:8080/75466423/74457211/86028
+#EXTINF:-1 group-title="Entertainment"-1,ZEE TV HD
+http://tigerott.com:8080/75466423/74457211/86029
+#EXTINF:-1 group-title="Entertainment"-1,SONY SAB HD
+http://tigerott.com:8080/75466423/74457211/86031
+#EXTINF:-1 group-title="Entertainment"-1,STAR BHARAT HD
+http://tigerott.com:8080/75466423/74457211/86033
+#EXTINF:-1 group-title="Entertainment"-1,& TV HD
+http://tigerott.com:8080/75466423/74457211/86035
+#EXTINF:-1 group-title="Entertainment"-1,STAR PLUS FHD
+http://tigerott.com:8080/75466423/74457211/86135
+#EXTINF:-1 group-title="Entertainment"-1,SONY SD
+http://tigerott.com:8080/75466423/74457211/86160
+#EXTINF:-1 group-title="Kids"-1,UK: Disney Channel
+http://tigerott.com:8080/75466423/74457211/87971
+#EXTINF:-1 group-title="Kids"-1,US: Cartoon Network
+http://tigerott.com:8080/75466423/74457211/87973
+#EXTINF:-1 group-title="Sports"-1,SONY PIX HD
+http://tigerott.com:8080/75466423/74457211/86056
+#EXTINF:-1 group-title="Movies"-1,SONY MAX HD
+http://tigerott.com:8080/75466423/74457211/86037
+#EXTINF:-1 group-title="Movies"-1,STAR GOLD HD
+http://tigerott.com:8080/75466423/74457211/86039
+#EXTINF:-1 group-title="Movies"-1,STAR GOLD SELECT HD
+http://tigerott.com:8080/75466423/74457211/86041
+#EXTINF:-1 group-title="Movies"-1,ZEE CINEMA HD
+http://tigerott.com:8080/75466423/74457211/86043
+#EXTINF:-1 group-title="Movies"-1,& PICTURES HD
+http://tigerott.com:8080/75466423/74457211/86044
+#EXTINF:-1 group-title="Movies"-1, STAR GOLD 2 HD
+http://tigerott.com:8080/75466423/74457211/86045
+#EXTINF:-1 group-title="Movies"-1,COLORS CINEPLEX (FHD)
+http://tigerott.com:8080/75466423/74457211/86050
+#EXTINF:-1 group-title="Movies"-1,COLORS CINEPLEX SUPERHITS
+http://tigerott.com:8080/75466423/74457211/86055
+#EXTINF:-1 group-title="Movies"-1, B4U MOVIES
+http://tigerott.com:8080/75466423/74457211/86130
+#EXTINF:-1 group-title="Movies"-1,SONY MAX 2
+http://tigerott.com:8080/75466423/74457211/86132
+#EXTINF:-1 group-title="Movies"-1,STAR GOLD SELECT (4K)
+http://tigerott.com:8080/75466423/74457211/86042
+#EXTINF:-1 group-title="Kids"-1,ID: Cartoon Network
+http://tigerott.com:8080/75466423/74457211/101067
+#EXTINF:-1 group-title="Kids"-1,ID: Disney Channel
+http://tigerott.com:8080/75466423/74457211/101091
+#EXTINF:-1 group-title="Knowledge"-1,YES Animal Planet
+http://tigerott.com:8080/75466423/74457211/541081
+#EXTINF:-1 group-title="Kids"-1,YES Disney Channel
+http://tigerott.com:8080/75466423/74457211/541086
+#EXTINF:-1 group-title="Kids"-1,UK: Cartoon Network
+http://tigerott.com:8080/75466423/74457211/100726
+#EXTINF:-1 group-title="Knowledge"-1,UK: Discovery Science
+http://tigerott.com:8080/75466423/74457211/100702
+#EXTINF:-1 group-title="Knowledge"-1,UK: Discovery Channel
+http://tigerott.com:8080/75466423/74457211/100704
+#EXTINF:-1 group-title="Knowledge"-1,UK: Discovery Science
+http://tigerott.com:8080/75466423/74457211/100706
+#EXTINF:-1 group-title="Knowledge"-1,UK: National Geographic
+http://tigerott.com:8080/75466423/74457211/109239
+#EXTINF:-1 group-title="Sports"-1,IN: STAR SPORTS 3
+http://tigerott.com:8080/75466423/74457211/431279
+#EXTINF:-1 group-title="Sports"-1,IN: STAR SPORTS 2
+http://tigerott.com:8080/75466423/74457211/431280
+#EXTINF:-1 group-title="Sports"-1,IN: STAR SPORTS 1
+http://tigerott.com:8080/75466423/74457211/431281
+#EXTINF:-1 group-title="Sports"-1,IN| Star Sports First
+http://tigerott.com:8080/75466423/74457211/431294
