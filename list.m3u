@@ -1,40 +1,64 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="" tvg-name="Cartoon Network" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/fa16ed0fe174c20405700a242d501eda.png" group-title="Kids",Cartoon Network
-http://aflaxtv.xyz:8080/F11721/6ddb91eb/210
-#EXTINF:-1 tvg-id="" tvg-name="Disney Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/bc864973b604dc0d8e16a24243fe0d02.png" group-title="Kids",Disney Channel
-http://aflaxtv.xyz:8080/F11721/6ddb91eb/1198
-#EXTINF:-1 tvg-id="" tvg-name="Disney Channel +1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-11/cd6e4ceaae299ab5405b27576c72869a.png" group-title="Kids",Disney Channel +1
-http://aflaxtv.xyz:8080/F11721/6ddb91eb/1927
-#EXTINF:-1 tvg-id="" tvg-name="Disney Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/9c99903730dcdd4202c8e2e14d9dfe3f.png" group-title="Kids",Disney Channel
-http://aflaxtv.xyz:8080/F11721/6ddb91eb/2456
-#EXTINF:-1 tvg-id="" tvg-name="Cartoon Network" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/7adf096442e7c93d2660b9edf0681524.png" group-title="Kids",Cartoon Network
-http://aflaxtv.xyz:8080/F11721/6ddb91eb/2450
-#EXTINF:-1 tvg-id="" tvg-name="Discovery Science" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/52c988727efb4d35bd19747f5b0da223.png" group-title="Knowledge",Discovery Science
-http://aflaxtv.xyz:8080/F11721/6ddb91eb/2454
-#EXTINF:-1 tvg-id="" tvg-name="Cartoon Network" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-01/399f714a24c104eafd6c38bf31ada101.svg" group-title="Kids",Cartoon Network
-http://aflaxtv.xyz:8080/F11721/6ddb91eb/193273
-#EXTINF:-1 tvg-id="" tvg-name="Cartoon Network" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/8d22efc9e80e82953c3f1ee26bb699e5.png" group-title="Kids",Cartoon Network
-http://aflaxtv.xyz:8080/F11721/6ddb91eb/720
-#EXTINF:-1 tvg-id="" tvg-name="Disney Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/b81b699ab1552f3c15dea79e34e5f017.png" group-title="Kids",Disney Channel
-http://aflaxtv.xyz:8080/F11721/6ddb91eb/1113
-#EXTINF:-1 tvg-id="" tvg-name="Animal Planet +1" tvg-logo="https://s3.i3ns.net:2053/cs/etc/blank-icon.png" group-title="Knowledge",Animal Planet +1
-http://aflaxtv.xyz:8080/F11721/6ddb91eb/165934
-#EXTINF:-1 tvg-id="" tvg-name="Discovery Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/15e5cd004d609028edf73514b493c1bf.png" group-title="Knowledge",Discovery Channel
-http://aflaxtv.xyz:8080/F11721/6ddb91eb/708
-#EXTINF:-1 tvg-id="" tvg-name="Discovery Channel [vip]" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-05/b3cbd1816a29f0bb80dc2f860c34cf01.png" group-title="Knowledge",Discovery Channel [vip]
-http://aflaxtv.xyz:8080/F11721/6ddb91eb/303862
-#EXTINF:-1 tvg-id="" tvg-name="Discovery Sci" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-07/4313043ba65ca16ab20dd8638da9b160.png" group-title="Knowledge",Discovery Sci
-http://aflaxtv.xyz:8080/F11721/6ddb91eb/300573
-#EXTINF:-1 tvg-id="" tvg-name="Discovery Science" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/e76011290ff4124502f1af1e6fb6e980.png" group-title="Knowledge",Discovery Science
-http://aflaxtv.xyz:8080/F11721/6ddb91eb/713
-#EXTINF:-1 tvg-id="" tvg-name="Cartoon Network" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/6562a84816a8995a0ad41c76cd6ff7be.png" group-title="Kids",Cartoon Network
-http://aflaxtv.xyz:8080/F11721/6ddb91eb/2286
-#EXTINF:-1 tvg-id="" tvg-name="Disney Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/239223919b68f1ddfee44002f2820718.png" group-title="Kids",Disney Channel
-http://aflaxtv.xyz:8080/F11721/6ddb91eb/2303
-#EXTINF:-1 tvg-id="" tvg-name="Discovery Life Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/d00484f292486af189a6d1e48e3e1a9a.png" group-title="Knowledge",Discovery Life Channel
-http://aflaxtv.xyz:8080/F11721/6ddb91eb/201208
-#EXTINF:-1 tvg-id="" tvg-name="Discovery Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/2494761535aad69b6250769697fa97cf.png" group-title="Knowledge",Discovery Channel
-http://aflaxtv.xyz:8080/F11721/6ddb91eb/23301
-#EXTINF:-1 tvg-id="" tvg-name="Discovery Science" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/a6bbb72b2aec0ec25c49e543a33b8d0e.png" group-title="Knowledge",Discovery Science
-http://aflaxtv.xyz:8080/F11721/6ddb91eb/2301
+#EXTINF:-1 tvg-id="zeetvhd.in" tvg-name="IN | Zee TV" tvg-logo="https://static.epg.best/sg/ZeeTV.sg.png" group-title="Entertainment",IN | Zee TV
+http://xott.live:8080/11224433/11224433/221250
+#EXTINF:-1 tvg-logo="https://www.indiantvinfo.com/media/2022/10/Sony-Entertainment-Television-HD-New-Logo.png" tvg-chno="56334" group-title="Entertainment",Sony TV HD
+https://pubads.g.doubleclick.net/ssai/event/HgaB-u6rSpGx3mo4Xu3sLw/master.m3u8
+#EXTINF:-1 tvg-id="starplushd.in" tvg-name="Star Plus" tvg-logo="https://static.epg.best/nz/StarPlusHindi.nz.png" group-title="Entertainment",Star Plus
+http://xott.live:8080/11224433/11224433/221252
+#EXTINF:-1 tvg-id="starsports1hd.in" tvg-name="IN | Star Sports 1 HD" tvg-logo="https://static.epg.best/cn/StarSports1.cn.png" group-title="Sports",IN | Star Sports 1 HD
+http://xott.live:8080/11224433/11224433/167575
+#EXTINF:-1 tvg-id="starsports2hd.in" tvg-name="IN | Star Sports 2 HD" tvg-logo="https://static.epg.best/in/StarSports2.in.png" group-title="Sports",IN | Star Sports 2 HD
+http://xott.live:8080/11224433/11224433/167576
+#EXTINF:-1 tvg-id="" tvg-name="IND: Discovery Science" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f8/DiscoveryChannel%28India%29Logo.png" group-title="Knowledge",IND: Discovery Science
+http://xott.live:8080/11224433/11224433/206289
+#EXTINF:-1 tvg-id="" tvg-name="Star Gold Select (4K)" tvg-logo="http://openboxv8s.com/india/star_gold_hd.jpg" group-title="Movies",Star Gold Select (4K)
+http://xott.live:8080/11224433/11224433/109960
+#EXTINF:-1 tvg-logo="http://sjpurcdnems02.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png" tvg-chno="575433" group-title="Movies",Sony Max HD
+https://dai.google.com/ssai/event/UcjHNJmCQ1WRlGKlZm73QA/master.m3u8
+#EXTINF:-1 tvg-chno="6744333" group-title="Movies",Sony Max HD
+http://144.217.70.181:9587/hin2/SONYMAXHD/playlist.m3u8?token=test
+#EXTINF:-1 tvg-chno="6753332" group-title="Movies",Sony Max2 HD
+#EXTINF:-1 tvg-logo="http://sjpurcdnems02.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pal.png" tvg-chno="30000998" group-title="Sony LIV 2",Sony pal HD
+#EXTINF:-1 tvg-logo="https://www.indiantvinfo.com/media/2022/10/Sony-MAX-HD-New-Logo.png" tvg-chno="6" group-title="Movies",Sony Max HD
+#EXTINF:-1 tvg-id="ColorsRishteyAsia.in" tvg-logo="https://i.imgur.com/YKWfMZo.png" group-title="Undefined",Colors Rishtey Asia (1080p)
+#EXTINF:-1 tvg-chno="46444" group-title="Kids",Discovery kids
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01448-samsungin-discoverykids-samsungin/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://www.indiantvinfo.com/media/2022/10/Sony-Entertainment-Television-HD-New-Logo.png" tvg-chno="56334" group-title="Entertainment",Sony TV HD
+https://pubads.g.doubleclick.net/ssai/event/HgaB-u6rSpGx3mo4Xu3sLw/master.m3u8
+#EXTINF:-1 group-title="Entertainment"-1,&TV HD
+https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Andtvhd/default/andtvhd-audio_208482_und=208000-video=352400.m3u8
+#EXTINF:-1 group-title="Movies"-1,&PICTURES HD
+https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Andpictureshd/default/andpictureshd-audio_208482_und=208000-video=2137600.m3u8
+#EXTINF:-1 group-title="Entertainment"-1,ZEE TV
+https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Zeetvhd/default/zeetvhd-audio_208482_und=208000-video=352400.m3u8
+#EXTINF:-1 group-title="Movies"-1,ZEE ANMOL CINEMA
+https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Zeeanmolcinema/default/zeeanmolcinema-audio_208482_und=208000-video=562400.m3u8
+#EXTINF:0 tvg-id="ZEETV.in" group-title="Entertainment",IN: Zee TV
+http://iptvs.life:8080/osec/c5176e377c82/1348
+#EXTINF:0 tvg-id="DiscoveryChannel.in" group-title="Knowledge",IN: Discovery Channel
+http://iptvs.life:8080/osec/c5176e377c82/295292
+#EXTINF:0 tvg-id="DiscoveryScience.in" group-title="Knowledge",IN: Discovery Science
+http://iptvs.life:8080/osec/c5176e377c82/1363
+#EXTINF:0 tvg-id="ext" group-title="Movies",IN: Star Gold Select
+http://iptvs.life:8080/osec/c5176e377c82/297547
+#EXTINF:0 tvg-id="StarSports1.in" group-title="Sports",IN: Star Sports 1
+http://iptvs.life:8080/osec/c5176e377c82/3630
+#EXTINF:0 tvg-id="StarSports2.in" group-title="Sports",IN: Star Sports 2
+http://103.123.169.206:8081/hls/potato-2.m3u8
+#EXTINF:-1 tvg-id="zeetvhd.in" tvg-name="IN | Zee TV" tvg-logo="https://static.epg.best/sg/ZeeTV.sg.png" group-title="Entertainment",IN | Zee TV
+http://xott.live:8080/11224433/11224433/221250
+#EXTINF:-1 tvg-id="zeetvhd.in" tvg-name="IN | Zee TV HD" tvg-logo="https://static.epg.best/sg/ZeeTV.sg.png" group-title="Entertainment",IN | Zee TV HD
+http://xott.live:8080/11224433/11224433/66162
+#EXTINF:-1 tvg-id="stargoldselecthd.in" tvg-name="IN | Star Gold Select" tvg-logo="https://static.epg.best/in/StarGoldSelect.in.png" group-title="Movies",IN | Star Gold Select
+http://xott.live:8080/11224433/11224433/221257
+#EXTINF:-1 tvg-id="stargoldselecthd.in" tvg-name="IN | Star Gold Select HD" tvg-logo="https://static.epg.best/in/StarGoldSelect.in.png" group-title="Movies",IN | Star Gold Select HD
+http://xott.live:8080/11224433/11224433/66176
+#EXTINF:-1 tvg-id="colorscineplexhd.in" tvg-name="IN: COLORS CINEPLEX" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8kp7b_-laBpBjH0VGRzxU5IgXS7qhzIkJIg&usqp=CAU" group-title="Movies",IN: COLORS CINEPLEX
+http://xott.live:8080/11224433/11224433/104191
+#EXTINF:-1 tvg-id="" tvg-name="IN: COLORS CINEPLEX FHD" tvg-logo="https://cdn.viacom18.com/stg/wp-content/uploads/2020/07/07184329/5ca20f401caacchannel-cineplex.png" group-title="Movies",IN: COLORS CINEPLEX FHD
+http://xott.live:8080/11224433/11224433/206310
+#EXTINF:-1 tvg-id="zeeanmolcinema.in" tvg-name="IN | Zee Anmol Cinema" tvg-logo="https://static.epg.best/in/ZeeAnmolCinema.in.png" group-title="Movies",IN | Zee Anmol Cinema
+http://xott.live:8080/11224433/11224433/66187
+#EXTINF:-1 tvg-id="colorsrishtey.in" tvg-name="IN: Color Cineplex SuperHits" tvg-logo="https://static.epg.best/in/RishteyCineplex.in.png" group-title="Movies",IN: Color Cineplex SuperHits
+http://xott.live:8080/11224433/11224433/66199
