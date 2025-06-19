@@ -1,222 +1,222 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="Knowledge"-1,PH: Animal Planet
+#EXTINF:-1 tvg-id="" tvg-name="PH: Animal Planet" tvg-logo="" group-title="Knowledge",PH: Animal Planet
 http://opplex.ch:8080/81236492622/01226390473/383997
-#EXTINF:-1 group-title="Movies"-1,Star Gold Select (4K)
+#EXTINF:-1 tvg-id="" tvg-name="Star Gold Select (4K)" tvg-logo="" group-title="Movies",Star Gold Select (4K)
 http://opplex.ch:8080/81236492622/01226390473/109960
-#EXTINF:-1 group-title="Knowledge"-1,IND: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="IND: Discovery Science" tvg-logo="" group-title="Knowledge",IND: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/206289
-#EXTINF:-1 group-title="Entertainment"-1,IN | Zee TV
+#EXTINF:-1 tvg-id="" tvg-name="IN | Zee TV" tvg-logo="" group-title="Entertainment",IN | Zee TV
 http://opplex.ch:8080/81236492622/01226390473/221250
-#EXTINF:-1 group-title="Entertainment"-1,IN | Zee TV HD
+#EXTINF:-1 tvg-id="" tvg-name="IN | Zee TV HD" tvg-logo="" group-title="Entertainment",IN | Zee TV HD
 http://opplex.ch:8080/81236492622/01226390473/66162
-#EXTINF:-1 group-title="Movies"-1,IN | Star Gold Select
+#EXTINF:-1 tvg-id="" tvg-name="IN | Star Gold Select" tvg-logo="" group-title="Movies",IN | Star Gold Select
 http://opplex.ch:8080/81236492622/01226390473/221257
-#EXTINF:-1 group-title="Movies"-1,IN | Star Gold Select FHD
+#EXTINF:-1 tvg-id="" tvg-name="IN | Star Gold Select FHD" tvg-logo="" group-title="Movies",IN | Star Gold Select FHD
 http://opplex.ch:8080/81236492622/01226390473/66176
-#EXTINF:-1 group-title="Movies"-1,IN: COLORS CINEPLEX
+#EXTINF:-1 tvg-id="" tvg-name="IN: COLORS CINEPLEX" tvg-logo="" group-title="Movies",IN: COLORS CINEPLEX
 http://opplex.ch:8080/81236492622/01226390473/104191
-#EXTINF:-1 group-title="Movies"-1,IN: COLORS CINEPLEX FHD
+#EXTINF:-1 tvg-id="" tvg-name="IN: COLORS CINEPLEX FHD" tvg-logo="" group-title="Movies",IN: COLORS CINEPLEX FHD
 http://opplex.ch:8080/81236492622/01226390473/206310
-#EXTINF:-1 group-title="Movies"-1,IN | Zee Anmol Cinema
+#EXTINF:-1 tvg-id="" tvg-name="IN | Zee Anmol Cinema" tvg-logo="" group-title="Movies",IN | Zee Anmol Cinema
 http://opplex.ch:8080/81236492622/01226390473/66187
-#EXTINF:-1 group-title="Movies"-1,IN: Color Cineplex SuperHits
+#EXTINF:-1 tvg-id="" tvg-name="IN: Color Cineplex SuperHits" tvg-logo="" group-title="Movies",IN: Color Cineplex SuperHits
 http://opplex.ch:8080/81236492622/01226390473/66199
-#EXTINF:-1 group-title="Kids"-1,IN: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="IN: Cartoon Network" tvg-logo="" group-title="Kids",IN: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/150478
-#EXTINF:-1 group-title="Kids"-1,Discovery kids
+#EXTINF:-1 tvg-id="" tvg-name="Discovery kids" tvg-logo="" group-title="Kids",Discovery kids
 http://opplex.ch:8080/81236492622/01226390473/76723
-#EXTINF:-1 group-title="Sports"-1,IND: Star Sports 2 Hindi HD
+#EXTINF:-1 tvg-id="" tvg-name="IND: Star Sports 2 Hindi HD" tvg-logo="" group-title="Sports",IND: Star Sports 2 Hindi HD
 http://opplex.ch:8080/81236492622/01226390473/167574
-#EXTINF:-1 group-title="Sports"-1,IN | Star Sports 1 HD
+#EXTINF:-1 tvg-id="" tvg-name="IN | Star Sports 1 HD" tvg-logo="" group-title="Sports",IN | Star Sports 1 HD
 http://opplex.ch:8080/81236492622/01226390473/167575
-#EXTINF:-1 group-title="Sports"-1,IN | Star Sports 2 HD
+#EXTINF:-1 tvg-id="" tvg-name="IN | Star Sports 2 HD" tvg-logo="" group-title="Sports",IN | Star Sports 2 HD
 http://opplex.ch:8080/81236492622/01226390473/167576
-#EXTINF:-1 group-title="Kids"-1,Khoon Kharaba (Malupu) Hindi Dubbed Full Movie __ Mithun Chakraborty, Aadhi, Nik
+#EXTINF:-1 tvg-id="" tvg-name="Nik" tvg-logo="" group-title="Kids",Nik
 http://opplex.ch:8080/movie/81236492622/01226390473/330341.mkv
-#EXTINF:-1 group-title="Knowledge"-1,UK: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="UK: Discovery Science" tvg-logo="" group-title="Knowledge",UK: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/346215
-#EXTINF:-1 group-title="Kids"-1,UK: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="UK: Cartoon Network" tvg-logo="" group-title="Kids",UK: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/346249
-#EXTINF:-1 group-title="Kids"-1,UK: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="UK: Disney Channel" tvg-logo="" group-title="Kids",UK: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/346254
-#EXTINF:-1 group-title="Knowledge"-1,US: Discovery Channel
+#EXTINF:-1 tvg-id="" tvg-name="US: Discovery Channel" tvg-logo="" group-title="Knowledge",US: Discovery Channel
 http://opplex.ch:8080/81236492622/01226390473/346437
-#EXTINF:-1 group-title="Knowledge"-1,US: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="US: Discovery Science" tvg-logo="" group-title="Knowledge",US: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/346438
-#EXTINF:-1 group-title="Kids"-1,US: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="US: Cartoon Network" tvg-logo="" group-title="Kids",US: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/346454
-#EXTINF:-1 group-title="Kids"-1,US: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="US: Disney Channel" tvg-logo="" group-title="Kids",US: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/346464
-#EXTINF:-1 group-title="Knowledge"-1,AL: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="AL: Discovery Science" tvg-logo="" group-title="Knowledge",AL: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/347642
-#EXTINF:-1 group-title="Knowledge"-1,AR: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="AR: Discovery Science" tvg-logo="" group-title="Knowledge",AR: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/348024
-#EXTINF:-1 group-title="Kids"-1,AR: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="AR: Disney Channel" tvg-logo="" group-title="Kids",AR: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/348025
-#EXTINF:-1 group-title="Knowledge"-1,AR: National Geographic
+#EXTINF:-1 tvg-id="" tvg-name="AR: National Geographic" tvg-logo="" group-title="Knowledge",AR: National Geographic
 http://opplex.ch:8080/81236492622/01226390473/348038
-#EXTINF:-1 group-title="Knowledge"-1,BIH: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="BIH: Discovery Science" tvg-logo="" group-title="Knowledge",BIH: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/348418
-#EXTINF:-1 group-title="Knowledge"-1,BR: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="BR: Discovery Science" tvg-logo="" group-title="Knowledge",BR: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/348478
-#EXTINF:-1 group-title="Kids"-1,BR: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="BR: Cartoon Network" tvg-logo="" group-title="Kids",BR: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/348486
-#EXTINF:-1 group-title="Kids"-1,BR: Discovery Kids
+#EXTINF:-1 tvg-id="" tvg-name="BR: Discovery Kids" tvg-logo="" group-title="Kids",BR: Discovery Kids
 http://opplex.ch:8080/81236492622/01226390473/348490
-#EXTINF:-1 group-title="Kids"-1,BR: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="BR: Disney Channel" tvg-logo="" group-title="Kids",BR: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/348491
-#EXTINF:-1 group-title="Knowledge"-1,BG: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="BG: Discovery Science" tvg-logo="" group-title="Knowledge",BG: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/348730
-#EXTINF:-1 group-title="Kids"-1,BG: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="BG: Cartoon Network" tvg-logo="" group-title="Kids",BG: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/348740
-#EXTINF:-1 group-title="Kids"-1,BG: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="BG: Disney Channel" tvg-logo="" group-title="Kids",BG: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/348742
-#EXTINF:-1 group-title="Knowledge"-1,CA: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="CA: Discovery Science" tvg-logo="" group-title="Knowledge",CA: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/348857
-#EXTINF:-1 group-title="Kids"-1,CA: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="CA: Cartoon Network" tvg-logo="" group-title="Kids",CA: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/348865
-#EXTINF:-1 group-title="Kids"-1,CA: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="CA: Disney Channel" tvg-logo="" group-title="Kids",CA: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/348866
-#EXTINF:-1 group-title="Knowledge"-1,HR: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="HR: Discovery Science" tvg-logo="" group-title="Knowledge",HR: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/349330
-#EXTINF:-1 group-title="Knowledge"-1,CZ: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="CZ: Discovery Science" tvg-logo="" group-title="Knowledge",CZ: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/349455
-#EXTINF:-1 group-title="Kids"-1,CZ: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="CZ: Disney Channel" tvg-logo="" group-title="Kids",CZ: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/349456
-#EXTINF:-1 group-title="Knowledge"-1,DK: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="DK: Discovery Science" tvg-logo="" group-title="Knowledge",DK: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/349526
-#EXTINF:-1 group-title="Kids"-1,DK: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="DK: Cartoon Network" tvg-logo="" group-title="Kids",DK: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/349536
-#EXTINF:-1 group-title="Kids"-1,DK: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="DK: Disney Channel" tvg-logo="" group-title="Kids",DK: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/349537
-#EXTINF:-1 group-title="Kids"-1,FI: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="FI: Cartoon Network" tvg-logo="" group-title="Kids",FI: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/349858
-#EXTINF:-1 group-title="Knowledge"-1,FI: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="FI: Discovery Science" tvg-logo="" group-title="Knowledge",FI: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/349859
-#EXTINF:-1 group-title="Kids"-1,FI: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="FI: Disney Channel" tvg-logo="" group-title="Kids",FI: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/349861
-#EXTINF:-1 group-title="Knowledge"-1,FR: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="FR: Discovery Science" tvg-logo="" group-title="Knowledge",FR: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/349887
-#EXTINF:-1 group-title="Kids"-1,FR: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="FR: Cartoon Network" tvg-logo="" group-title="Kids",FR: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/349914
-#EXTINF:-1 group-title="Kids"-1,FR: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="FR: Disney Channel" tvg-logo="" group-title="Kids",FR: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/349915
-#EXTINF:-1 group-title="Kids"-1,DE: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="DE: Cartoon Network" tvg-logo="" group-title="Kids",DE: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/350259
-#EXTINF:-1 group-title="Kids"-1,DE: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="DE: Disney Channel" tvg-logo="" group-title="Kids",DE: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/350261
-#EXTINF:-1 group-title="Knowledge"-1,GR: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="GR: Discovery Science" tvg-logo="" group-title="Knowledge",GR: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/350597
-#EXTINF:-1 group-title="Knowledge"-1,HU: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="HU: Discovery Science" tvg-logo="" group-title="Knowledge",HU: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/350778
-#EXTINF:-1 group-title="Kids"-1,HU: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="HU: Cartoon Network" tvg-logo="" group-title="Kids",HU: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/350854
-#EXTINF:-1 group-title="Kids"-1,HU: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="HU: Disney Channel" tvg-logo="" group-title="Kids",HU: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/350856
-#EXTINF:-1 group-title="Kids"-1,ID: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="ID: Cartoon Network" tvg-logo="" group-title="Kids",ID: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/350910
-#EXTINF:-1 group-title="Knowledge"-1,IL: Discovery Channel
+#EXTINF:-1 tvg-id="" tvg-name="IL: Discovery Channel" tvg-logo="" group-title="Knowledge",IL: Discovery Channel
 http://opplex.ch:8080/81236492622/01226390473/351311
-#EXTINF:-1 group-title="Knowledge"-1,IL: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="IL: Discovery Science" tvg-logo="" group-title="Knowledge",IL: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/351312
-#EXTINF:-1 group-title="Kids"-1,IL: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="IL: Disney Channel" tvg-logo="" group-title="Kids",IL: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/351313
-#EXTINF:-1 group-title="Kids"-1,IT: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="IT: Cartoon Network" tvg-logo="" group-title="Kids",IT: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/351400
-#EXTINF:-1 group-title="Knowledge"-1,IT: Discovery Channel
+#EXTINF:-1 tvg-id="" tvg-name="IT: Discovery Channel" tvg-logo="" group-title="Knowledge",IT: Discovery Channel
 http://opplex.ch:8080/81236492622/01226390473/351416
-#EXTINF:-1 group-title="Knowledge"-1,IT: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="IT: Discovery Science" tvg-logo="" group-title="Knowledge",IT: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/351417
-#EXTINF:-1 group-title="Kids"-1,LA: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="LA: Cartoon Network" tvg-logo="" group-title="Kids",LA: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/351816
-#EXTINF:-1 group-title="Kids"-1,LA: Discovery Kids
+#EXTINF:-1 tvg-id="" tvg-name="LA: Discovery Kids" tvg-logo="" group-title="Kids",LA: Discovery Kids
 http://opplex.ch:8080/81236492622/01226390473/351836
-#EXTINF:-1 group-title="Knowledge"-1,LA: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="LA: Discovery Science" tvg-logo="" group-title="Knowledge",LA: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/351837
-#EXTINF:-1 group-title="Kids"-1,LA: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="LA: Disney Channel" tvg-logo="" group-title="Kids",LA: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/351841
-#EXTINF:-1 group-title="Knowledge"-1,MY: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="MY: Discovery Science" tvg-logo="" group-title="Knowledge",MY: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/352101
-#EXTINF:-1 group-title="Knowledge"-1,MX: Discovery Channel
+#EXTINF:-1 tvg-id="" tvg-name="MX: Discovery Channel" tvg-logo="" group-title="Knowledge",MX: Discovery Channel
 http://opplex.ch:8080/81236492622/01226390473/352125
-#EXTINF:-1 group-title="Knowledge"-1,MX: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="MX: Discovery Science" tvg-logo="" group-title="Knowledge",MX: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/352127
-#EXTINF:-1 group-title="Kids"-1,MX: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="MX: Cartoon Network" tvg-logo="" group-title="Kids",MX: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/352134
-#EXTINF:-1 group-title="Kids"-1,MX: Discovery Kids
+#EXTINF:-1 tvg-id="" tvg-name="MX: Discovery Kids" tvg-logo="" group-title="Kids",MX: Discovery Kids
 http://opplex.ch:8080/81236492622/01226390473/352136
-#EXTINF:-1 group-title="Kids"-1,MX: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="MX: Disney Channel" tvg-logo="" group-title="Kids",MX: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/352137
-#EXTINF:-1 group-title="Knowledge"-1,NL: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="NL: Discovery Science" tvg-logo="" group-title="Knowledge",NL: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/352305
-#EXTINF:-1 group-title="Kids"-1,NL: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="NL: Disney Channel" tvg-logo="" group-title="Kids",NL: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/352315
-#EXTINF:-1 group-title="Kids"-1,NL: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="NL: Cartoon Network" tvg-logo="" group-title="Kids",NL: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/352362
-#EXTINF:-1 group-title="Knowledge"-1,NO: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="NO: Discovery Science" tvg-logo="" group-title="Knowledge",NO: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/352465
-#EXTINF:-1 group-title="Kids"-1,NO: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="NO: Cartoon Network" tvg-logo="" group-title="Kids",NO: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/352473
-#EXTINF:-1 group-title="Kids"-1,NO: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="NO: Disney Channel" tvg-logo="" group-title="Kids",NO: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/352474
-#EXTINF:-1 group-title="Kids"-1,PH: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="PH: Cartoon Network" tvg-logo="" group-title="Kids",PH: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/352607
-#EXTINF:-1 group-title="Kids"-1,PH: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="PH: Disney Channel" tvg-logo="" group-title="Kids",PH: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/352613
-#EXTINF:-1 group-title="Kids"-1,PL: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="PL: Cartoon Network" tvg-logo="" group-title="Kids",PL: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/352664
-#EXTINF:-1 group-title="Kids"-1,PL: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="PL: Disney Channel" tvg-logo="" group-title="Kids",PL: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/352667
-#EXTINF:-1 group-title="Kids"-1,PT: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="PT: Cartoon Network" tvg-logo="" group-title="Kids",PT: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/352852
-#EXTINF:-1 group-title="Kids"-1,PT: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="PT: Disney Channel" tvg-logo="" group-title="Kids",PT: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/352853
-#EXTINF:-1 group-title="Kids"-1,QA: Discovery Kids
+#EXTINF:-1 tvg-id="" tvg-name="QA: Discovery Kids" tvg-logo="" group-title="Kids",QA: Discovery Kids
 http://opplex.ch:8080/81236492622/01226390473/352978
-#EXTINF:-1 group-title="Knowledge"-1,RO: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="RO: Discovery Science" tvg-logo="" group-title="Knowledge",RO: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/353039
-#EXTINF:-1 group-title="Kids"-1,RO: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="RO: Cartoon Network" tvg-logo="" group-title="Kids",RO: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/353051
-#EXTINF:-1 group-title="Kids"-1,RO: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="RO: Disney Channel" tvg-logo="" group-title="Kids",RO: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/353053
-#EXTINF:-1 group-title="Knowledge"-1,RU: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="RU: Discovery Science" tvg-logo="" group-title="Knowledge",RU: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/353211
-#EXTINF:-1 group-title="Kids"-1,RU: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="RU: Cartoon Network" tvg-logo="" group-title="Kids",RU: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/353221
-#EXTINF:-1 group-title="Kids"-1,RU: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="RU: Disney Channel" tvg-logo="" group-title="Kids",RU: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/353222
-#EXTINF:-1 group-title="Knowledge"-1,RS: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="RS: Discovery Science" tvg-logo="" group-title="Knowledge",RS: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/353576
-#EXTINF:-1 group-title="Knowledge"-1,SI: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="SI: Discovery Science" tvg-logo="" group-title="Knowledge",SI: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/353803
-#EXTINF:-1 group-title="Kids"-1,ZA: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="ZA: Cartoon Network" tvg-logo="" group-title="Kids",ZA: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/353871
-#EXTINF:-1 group-title="Knowledge"-1,ZA: Discovery Channel
+#EXTINF:-1 tvg-id="" tvg-name="ZA: Discovery Channel" tvg-logo="" group-title="Knowledge",ZA: Discovery Channel
 http://opplex.ch:8080/81236492622/01226390473/353879
-#EXTINF:-1 group-title="Knowledge"-1,ZA: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="ZA: Discovery Science" tvg-logo="" group-title="Knowledge",ZA: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/353881
-#EXTINF:-1 group-title="Kids"-1,ZA: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="ZA: Disney Channel" tvg-logo="" group-title="Kids",ZA: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/353882
-#EXTINF:-1 group-title="Kids"-1,ES: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="ES: Disney Channel" tvg-logo="" group-title="Kids",ES: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/354054
-#EXTINF:-1 group-title="Kids"-1,SUR: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="SUR: Cartoon Network" tvg-logo="" group-title="Kids",SUR: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/354322
-#EXTINF:-1 group-title="Kids"-1,SE: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="SE: Cartoon Network" tvg-logo="" group-title="Kids",SE: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/354365
-#EXTINF:-1 group-title="Knowledge"-1,SE: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="SE: Discovery Science" tvg-logo="" group-title="Knowledge",SE: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/354368
-#EXTINF:-1 group-title="Kids"-1,SE: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="SE: Disney Channel" tvg-logo="" group-title="Kids",SE: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/354370
-#EXTINF:-1 group-title="Kids"-1,TH: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="TH: Cartoon Network" tvg-logo="" group-title="Kids",TH: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/354543
-#EXTINF:-1 group-title="Knowledge"-1,TR: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="TR: Discovery Science" tvg-logo="" group-title="Knowledge",TR: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/354621
-#EXTINF:-1 group-title="Kids"-1,TR: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="TR: Cartoon Network" tvg-logo="" group-title="Kids",TR: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/354640
-#EXTINF:-1 group-title="Kids"-1,TR: Disney Channel
+#EXTINF:-1 tvg-id="" tvg-name="TR: Disney Channel" tvg-logo="" group-title="Kids",TR: Disney Channel
 http://opplex.ch:8080/81236492622/01226390473/354643
-#EXTINF:-1 group-title="Knowledge"-1,AE: Discovery Science
+#EXTINF:-1 tvg-id="" tvg-name="AE: Discovery Science" tvg-logo="" group-title="Knowledge",AE: Discovery Science
 http://opplex.ch:8080/81236492622/01226390473/354899
-#EXTINF:-1 group-title="Kids"-1,AE: Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="AE: Cartoon Network" tvg-logo="" group-title="Kids",AE: Cartoon Network
 http://opplex.ch:8080/81236492622/01226390473/354913
