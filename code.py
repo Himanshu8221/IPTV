@@ -13,18 +13,22 @@ M3U_URL = os.getenv("M3U_URL")
 # Define categories and channel names
 CATEGORIES = {
     "Entertainment": [
-        "SONY SD", "Sony SAB", "Sony TV HD (1)", "Sony TV HD (2)",
-        "Sony SAB HD", "Sony sab HD", "Colors TV", "Colors TV HD","IN | Zee TV", "Zee TV HD", "Zee Anmol", "Sony Pal", "& TV", 
-        "& TV HD", "STAR PLUS", "STAR PLUS HD", "STAR BHARAT", "STAR BHARAT HD", "SONY", "SONY HD", "COLORS HD", "Star Utsav",
-        "SONY SAB", "SONY SAB HD", "COLORS TV", "COLORS TV HD","ZEE TV", "ZEE TV HD", "ZEE ANMOL", "SONY PAL", "SONY HD", "COLOR HD", "COLORS FHD", "IN | SONY SET HD"
- ],
+        "SONY SD", "Sony SAB", "Sony TV HD (1)", "Sony TV HD (2)", "Sony SAB HD", "Sony sab HD",
+        "Colors TV", "Colors TV HD", "IN | Zee TV", "Zee TV HD", "Zee Anmol", "Sony Pal", "& TV", "& TV HD",
+        "STAR PLUS", "STAR PLUS HD", "STAR BHARAT", "STAR BHARAT HD", "SONY", "SONY HD", "COLORS HD", "Star Utsav",
+        "SONY SAB", "SONY SAB HD", "COLORS TV", "COLORS TV HD", "ZEE TV", "ZEE TV HD", "ZEE ANMOL", "SONY PAL",
+        "SONY HD", "COLOR HD", "COLORS FHD", "IN | SONY SET HD"
+    ],
     "Movies": [
-        "Star Gold", "Star Gold HD", "Star Gold Select", "Star Gold Select HD", "Zee Cinema", "Zee Cinema HD", "Zee Action", "Zee Bollywood", "Zee Classic",
-        "Sony Max", "Sony Max HD", "Sony Max 2", "Sony Wah", "Colors Cineplex", "Colors Cineplex HD", "Colors Cineplex Superhits", "& pictures", "& pictures HD",
-        "UTV Movies", "UTV Action", "B4U Movies", "Zee Anmol Cinema", "IN | STAR GOLD", "STAR GOLD HD", "STAR GOLD SELECT", "STAR GOLD SELECT HD", "ZEE CINEMA", 
-        "ZEE CINEMA HD", "ZEE ACTION", "ZEE BOLLYWOOD", "ZEE CLASSIC", "SONY MAX", "SONY MAX HD", "SONY MAX 2", "SONY WAH", "COLORS CINEPLEX", 
-        "COLORS CINEPLEX HD", "COLORS CINEPLEX SUPERHITS", "IN | & PICTURES", "& PICTURES HD","UTV MOVIES", "UTV ACTION", "B4U MOVIES", "ZEE ANMOL CINEMA"
-],
+        "Star Gold", "Star Gold HD", "Star Gold Select", "Star Gold Select HD", "Zee Cinema", "Zee Cinema HD",
+        "Zee Action", "Zee Bollywood", "Zee Classic", "Sony Max", "Sony Max HD", "Sony Max 2", "Sony Wah",
+        "Colors Cineplex", "Colors Cineplex HD", "Colors Cineplex Superhits", "& pictures", "& pictures HD",
+        "UTV Movies", "UTV Action", "B4U Movies", "Zee Anmol Cinema", "IN | STAR GOLD", "STAR GOLD HD",
+        "STAR GOLD SELECT", "STAR GOLD SELECT HD", "ZEE CINEMA", "ZEE CINEMA HD", "ZEE ACTION", "ZEE BOLLYWOOD",
+        "ZEE CLASSIC", "SONY MAX", "SONY MAX HD", "SONY MAX 2", "SONY WAH", "COLORS CINEPLEX",
+        "COLORS CINEPLEX HD", "COLORS CINEPLEX SUPERHITS", "IN | & PICTURES", "& PICTURES HD",
+        "UTV MOVIES", "UTV ACTION", "B4U MOVIES", "ZEE ANMOL CINEMA"
+    ],
     "Kids": [
         "Cartoon Network", "Pogo", "Hungama TV", "Disney Channel", "Nick", "Nick HD+", "Discovery Kids", "Nick Hindi", "Sony Yay"
     ],
@@ -36,8 +40,8 @@ CATEGORIES = {
         "Star Sports 2", "Star Sports 2 HD", "Star Sports 3", "Star Sports First",
         "Sony Ten", "Sony Ten 1", "Sony Ten 1 HD", "Sony Ten 1 Hindi", "Sony Ten 2", "Sony Ten 2 HD",
         "Sony Ten 3", "Sony Ten 3 HD", "Sony Ten 3 Hindi", "Sony Ten 4", "Sony Six", "Sony Six HD",
-        "Sports18", "Sports18 1", "Sports18 1 HD", "Sports18 2", "Sports18 2 HD", "Sports18 Hindi", "STAR SPORTS", 
-        "STAR SPORTS 1", "STAR SPORTS 1 HD", "STAR SPORTS 1 HINDI", "STAR SPORTS 1 HINDI HD",
+        "Sports18", "Sports18 1", "Sports18 1 HD", "Sports18 2", "Sports18 2 HD", "Sports18 Hindi",
+        "STAR SPORTS", "STAR SPORTS 1", "STAR SPORTS 1 HD", "STAR SPORTS 1 HINDI", "STAR SPORTS 1 HINDI HD",
         "STAR SPORTS 2", "STAR SPORTS 2 HD", "STAR SPORTS 3", "STAR SPORTS FIRST",
         "SONY TEN", "SONY TEN 1", "SONY TEN 1 HD", "SONY TEN 1 HINDI", "SONY TEN 2", "SONY TEN 2 HD",
         "SONY TEN 3", "SONY TEN 3 HD", "SONY TEN 3 HINDI", "SONY TEN 4", "SONY SIX", "SONY SIX HD",
@@ -54,7 +58,10 @@ CHANNEL_TO_CATEGORY = {
 
 def fetch_m3u(url):
     print(f"📡 Fetching playlist from {url}")
-    response = requests.get(url)
+    headers = {
+        "User-Agent": "VLC/3.0.11 LibVLC/3.0.11"
+    }
+    response = requests.get(url, headers=headers)
     response.raise_for_status()
     return response.text
 
@@ -63,11 +70,9 @@ def fuzzy_match(channel_name):
     return matches[0] if matches else None
 
 def update_group_title(extinf_line, new_group):
-    # Replace group-title="..." with new category
     if 'group-title="' in extinf_line:
         return re.sub(r'group-title=".*?"', f'group-title="{new_group}"', extinf_line)
     else:
-        # If group-title is missing, add it
         return extinf_line.replace('#EXTINF:', f'#EXTINF:-1 group-title="{new_group}"', 1)
 
 def categorize_and_rewrite(m3u_text):
@@ -96,6 +101,10 @@ def save_output(content, path="list.m3u"):
 def auto_git_push(filepath):
     try:
         subprocess.run(["git", "add", filepath], check=True)
+        result = subprocess.run(["git", "diff", "--cached", "--quiet"])
+        if result.returncode == 0:
+            print("⚠️ No changes to commit.")
+            return
         subprocess.run(["git", "commit", "-m", "Updated playlist with categorized group-titles"], check=True)
         subprocess.run(["git", "push"], check=True)
         print("🚀 Changes pushed to GitHub.")
