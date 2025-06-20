@@ -10,7 +10,6 @@ https://starshare.org:443/live/gurmeet/gurmeet/221.ts
 #EXTINF:-1 tvg-id="starplushd.in" tvg-name="Star Plus HD (3)" tvg-logo="https://watchindia.net/images/channels/hindi/Star_Plus_HD.png" group-title="Entertainment",Star Plus HD (3)
 http://tigerott.com:8080/live/vZLVqaZqmE/uTfWGYyzU3/86020.ts
 
-
 # --- Colors ---
 #EXTINF:-1 tvg-id="colors.in" tvg-name="Colors TV HD (1)" tvg-logo="https://watchindia.net/images/channels/hindi/Colors_TV_HD.png" group-title="Entertainment",Colors TV HD (1)
 https://fifabd.site/OPLLX5/play.php?id=221254&|User-Agent=RANAPK
@@ -27,9 +26,8 @@ http://watchindia.net:8880/live/10155/34564/2264.ts
 http://watchindia.net:8880/live/82963/72037/2264.ts
 http://watchindia.net:8880/live/10155/34564/2264.ts
 http://watchindia.net:8880/live/41701/62215/2264.ts
+
 # --- Zee Tv ---
-
-
 #EXTINF:-1 tvg-id="zeetvhd.in" tvg-name="Zee TV HD (1)" tvg-logo="https://watchindia.net/images/channels/hindi/Zee_TV.png" group-title="Entertainment",Zee TV HD (1)
 https://fifabd.site/OPLLX5/play.php?id=221250&|User-Agent=RANAPK
 #EXTINF:-1 tvg-id="zeetvhd.in" tvg-name="Zee TV HD (2)" tvg-logo="https://watchindia.net/images/channels/hindi/Zee_TV.png" group-title="Entertainment",Zee TV HD (2)
@@ -57,7 +55,6 @@ http://watchindia.net:8880/live/10155/34564/2141.ts
 http://watchindia.net:8880/live/82963/72037/2141.ts
 http://watchindia.net:8880/live/10155/34564/2141.ts
 http://watchindia.net:8880/live/41701/62215/2141.ts
-
 
 # --- Sony SAB ---
 #EXTINF:-1 tvg-id="sonysabhd.in" tvg-name="Sony Sab HD (1)" tvg-logo="https://watchindia.net/images/channels/hindi/Sony_Sab_HD.png" group-title="Entertainment",Sony Sab HD (1)
@@ -96,7 +93,6 @@ http://watchindia.net:8880/live/41701/62215/782.ts
 # --- Other Entertainment ---
 #EXTINF:-1 tvg-id="zanmol.in" tvg-name="Zee Anmol" tvg-logo="https://watchindia.net/images/channels/hindi/Zee_Anmol.png" group-title="Entertainment",Zee Anmol
 http://watchindia.net:8880/live/79527/25638/813.ts
-
 
 
 # --- Movies ---
