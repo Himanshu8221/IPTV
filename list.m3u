@@ -1,222 +1,181 @@
 #EXTM3U
-
-#EXTINF:-1 tvg-id="" tvg-name="PH: Animal Planet" tvg-logo="" group-title="Knowledge",PH: Animal Planet
-http://opplex.ch:8080/81236492622/01226390473/383997
-#EXTINF:-1 tvg-id="" tvg-name="Star Gold Select (4K)" tvg-logo="" group-title="Movies",Star Gold Select (4K)
-http://opplex.ch:8080/81236492622/01226390473/109960
-#EXTINF:-1 tvg-id="" tvg-name="IND: Discovery Science" tvg-logo="" group-title="Knowledge",IND: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/206289
-#EXTINF:-1 tvg-id="" tvg-name="IN | Zee TV" tvg-logo="" group-title="Entertainment",IN | Zee TV
-http://opplex.ch:8080/81236492622/01226390473/221250
-#EXTINF:-1 tvg-id="" tvg-name="IN | Zee TV HD" tvg-logo="" group-title="Entertainment",IN | Zee TV HD
-http://opplex.ch:8080/81236492622/01226390473/66162
-#EXTINF:-1 tvg-id="" tvg-name="IN | Star Gold Select" tvg-logo="" group-title="Movies",IN | Star Gold Select
-http://opplex.ch:8080/81236492622/01226390473/221257
-#EXTINF:-1 tvg-id="" tvg-name="IN | Star Gold Select FHD" tvg-logo="" group-title="Movies",IN | Star Gold Select FHD
-http://opplex.ch:8080/81236492622/01226390473/66176
-#EXTINF:-1 tvg-id="" tvg-name="IN: COLORS CINEPLEX" tvg-logo="" group-title="Movies",IN: COLORS CINEPLEX
-http://opplex.ch:8080/81236492622/01226390473/104191
-#EXTINF:-1 tvg-id="" tvg-name="IN: COLORS CINEPLEX FHD" tvg-logo="" group-title="Movies",IN: COLORS CINEPLEX FHD
-http://opplex.ch:8080/81236492622/01226390473/206310
-#EXTINF:-1 tvg-id="" tvg-name="IN | Zee Anmol Cinema" tvg-logo="" group-title="Movies",IN | Zee Anmol Cinema
-http://opplex.ch:8080/81236492622/01226390473/66187
-#EXTINF:-1 tvg-id="" tvg-name="IN: Color Cineplex SuperHits" tvg-logo="" group-title="Movies",IN: Color Cineplex SuperHits
-http://opplex.ch:8080/81236492622/01226390473/66199
-#EXTINF:-1 tvg-id="" tvg-name="IN: Cartoon Network" tvg-logo="" group-title="Kids",IN: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/150478
-#EXTINF:-1 tvg-id="" tvg-name="Discovery kids" tvg-logo="" group-title="Kids",Discovery kids
-http://opplex.ch:8080/81236492622/01226390473/76723
-#EXTINF:-1 tvg-id="" tvg-name="IND: Star Sports 2 Hindi HD" tvg-logo="" group-title="Sports",IND: Star Sports 2 Hindi HD
-http://opplex.ch:8080/81236492622/01226390473/167574
-#EXTINF:-1 tvg-id="" tvg-name="IN | Star Sports 1 HD" tvg-logo="" group-title="Sports",IN | Star Sports 1 HD
-http://opplex.ch:8080/81236492622/01226390473/167575
-#EXTINF:-1 tvg-id="" tvg-name="IN | Star Sports 2 HD" tvg-logo="" group-title="Sports",IN | Star Sports 2 HD
-http://opplex.ch:8080/81236492622/01226390473/167576
-#EXTINF:-1 tvg-id="" tvg-name="Nik" tvg-logo="" group-title="Kids",Nik
-http://opplex.ch:8080/movie/81236492622/01226390473/330341.mkv
-#EXTINF:-1 tvg-id="" tvg-name="UK: Discovery Science" tvg-logo="" group-title="Knowledge",UK: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/346215
-#EXTINF:-1 tvg-id="" tvg-name="UK: Cartoon Network" tvg-logo="" group-title="Kids",UK: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/346249
-#EXTINF:-1 tvg-id="" tvg-name="UK: Disney Channel" tvg-logo="" group-title="Kids",UK: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/346254
-#EXTINF:-1 tvg-id="" tvg-name="US: Discovery Channel" tvg-logo="" group-title="Knowledge",US: Discovery Channel
-http://opplex.ch:8080/81236492622/01226390473/346437
-#EXTINF:-1 tvg-id="" tvg-name="US: Discovery Science" tvg-logo="" group-title="Knowledge",US: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/346438
-#EXTINF:-1 tvg-id="" tvg-name="US: Cartoon Network" tvg-logo="" group-title="Kids",US: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/346454
-#EXTINF:-1 tvg-id="" tvg-name="US: Disney Channel" tvg-logo="" group-title="Kids",US: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/346464
-#EXTINF:-1 tvg-id="" tvg-name="AL: Discovery Science" tvg-logo="" group-title="Knowledge",AL: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/347642
-#EXTINF:-1 tvg-id="" tvg-name="AR: Discovery Science" tvg-logo="" group-title="Knowledge",AR: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/348024
-#EXTINF:-1 tvg-id="" tvg-name="AR: Disney Channel" tvg-logo="" group-title="Kids",AR: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/348025
-#EXTINF:-1 tvg-id="" tvg-name="AR: National Geographic" tvg-logo="" group-title="Knowledge",AR: National Geographic
-http://opplex.ch:8080/81236492622/01226390473/348038
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Discovery Science" tvg-logo="" group-title="Knowledge",BIH: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/348418
-#EXTINF:-1 tvg-id="" tvg-name="BR: Discovery Science" tvg-logo="" group-title="Knowledge",BR: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/348478
-#EXTINF:-1 tvg-id="" tvg-name="BR: Cartoon Network" tvg-logo="" group-title="Kids",BR: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/348486
-#EXTINF:-1 tvg-id="" tvg-name="BR: Discovery Kids" tvg-logo="" group-title="Kids",BR: Discovery Kids
-http://opplex.ch:8080/81236492622/01226390473/348490
-#EXTINF:-1 tvg-id="" tvg-name="BR: Disney Channel" tvg-logo="" group-title="Kids",BR: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/348491
-#EXTINF:-1 tvg-id="" tvg-name="BG: Discovery Science" tvg-logo="" group-title="Knowledge",BG: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/348730
-#EXTINF:-1 tvg-id="" tvg-name="BG: Cartoon Network" tvg-logo="" group-title="Kids",BG: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/348740
-#EXTINF:-1 tvg-id="" tvg-name="BG: Disney Channel" tvg-logo="" group-title="Kids",BG: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/348742
-#EXTINF:-1 tvg-id="" tvg-name="CA: Discovery Science" tvg-logo="" group-title="Knowledge",CA: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/348857
-#EXTINF:-1 tvg-id="" tvg-name="CA: Cartoon Network" tvg-logo="" group-title="Kids",CA: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/348865
-#EXTINF:-1 tvg-id="" tvg-name="CA: Disney Channel" tvg-logo="" group-title="Kids",CA: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/348866
-#EXTINF:-1 tvg-id="" tvg-name="HR: Discovery Science" tvg-logo="" group-title="Knowledge",HR: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/349330
-#EXTINF:-1 tvg-id="" tvg-name="CZ: Discovery Science" tvg-logo="" group-title="Knowledge",CZ: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/349455
-#EXTINF:-1 tvg-id="" tvg-name="CZ: Disney Channel" tvg-logo="" group-title="Kids",CZ: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/349456
-#EXTINF:-1 tvg-id="" tvg-name="DK: Discovery Science" tvg-logo="" group-title="Knowledge",DK: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/349526
-#EXTINF:-1 tvg-id="" tvg-name="DK: Cartoon Network" tvg-logo="" group-title="Kids",DK: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/349536
-#EXTINF:-1 tvg-id="" tvg-name="DK: Disney Channel" tvg-logo="" group-title="Kids",DK: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/349537
-#EXTINF:-1 tvg-id="" tvg-name="FI: Cartoon Network" tvg-logo="" group-title="Kids",FI: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/349858
-#EXTINF:-1 tvg-id="" tvg-name="FI: Discovery Science" tvg-logo="" group-title="Knowledge",FI: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/349859
-#EXTINF:-1 tvg-id="" tvg-name="FI: Disney Channel" tvg-logo="" group-title="Kids",FI: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/349861
-#EXTINF:-1 tvg-id="" tvg-name="FR: Discovery Science" tvg-logo="" group-title="Knowledge",FR: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/349887
-#EXTINF:-1 tvg-id="" tvg-name="FR: Cartoon Network" tvg-logo="" group-title="Kids",FR: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/349914
-#EXTINF:-1 tvg-id="" tvg-name="FR: Disney Channel" tvg-logo="" group-title="Kids",FR: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/349915
-#EXTINF:-1 tvg-id="" tvg-name="DE: Cartoon Network" tvg-logo="" group-title="Kids",DE: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/350259
-#EXTINF:-1 tvg-id="" tvg-name="DE: Disney Channel" tvg-logo="" group-title="Kids",DE: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/350261
-#EXTINF:-1 tvg-id="" tvg-name="GR: Discovery Science" tvg-logo="" group-title="Knowledge",GR: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/350597
-#EXTINF:-1 tvg-id="" tvg-name="HU: Discovery Science" tvg-logo="" group-title="Knowledge",HU: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/350778
-#EXTINF:-1 tvg-id="" tvg-name="HU: Cartoon Network" tvg-logo="" group-title="Kids",HU: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/350854
-#EXTINF:-1 tvg-id="" tvg-name="HU: Disney Channel" tvg-logo="" group-title="Kids",HU: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/350856
-#EXTINF:-1 tvg-id="" tvg-name="ID: Cartoon Network" tvg-logo="" group-title="Kids",ID: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/350910
-#EXTINF:-1 tvg-id="" tvg-name="IL: Discovery Channel" tvg-logo="" group-title="Knowledge",IL: Discovery Channel
-http://opplex.ch:8080/81236492622/01226390473/351311
-#EXTINF:-1 tvg-id="" tvg-name="IL: Discovery Science" tvg-logo="" group-title="Knowledge",IL: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/351312
-#EXTINF:-1 tvg-id="" tvg-name="IL: Disney Channel" tvg-logo="" group-title="Kids",IL: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/351313
-#EXTINF:-1 tvg-id="" tvg-name="IT: Cartoon Network" tvg-logo="" group-title="Kids",IT: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/351400
-#EXTINF:-1 tvg-id="" tvg-name="IT: Discovery Channel" tvg-logo="" group-title="Knowledge",IT: Discovery Channel
-http://opplex.ch:8080/81236492622/01226390473/351416
-#EXTINF:-1 tvg-id="" tvg-name="IT: Discovery Science" tvg-logo="" group-title="Knowledge",IT: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/351417
-#EXTINF:-1 tvg-id="" tvg-name="LA: Cartoon Network" tvg-logo="" group-title="Kids",LA: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/351816
-#EXTINF:-1 tvg-id="" tvg-name="LA: Discovery Kids" tvg-logo="" group-title="Kids",LA: Discovery Kids
-http://opplex.ch:8080/81236492622/01226390473/351836
-#EXTINF:-1 tvg-id="" tvg-name="LA: Discovery Science" tvg-logo="" group-title="Knowledge",LA: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/351837
-#EXTINF:-1 tvg-id="" tvg-name="LA: Disney Channel" tvg-logo="" group-title="Kids",LA: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/351841
-#EXTINF:-1 tvg-id="" tvg-name="MY: Discovery Science" tvg-logo="" group-title="Knowledge",MY: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/352101
-#EXTINF:-1 tvg-id="" tvg-name="MX: Discovery Channel" tvg-logo="" group-title="Knowledge",MX: Discovery Channel
-http://opplex.ch:8080/81236492622/01226390473/352125
-#EXTINF:-1 tvg-id="" tvg-name="MX: Discovery Science" tvg-logo="" group-title="Knowledge",MX: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/352127
-#EXTINF:-1 tvg-id="" tvg-name="MX: Cartoon Network" tvg-logo="" group-title="Kids",MX: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/352134
-#EXTINF:-1 tvg-id="" tvg-name="MX: Discovery Kids" tvg-logo="" group-title="Kids",MX: Discovery Kids
-http://opplex.ch:8080/81236492622/01226390473/352136
-#EXTINF:-1 tvg-id="" tvg-name="MX: Disney Channel" tvg-logo="" group-title="Kids",MX: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/352137
-#EXTINF:-1 tvg-id="" tvg-name="NL: Discovery Science" tvg-logo="" group-title="Knowledge",NL: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/352305
-#EXTINF:-1 tvg-id="" tvg-name="NL: Disney Channel" tvg-logo="" group-title="Kids",NL: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/352315
-#EXTINF:-1 tvg-id="" tvg-name="NL: Cartoon Network" tvg-logo="" group-title="Kids",NL: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/352362
-#EXTINF:-1 tvg-id="" tvg-name="NO: Discovery Science" tvg-logo="" group-title="Knowledge",NO: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/352465
-#EXTINF:-1 tvg-id="" tvg-name="NO: Cartoon Network" tvg-logo="" group-title="Kids",NO: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/352473
-#EXTINF:-1 tvg-id="" tvg-name="NO: Disney Channel" tvg-logo="" group-title="Kids",NO: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/352474
-#EXTINF:-1 tvg-id="" tvg-name="PH: Cartoon Network" tvg-logo="" group-title="Kids",PH: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/352607
-#EXTINF:-1 tvg-id="" tvg-name="PH: Disney Channel" tvg-logo="" group-title="Kids",PH: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/352613
-#EXTINF:-1 tvg-id="" tvg-name="PL: Cartoon Network" tvg-logo="" group-title="Kids",PL: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/352664
-#EXTINF:-1 tvg-id="" tvg-name="PL: Disney Channel" tvg-logo="" group-title="Kids",PL: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/352667
-#EXTINF:-1 tvg-id="" tvg-name="PT: Cartoon Network" tvg-logo="" group-title="Kids",PT: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/352852
-#EXTINF:-1 tvg-id="" tvg-name="PT: Disney Channel" tvg-logo="" group-title="Kids",PT: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/352853
-#EXTINF:-1 tvg-id="" tvg-name="QA: Discovery Kids" tvg-logo="" group-title="Kids",QA: Discovery Kids
-http://opplex.ch:8080/81236492622/01226390473/352978
-#EXTINF:-1 tvg-id="" tvg-name="RO: Discovery Science" tvg-logo="" group-title="Knowledge",RO: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/353039
-#EXTINF:-1 tvg-id="" tvg-name="RO: Cartoon Network" tvg-logo="" group-title="Kids",RO: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/353051
-#EXTINF:-1 tvg-id="" tvg-name="RO: Disney Channel" tvg-logo="" group-title="Kids",RO: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/353053
-#EXTINF:-1 tvg-id="" tvg-name="RU: Discovery Science" tvg-logo="" group-title="Knowledge",RU: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/353211
-#EXTINF:-1 tvg-id="" tvg-name="RU: Cartoon Network" tvg-logo="" group-title="Kids",RU: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/353221
-#EXTINF:-1 tvg-id="" tvg-name="RU: Disney Channel" tvg-logo="" group-title="Kids",RU: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/353222
-#EXTINF:-1 tvg-id="" tvg-name="RS: Discovery Science" tvg-logo="" group-title="Knowledge",RS: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/353576
-#EXTINF:-1 tvg-id="" tvg-name="SI: Discovery Science" tvg-logo="" group-title="Knowledge",SI: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/353803
-#EXTINF:-1 tvg-id="" tvg-name="ZA: Cartoon Network" tvg-logo="" group-title="Kids",ZA: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/353871
-#EXTINF:-1 tvg-id="" tvg-name="ZA: Discovery Channel" tvg-logo="" group-title="Knowledge",ZA: Discovery Channel
-http://opplex.ch:8080/81236492622/01226390473/353879
-#EXTINF:-1 tvg-id="" tvg-name="ZA: Discovery Science" tvg-logo="" group-title="Knowledge",ZA: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/353881
-#EXTINF:-1 tvg-id="" tvg-name="ZA: Disney Channel" tvg-logo="" group-title="Kids",ZA: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/353882
-#EXTINF:-1 tvg-id="" tvg-name="ES: Disney Channel" tvg-logo="" group-title="Kids",ES: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/354054
-#EXTINF:-1 tvg-id="" tvg-name="SUR: Cartoon Network" tvg-logo="" group-title="Kids",SUR: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/354322
-#EXTINF:-1 tvg-id="" tvg-name="SE: Cartoon Network" tvg-logo="" group-title="Kids",SE: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/354365
-#EXTINF:-1 tvg-id="" tvg-name="SE: Discovery Science" tvg-logo="" group-title="Knowledge",SE: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/354368
-#EXTINF:-1 tvg-id="" tvg-name="SE: Disney Channel" tvg-logo="" group-title="Kids",SE: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/354370
-#EXTINF:-1 tvg-id="" tvg-name="TH: Cartoon Network" tvg-logo="" group-title="Kids",TH: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/354543
-#EXTINF:-1 tvg-id="" tvg-name="TR: Discovery Science" tvg-logo="" group-title="Knowledge",TR: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/354621
-#EXTINF:-1 tvg-id="" tvg-name="TR: Cartoon Network" tvg-logo="" group-title="Kids",TR: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/354640
-#EXTINF:-1 tvg-id="" tvg-name="TR: Disney Channel" tvg-logo="" group-title="Kids",TR: Disney Channel
-http://opplex.ch:8080/81236492622/01226390473/354643
-#EXTINF:-1 tvg-id="" tvg-name="AE: Discovery Science" tvg-logo="" group-title="Knowledge",AE: Discovery Science
-http://opplex.ch:8080/81236492622/01226390473/354899
-#EXTINF:-1 tvg-id="" tvg-name="AE: Cartoon Network" tvg-logo="" group-title="Kids",AE: Cartoon Network
-http://opplex.ch:8080/81236492622/01226390473/354913
+#EXTINF:-1,Colors TV HD (1)
+http://watchindia.net:8880/live/79527/25638/801.ts
+#EXTINF:-1,Colors TV HD (2)
+http://watchindia.net:8880/live/79527/25638/2264.ts
+#EXTINF:-1,Colors TV HD UK
+http://watchindia.net:8880/live/79527/25638/2187.ts
+#EXTINF:-1,Colors Rishtey HD
+http://watchindia.net:8880/live/79527/25638/830.ts
+#EXTINF:-1,Sony TV HD (1)
+http://watchindia.net:8880/live/79527/25638/1969.ts
+#EXTINF:-1,Sony TV HD (2)
+http://watchindia.net:8880/live/79527/25638/2141.ts
+#EXTINF:-1,Sony TV UK
+http://watchindia.net:8880/live/79527/25638/2117.ts
+#EXTINF:-1,Sony Max 2
+http://watchindia.net:8880/live/79527/25638/2024.ts
+#EXTINF:-1,Sony Max HD
+http://watchindia.net:8880/live/79527/25638/788.ts
+#EXTINF:-1,Sony Sab HD
+http://watchindia.net:8880/live/79527/25638/2323.ts
+#EXTINF:-1,Sony Sab UK
+http://watchindia.net:8880/live/79527/25638/2189.ts
+#EXTINF:-1,Sony Pal
+http://watchindia.net:8880/live/79527/25638/812.ts
+#EXTINF:-1,Sony Wah
+http://watchindia.net:8880/live/79527/25638/814.ts
+#EXTINF:-1,Sony Yay
+http://watchindia.net:8880/live/79527/25638/2104.ts
+#EXTINF:-1,Sony BBC Earth HD
+http://watchindia.net:8880/live/79527/25638/789.ts
+#EXTINF:-1,Star Bharat HD
+http://watchindia.net:8880/live/79527/25638/780.ts
+#EXTINF:-1,Star Gold HD
+http://watchindia.net:8880/live/79527/25638/785.ts
+#EXTINF:-1,Star Gold Select HD
+http://watchindia.net:8880/live/79527/25638/784.ts
+#EXTINF:-1,Star Plus HD
+http://watchindia.net:8880/live/79527/25638/1924.ts
+#EXTINF:-1,Star Utsav
+http://watchindia.net:8880/live/79527/25638/2493.ts
+#EXTINF:-1,& Pictures HD
+http://watchindia.net:8880/live/79527/25638/783.ts
+#EXTINF:-1,& TV HD
+http://watchindia.net:8880/live/79527/25638/782.ts
+#EXTINF:-1,9X Jalwa
+http://watchindia.net:8880/live/79527/25638/828.ts
+#EXTINF:-1,9XM Music
+http://watchindia.net:8880/live/79527/25638/827.ts
+#EXTINF:-1,Aaj Tak HD
+http://watchindia.net:8880/live/79527/25638/807.ts
+#EXTINF:-1,Aaj Tak
+http://watchindia.net:8880/live/79527/25638/836.ts
+#EXTINF:-1,ABP News
+http://watchindia.net:8880/live/79527/25638/833.ts
+#EXTINF:-1,B4U Music
+http://watchindia.net:8880/live/79527/25638/2113.ts
+#EXTINF:-1,B4U Plus
+http://watchindia.net:8880/live/79527/25638/823.ts
+#EXTINF:-1,Colors Cineplex HD
+http://watchindia.net:8880/live/79527/25638/803.ts
+#EXTINF:-1,Discovery Channel Hindi
+http://watchindia.net:8880/live/79527/25638/841.ts
+#EXTINF:-1,E24
+http://watchindia.net:8880/live/79527/25638/829.ts
+#EXTINF:-1,Epic TV
+http://watchindia.net:8880/live/79527/25638/794.ts
+#EXTINF:-1,History TV18 HD
+http://watchindia.net:8880/live/79527/25638/791.ts
+#EXTINF:-1,India Today
+http://watchindia.net:8880/live/79527/25638/835.ts
+#EXTINF:-1,Mastiii
+http://watchindia.net:8880/live/79527/25638/826.ts
+#EXTINF:-1,MTV Beats HD
+http://watchindia.net:8880/live/79527/25638/786.ts
+#EXTINF:-1,MTV India HD
+http://watchindia.net:8880/live/79527/25638/825.ts
+#EXTINF:-1,Music India
+http://watchindia.net:8880/live/79527/25638/2293.ts
+#EXTINF:-1,NDTV News
+http://watchindia.net:8880/live/79527/25638/831.ts
+#EXTINF:-1,NDTV Profit
+http://watchindia.net:8880/live/79527/25638/837.ts
+#EXTINF:-1,News Nation
+http://watchindia.net:8880/live/79527/25638/838.ts
+#EXTINF:-1,Nick HD Plus
+http://watchindia.net:8880/live/79527/25638/2237.ts
+#EXTINF:-1,Nick Hindi
+http://watchindia.net:8880/live/79527/25638/2182.ts
+#EXTINF:-1,Cartoon Network HD+
+http://watchindia.net:8880/live/79527/25638/2718.ts
+#EXTINF:-1,Republic Bharat
+http://watchindia.net:8880/live/79527/25638/817.ts
+#EXTINF:-1,Republic TV News
+http://watchindia.net:8880/live/79527/25638/815.ts
+#EXTINF:-1,Sanskar TV
+http://watchindia.net:8880/live/79527/25638/2151.ts
+#EXTINF:-1,Times Now
+http://watchindia.net:8880/live/79527/25638/839.ts
+#EXTINF:-1,TLC Hindi
+http://watchindia.net:8880/live/79527/25638/840.ts
+#EXTINF:-1,TravelXP HD
+http://watchindia.net:8880/live/79527/25638/792.ts
+#EXTINF:-1,TV9 News
+http://watchindia.net:8880/live/79527/25638/834.ts
+#EXTINF:-1,WION News
+http://watchindia.net:8880/live/79527/25638/816.ts
+#EXTINF:-1,Zee Action
+http://watchindia.net:8880/live/79527/25638/821.ts
+#EXTINF:-1,Zee Anmol
+http://watchindia.net:8880/live/79527/25638/813.ts
+#EXTINF:-1,Zee Anmol Cinema
+http://watchindia.net:8880/live/79527/25638/820.ts
+#EXTINF:-1,Zee Bollywood
+http://watchindia.net:8880/live/79527/25638/822.ts
+#EXTINF:-1,Zee Cinema HD
+http://watchindia.net:8880/live/79527/25638/787.ts
+#EXTINF:-1,Zee Classic
+http://watchindia.net:8880/live/79527/25638/802.ts
+#EXTINF:-1,Zee News
+http://watchindia.net:8880/live/79527/25638/832.ts
+#EXTINF:-1,Zee TV HD
+http://watchindia.net:8880/live/79527/25638/1970.ts
+#EXTINF:-1,Zee Zest HD
+http://watchindia.net:8880/live/79527/25638/2359.ts
+#EXTINF:-1,Zoom
+http://watchindia.net:8880/live/79527/25638/842.ts
+#EXTINF:-1,Star Sports 1 HD (1)
+http://watchindia.net:8880/live/79527/25638/2232.ts
+#EXTINF:-1,Star Sports 1 HD (2)
+http://watchindia.net:8880/live/79527/25638/2456.ts
+#EXTINF:-1,Star Sports 1 HD (3)
+http://watchindia.net:8880/live/79527/25638/2678.ts
+#EXTINF:-1,Star Sports 1 HD (Hindi)
+http://watchindia.net:8880/live/79527/25638/2673.ts
+#EXTINF:-1,Star Sports 2 HD (1)
+http://watchindia.net:8880/live/79527/25638/1069.ts
+#EXTINF:-1,Star Sports 2 HD (2)
+http://watchindia.net:8880/live/79527/25638/2163.ts
+#EXTINF:-1,Star Sports Select 1 HD
+http://watchindia.net:8880/live/79527/25638/1070.ts
+#EXTINF:-1,Star Sports Select 2 HD
+http://watchindia.net:8880/live/79527/25638/1071.ts
+#EXTINF:-1,Sky Sports Main Event
+http://watchindia.net:8880/live/79527/25638/2091.ts
+#EXTINF:-1,Sky Sports Premier League
+http://watchindia.net:8880/live/79527/25638/2092.ts
+#EXTINF:-1,Sky Sports Cricket
+http://watchindia.net:8880/live/79527/25638/2090.ts
+#EXTINF:-1,Sky Sports F1
+http://watchindia.net:8880/live/79527/25638/2094.ts
+#EXTINF:-1,Sky Sports +
+http://watchindia.net:8880/live/79527/25638/2095.ts
+#EXTINF:-1,Sky Sports Golf
+http://watchindia.net:8880/live/79527/25638/2096.ts
+#EXTINF:-1,Sony Ten 1 HD (1)
+http://watchindia.net:8880/live/79527/25638/1756.ts
+#EXTINF:-1,Sony Ten 1 HD (2)
+http://watchindia.net:8880/live/79527/25638/2215.ts
+#EXTINF:-1,Sony Ten 2 HD
+http://watchindia.net:8880/live/79527/25638/1757.ts
+#EXTINF:-1,Sony Ten 3 HD
+http://watchindia.net:8880/live/79527/25638/1758.ts
+#EXTINF:-1,Sony Ten 4 HD
+http://watchindia.net:8880/live/79527/25638/2662.ts
+#EXTINF:-1,Sony Ten 5 HD
+http://watchindia.net:8880/live/79527/25638/2663.ts
+#EXTINF:-1,Sports 18 1 HD
+http://watchindia.net:8880/live/79527/25638/2423.ts
+#EXTINF:-1,TNT Sports 1
+http://watchindia.net:8880/live/79527/25638/2657.ts
+#EXTINF:-1,Fox Sports 1
+http://watchindia.net:8880/live/79527/25638/2421.ts
+#EXTINF:-1,DD Sports
+http://watchindia.net:8880/live/79527/25638/2380.ts
+#EXTINF:-1,Willow HD (1)
+http://watchindia.net:8880/live/79527/25638/1067.ts
+#EXTINF:-1,Willow HD (2)
+http://watchindia.net:8880/live/79527/25638/2145.ts
+#EXTINF:-1,Astro Cricket
+http://watchindia.net:8880/live/79527/25638/2174.ts
