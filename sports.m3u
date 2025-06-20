@@ -1,0 +1,27 @@
+#EXTM3U
+#EXTINF:-1, Sony Ten 5 HD tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Six_HD.png" 
+https://spectrepro.live/JioTv-main/live.php?id=155&token=JITENDRA_KUMAR&e=.m3u8
+#EXTINF:-1, Sony Ten 1 HD tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten_HD.png" 
+https://spectrepro.live/JioTv-main/live.php?id=162&token=JITENDRA_KUMAR&e=.m3u8
+#EXTINF:-1, DD JioTv Sports tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/DD_JioTv Sports.png" 
+https://spectrepro.live/JioTv-main/live.php?id=204&token=JITENDRA_KUMAR&e=.m3u8
+#EXTINF:-1, Sony Ten 1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten_1.png" 
+https://spectrepro.live/JioTv-main/live.php?id=514&token=JITENDRA_KUMAR&e=.m3u8
+#EXTINF:-1, Ten 2 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten_2.png" 
+https://spectrepro.live/JioTv-main/live.php?id=523&token=JITENDRA_KUMAR&e=.m3u8
+#EXTINF:-1, Sony Ten 3 Hindi tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten_3.png" 
+https://spectrepro.live/JioTv-main/live.php?id=524&token=JITENDRA_KUMAR&e=.m3u8
+#EXTINF:-1, Sony Ten 5 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Six_SD.png" 
+https://spectrepro.live/JioTv-main/live.php?id=525&token=JITENDRA_KUMAR&e=.m3u8
+#EXTINF:-1, Eurosport HD tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/DJioTv Sports_HD.png" 
+https://spectrepro.live/JioTv-main/live.php?id=875&token=JITENDRA_KUMAR&e=.m3u8
+#EXTINF:-1, Jio JioTv Sports HD tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Jio_JioTv Sports.png" 
+https://spectrepro.live/JioTv-main/live.php?id=889&token=JITENDRA_KUMAR&e=.m3u8
+#EXTINF:-1, Sony Ten 2 HD tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten2_HD.png" 
+https://spectrepro.live/JioTv-main/live.php?id=891&token=JITENDRA_KUMAR&e=.m3u8
+#EXTINF:-1, Sony Ten 3 HD Hindi tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten3_HD.png" 
+https://spectrepro.live/JioTv-main/live.php?id=892&token=JITENDRA_KUMAR&e=.m3u8
+#EXTINF:-1, Star JioTv Sports 2 Hindi HD tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/JioTv Sports18_1_HD.png" 
+https://spectrepro.live/JioTv-main/live.php?id=1984&token=JITENDRA_KUMAR&e=.m3u8
+#EXTINF:-1, Star JioTv Sports 2 Hindi tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/JioTv Sports18_1_SD.png" 
+https://spectrepro.live/JioTv-main/live.php?id=1985&token=JITENDRA_KUMAR&e=.m3u8
